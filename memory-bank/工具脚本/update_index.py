@@ -40,7 +40,7 @@ def main():
             {'file': 'README.md', 'purpose': '项目整体说明'},
             {'file': '文档管理规范.md', 'purpose': '文档分类、命名、更新责任规范'},
             {'file': '单词分级标准.md', 'purpose': '初/中/高级单词的划分依据和规则'},
-            {'file': '技术栈.md', 'purpose': '技术选型与架构方案'},
+            {'file': 'memory-bank/技术栈.md', 'purpose': '技术选型与架构方案'},
             {'file': 'memory-bank/实施计划.md', 'purpose': '分步开发指令（给 AI 开发者，含验证标准）'},
         ],
         '产品文档': [
