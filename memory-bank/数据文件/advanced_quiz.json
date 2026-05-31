@@ -1,0 +1,5949 @@
+{
+  "level": "advanced",
+  "level_cn": "高级",
+  "description": "高级词汇四选一测试数据",
+  "total": 270,
+  "format_note": "distractors 为 3 个同词性干扰项，正确答案为 meaning 字段",
+  "words": [
+    {
+      "id": 1,
+      "korean": "인식",
+      "pronunciation": "in-sik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "认识，认知",
+      "distractors": [
+        {
+          "meaning": "竞争力",
+          "korean": "경쟁력"
+        },
+        {
+          "meaning": "趋势",
+          "korean": "추세"
+        },
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "korean": "현상",
+      "pronunciation": "hyeon-sang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "现象",
+      "distractors": [
+        {
+          "meaning": "普遍性",
+          "korean": "보편성"
+        },
+        {
+          "meaning": "必要性",
+          "korean": "필요성"
+        },
+        {
+          "meaning": "矛盾，冲突",
+          "korean": "갈등"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "korean": "구조",
+      "pronunciation": "gu-jo",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "结构",
+      "distractors": [
+        {
+          "meaning": "义务",
+          "korean": "의무"
+        },
+        {
+          "meaning": "要素",
+          "korean": "요소"
+        },
+        {
+          "meaning": "范围",
+          "korean": "범위"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "korean": "원칙",
+      "pronunciation": "won-chik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "原则",
+      "distractors": [
+        {
+          "meaning": "角色",
+          "korean": "역할"
+        },
+        {
+          "meaning": "含义",
+          "korean": "함의"
+        },
+        {
+          "meaning": "盲点",
+          "korean": "맹점"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "korean": "과정",
+      "pronunciation": "gwa-jeong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "过程",
+      "distractors": [
+        {
+          "meaning": "信念",
+          "korean": "소신"
+        },
+        {
+          "meaning": "基础，基盘",
+          "korean": "기반"
+        },
+        {
+          "meaning": "样子，态势",
+          "korean": "양상"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "korean": "체계",
+      "pronunciation": "che-gye",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "体系",
+      "distractors": [
+        {
+          "meaning": "意识；仪式",
+          "korean": "의식"
+        },
+        {
+          "meaning": "趋势",
+          "korean": "추세"
+        },
+        {
+          "meaning": "基础，基盘",
+          "korean": "기반"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "korean": "가치",
+      "pronunciation": "ga-chi",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "价值",
+      "distractors": [
+        {
+          "meaning": "规范",
+          "korean": "규범"
+        },
+        {
+          "meaning": "前提",
+          "korean": "전제"
+        },
+        {
+          "meaning": "危机",
+          "korean": "위기"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "korean": "논리",
+      "pronunciation": "nol-li",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "逻辑",
+      "distractors": [
+        {
+          "meaning": "价值",
+          "korean": "가치"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        },
+        {
+          "meaning": "局面",
+          "korean": "국면"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "korean": "맥락",
+      "pronunciation": "maeng-nak",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "脉络，语境",
+      "distractors": [
+        {
+          "meaning": "革新，创新",
+          "korean": "혁신"
+        },
+        {
+          "meaning": "效率",
+          "korean": "효율"
+        },
+        {
+          "meaning": "逻辑",
+          "korean": "논리"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "korean": "전략",
+      "pronunciation": "jeol-lyak",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "战略",
+      "distractors": [
+        {
+          "meaning": "基础，基盘",
+          "korean": "기반"
+        },
+        {
+          "meaning": "原则",
+          "korean": "원칙"
+        },
+        {
+          "meaning": "标准",
+          "korean": "기준"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "korean": "효율",
+      "pronunciation": "hyo-yul",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "效率",
+      "distractors": [
+        {
+          "meaning": "范式",
+          "korean": "패러다임"
+        },
+        {
+          "meaning": "要素",
+          "korean": "요소"
+        },
+        {
+          "meaning": "岔路口，关键时刻",
+          "korean": "기로"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "korean": "근거",
+      "pronunciation": "geun-geo",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "根据",
+      "distractors": [
+        {
+          "meaning": "范畴",
+          "korean": "범주"
+        },
+        {
+          "meaning": "基础，根基",
+          "korean": "토대"
+        },
+        {
+          "meaning": "波长；波澜",
+          "korean": "파장"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "korean": "모순",
+      "pronunciation": "mo-sun",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "矛盾",
+      "distractors": [
+        {
+          "meaning": "使命",
+          "korean": "사명"
+        },
+        {
+          "meaning": "名分，正当理由",
+          "korean": "명분"
+        },
+        {
+          "meaning": "话语，讨论",
+          "korean": "담론"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "korean": "관점",
+      "pronunciation": "gwan-jjeom",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "观点",
+      "distractors": [
+        {
+          "meaning": "要素",
+          "korean": "요소"
+        },
+        {
+          "meaning": "根据",
+          "korean": "근거"
+        },
+        {
+          "meaning": "政策",
+          "korean": "정책"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "korean": "추세",
+      "pronunciation": "chu-se",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "趋势",
+      "distractors": [
+        {
+          "meaning": "要素",
+          "korean": "요소"
+        },
+        {
+          "meaning": "含义",
+          "korean": "함의"
+        },
+        {
+          "meaning": "责任",
+          "korean": "책임"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "korean": "혁신",
+      "pronunciation": "hyeok-ssin",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "革新，创新",
+      "distractors": [
+        {
+          "meaning": "偏见",
+          "korean": "편견"
+        },
+        {
+          "meaning": "本质",
+          "korean": "본질"
+        },
+        {
+          "meaning": "趋势",
+          "korean": "추세"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "korean": "윤리",
+      "pronunciation": "yul-li",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "伦理",
+      "distractors": [
+        {
+          "meaning": "生产力",
+          "korean": "생산성"
+        },
+        {
+          "meaning": "核心",
+          "korean": "핵심"
+        },
+        {
+          "meaning": "角色",
+          "korean": "역할"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "korean": "편견",
+      "pronunciation": "pyeon-gyeon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "偏见",
+      "distractors": [
+        {
+          "meaning": "正当性",
+          "korean": "당위성"
+        },
+        {
+          "meaning": "差距",
+          "korean": "격차"
+        },
+        {
+          "meaning": "根本",
+          "korean": "근본"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "korean": "갈등",
+      "pronunciation": "gal-deung",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "矛盾，冲突",
+      "distractors": [
+        {
+          "meaning": "价值",
+          "korean": "가치"
+        },
+        {
+          "meaning": "名分，正当理由",
+          "korean": "명분"
+        },
+        {
+          "meaning": "可持续性",
+          "korean": "지속가능성"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "korean": "의무",
+      "pronunciation": "ui-mu",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "义务",
+      "distractors": [
+        {
+          "meaning": "认识，认知",
+          "korean": "인식"
+        },
+        {
+          "meaning": "方案",
+          "korean": "방안"
+        },
+        {
+          "meaning": "成果",
+          "korean": "성과"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "korean": "권리",
+      "pronunciation": "gwon-ri",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "权利",
+      "distractors": [
+        {
+          "meaning": "过程",
+          "korean": "과정"
+        },
+        {
+          "meaning": "生产力",
+          "korean": "생산성"
+        },
+        {
+          "meaning": "波长；波澜",
+          "korean": "파장"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "korean": "책임",
+      "pronunciation": "chae-gim",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "责任",
+      "distractors": [
+        {
+          "meaning": "效率",
+          "korean": "효율"
+        },
+        {
+          "meaning": "基础，基盘",
+          "korean": "기반"
+        },
+        {
+          "meaning": "盲点",
+          "korean": "맹점"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "korean": "평가",
+      "pronunciation": "pyeong-ga",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "评价",
+      "distractors": [
+        {
+          "meaning": "正当性",
+          "korean": "정당성"
+        },
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        },
+        {
+          "meaning": "战略",
+          "korean": "전략"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "korean": "기준",
+      "pronunciation": "gi-jun",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "标准",
+      "distractors": [
+        {
+          "meaning": "概念",
+          "korean": "개념"
+        },
+        {
+          "meaning": "协议，共识",
+          "korean": "합의"
+        },
+        {
+          "meaning": "比率",
+          "korean": "비율"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "korean": "범위",
+      "pronunciation": "beom-wi",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "范围",
+      "distractors": [
+        {
+          "meaning": "局面",
+          "korean": "국면"
+        },
+        {
+          "meaning": "协议，共识",
+          "korean": "합의"
+        },
+        {
+          "meaning": "前提",
+          "korean": "전제"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "korean": "측면",
+      "pronunciation": "cheung-myeon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "方面，侧面",
+      "distractors": [
+        {
+          "meaning": "认识，认知",
+          "korean": "인식"
+        },
+        {
+          "meaning": "现象",
+          "korean": "현상"
+        },
+        {
+          "meaning": "公平性",
+          "korean": "형평성"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "korean": "요소",
+      "pronunciation": "yo-so",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "要素",
+      "distractors": [
+        {
+          "meaning": "体系",
+          "korean": "체계"
+        },
+        {
+          "meaning": "解释，解读",
+          "korean": "해석"
+        },
+        {
+          "meaning": "生产力",
+          "korean": "생산성"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "korean": "대상",
+      "pronunciation": "dae-sang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "对象",
+      "distractors": [
+        {
+          "meaning": "政策",
+          "korean": "정책"
+        },
+        {
+          "meaning": "实情",
+          "korean": "실정"
+        },
+        {
+          "meaning": "实践",
+          "korean": "실천"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "korean": "양상",
+      "pronunciation": "yang-sang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "样子，态势",
+      "distractors": [
+        {
+          "meaning": "实践",
+          "korean": "실천"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        },
+        {
+          "meaning": "义务",
+          "korean": "의무"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "korean": "동향",
+      "pronunciation": "dong-hyang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "动向",
+      "distractors": [
+        {
+          "meaning": "矛盾",
+          "korean": "모순"
+        },
+        {
+          "meaning": "生产力",
+          "korean": "생산성"
+        },
+        {
+          "meaning": "范式",
+          "korean": "패러다임"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "korean": "성과",
+      "pronunciation": "seong-gwa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "成果",
+      "distractors": [
+        {
+          "meaning": "背景",
+          "korean": "배경"
+        },
+        {
+          "meaning": "危机",
+          "korean": "위기"
+        },
+        {
+          "meaning": "程序，手续",
+          "korean": "절차"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "korean": "격차",
+      "pronunciation": "gyeok-cha",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "差距",
+      "distractors": [
+        {
+          "meaning": "角色",
+          "korean": "역할"
+        },
+        {
+          "meaning": "价值",
+          "korean": "가치"
+        },
+        {
+          "meaning": "名分，正当理由",
+          "korean": "명분"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "korean": "쟁점",
+      "pronunciation": "jaeng-jjeom",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "争论点",
+      "distractors": [
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        },
+        {
+          "meaning": "范畴",
+          "korean": "범주"
+        },
+        {
+          "meaning": "角色",
+          "korean": "역할"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "korean": "해석",
+      "pronunciation": "hae-seok",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "解释，解读",
+      "distractors": [
+        {
+          "meaning": "对象",
+          "korean": "대상"
+        },
+        {
+          "meaning": "矛盾，冲突",
+          "korean": "갈등"
+        },
+        {
+          "meaning": "特殊性",
+          "korean": "특수성"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "korean": "역할",
+      "pronunciation": "yeo-kal",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "角色",
+      "distractors": [
+        {
+          "meaning": "范式",
+          "korean": "패러다임"
+        },
+        {
+          "meaning": "原则",
+          "korean": "원칙"
+        },
+        {
+          "meaning": "样子，态势",
+          "korean": "양상"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "korean": "비율",
+      "pronunciation": "bi-yul",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "比率",
+      "distractors": [
+        {
+          "meaning": "信念",
+          "korean": "소신"
+        },
+        {
+          "meaning": "现象",
+          "korean": "현상"
+        },
+        {
+          "meaning": "局面",
+          "korean": "국면"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "korean": "절차",
+      "pronunciation": "jeol-cha",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "程序，手续",
+      "distractors": [
+        {
+          "meaning": "标准",
+          "korean": "기준"
+        },
+        {
+          "meaning": "含义",
+          "korean": "함의"
+        },
+        {
+          "meaning": "革新，创新",
+          "korean": "혁신"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "korean": "제도",
+      "pronunciation": "je-do",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "制度",
+      "distractors": [
+        {
+          "meaning": "洞察",
+          "korean": "통찰"
+        },
+        {
+          "meaning": "基础，基盘",
+          "korean": "기반"
+        },
+        {
+          "meaning": "解释，解读",
+          "korean": "해석"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "korean": "정책",
+      "pronunciation": "jeong-chaek",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "政策",
+      "distractors": [
+        {
+          "meaning": "偏见",
+          "korean": "편견"
+        },
+        {
+          "meaning": "制度",
+          "korean": "제도"
+        },
+        {
+          "meaning": "能力，力量",
+          "korean": "역량"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "korean": "현실",
+      "pronunciation": "hyeon-sil",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "现实",
+      "distractors": [
+        {
+          "meaning": "根本",
+          "korean": "근본"
+        },
+        {
+          "meaning": "根据",
+          "korean": "근거"
+        },
+        {
+          "meaning": "特殊性",
+          "korean": "특수성"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "korean": "이론",
+      "pronunciation": "i-ron",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "理论",
+      "distractors": [
+        {
+          "meaning": "脉络，语境",
+          "korean": "맥락"
+        },
+        {
+          "meaning": "成果",
+          "korean": "성과"
+        },
+        {
+          "meaning": "程序，手续",
+          "korean": "절차"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "korean": "실천",
+      "pronunciation": "sil-cheon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "实践",
+      "distractors": [
+        {
+          "meaning": "标准",
+          "korean": "기준"
+        },
+        {
+          "meaning": "结构",
+          "korean": "구조"
+        },
+        {
+          "meaning": "实情",
+          "korean": "실정"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "korean": "의식",
+      "pronunciation": "ui-sik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "意识；仪式",
+      "distractors": [
+        {
+          "meaning": "本质",
+          "korean": "본질"
+        },
+        {
+          "meaning": "名分，正当理由",
+          "korean": "명분"
+        },
+        {
+          "meaning": "义务",
+          "korean": "의무"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "korean": "본질",
+      "pronunciation": "bon-jil",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "本质",
+      "distractors": [
+        {
+          "meaning": "多样性",
+          "korean": "다양성"
+        },
+        {
+          "meaning": "价值",
+          "korean": "가치"
+        },
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "korean": "수준",
+      "pronunciation": "su-jun",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "水平",
+      "distractors": [
+        {
+          "meaning": "流动，潮流",
+          "korean": "흐름"
+        },
+        {
+          "meaning": "竞争力",
+          "korean": "경쟁력"
+        },
+        {
+          "meaning": "正当性",
+          "korean": "당위성"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "korean": "단계",
+      "pronunciation": "dan-gye",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "阶段",
+      "distractors": [
+        {
+          "meaning": "样子，态势",
+          "korean": "양상"
+        },
+        {
+          "meaning": "实践",
+          "korean": "실천"
+        },
+        {
+          "meaning": "责任",
+          "korean": "책임"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "korean": "위기",
+      "pronunciation": "wi-gi",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "危机",
+      "distractors": [
+        {
+          "meaning": "标准",
+          "korean": "기준"
+        },
+        {
+          "meaning": "局面",
+          "korean": "국면"
+        },
+        {
+          "meaning": "程序，手续",
+          "korean": "절차"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "korean": "흐름",
+      "pronunciation": "heu-reum",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "流动，潮流",
+      "distractors": [
+        {
+          "meaning": "本质",
+          "korean": "본질"
+        },
+        {
+          "meaning": "脉络，语境",
+          "korean": "맥락"
+        },
+        {
+          "meaning": "可持续性",
+          "korean": "지속가능성"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "korean": "핵심",
+      "pronunciation": "haek-ssim",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "核心",
+      "distractors": [
+        {
+          "meaning": "现象",
+          "korean": "현상"
+        },
+        {
+          "meaning": "过程",
+          "korean": "과정"
+        },
+        {
+          "meaning": "渴望",
+          "korean": "갈망"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "korean": "개념",
+      "pronunciation": "gae-nyeom",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "概念",
+      "distractors": [
+        {
+          "meaning": "结构",
+          "korean": "구조"
+        },
+        {
+          "meaning": "革新，创新",
+          "korean": "혁신"
+        },
+        {
+          "meaning": "方面，侧面",
+          "korean": "측면"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "korean": "배경",
+      "pronunciation": "bae-gyeong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "背景",
+      "distractors": [
+        {
+          "meaning": "范式",
+          "korean": "패러다임"
+        },
+        {
+          "meaning": "概念",
+          "korean": "개념"
+        },
+        {
+          "meaning": "结构",
+          "korean": "구조"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "korean": "전제",
+      "pronunciation": "jeon-je",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "前提",
+      "distractors": [
+        {
+          "meaning": "概念",
+          "korean": "개념"
+        },
+        {
+          "meaning": "核心",
+          "korean": "핵심"
+        },
+        {
+          "meaning": "矛盾",
+          "korean": "모순"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "korean": "근본",
+      "pronunciation": "geun-bon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "根本",
+      "distractors": [
+        {
+          "meaning": "结构",
+          "korean": "구조"
+        },
+        {
+          "meaning": "实践",
+          "korean": "실천"
+        },
+        {
+          "meaning": "效率",
+          "korean": "효율"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "korean": "토대",
+      "pronunciation": "to-dae",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "基础，根基",
+      "distractors": [
+        {
+          "meaning": "实践",
+          "korean": "실천"
+        },
+        {
+          "meaning": "偏见",
+          "korean": "편견"
+        },
+        {
+          "meaning": "协议，共识",
+          "korean": "합의"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "korean": "합의",
+      "pronunciation": "ha-bui",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "协议，共识",
+      "distractors": [
+        {
+          "meaning": "能力，力量",
+          "korean": "역량"
+        },
+        {
+          "meaning": "危机",
+          "korean": "위기"
+        },
+        {
+          "meaning": "背景",
+          "korean": "배경"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "korean": "갈망",
+      "pronunciation": "gal-mang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "渴望",
+      "distractors": [
+        {
+          "meaning": "使命",
+          "korean": "사명"
+        },
+        {
+          "meaning": "洞察",
+          "korean": "통찰"
+        },
+        {
+          "meaning": "体系",
+          "korean": "체계"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "korean": "통찰",
+      "pronunciation": "tong-chal",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "洞察",
+      "distractors": [
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        },
+        {
+          "meaning": "危机",
+          "korean": "위기"
+        },
+        {
+          "meaning": "伦理",
+          "korean": "윤리"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "korean": "사명",
+      "pronunciation": "sa-myeong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "使命",
+      "distractors": [
+        {
+          "meaning": "效率",
+          "korean": "효율"
+        },
+        {
+          "meaning": "过程",
+          "korean": "과정"
+        },
+        {
+          "meaning": "逻辑",
+          "korean": "논리"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "korean": "소양",
+      "pronunciation": "so-yang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "素养",
+      "distractors": [
+        {
+          "meaning": "余波，影响",
+          "korean": "여파"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        },
+        {
+          "meaning": "价值",
+          "korean": "가치"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "korean": "담론",
+      "pronunciation": "dam-non",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "话语，讨论",
+      "distractors": [
+        {
+          "meaning": "差距",
+          "korean": "격차"
+        },
+        {
+          "meaning": "协议，共识",
+          "korean": "합의"
+        },
+        {
+          "meaning": "基础，框架",
+          "korean": "기틀"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "korean": "분석하다",
+      "pronunciation": "bun-seo-ka-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "分析",
+      "distractors": [
+        {
+          "meaning": "施行",
+          "korean": "시행하다"
+        },
+        {
+          "meaning": "抑制",
+          "korean": "억제하다"
+        },
+        {
+          "meaning": "制定",
+          "korean": "수립하다"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "korean": "주장하다",
+      "pronunciation": "ju-jang-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "主张",
+      "distractors": [
+        {
+          "meaning": "施行",
+          "korean": "시행하다"
+        },
+        {
+          "meaning": "助长",
+          "korean": "조장하다"
+        },
+        {
+          "meaning": "抑制",
+          "korean": "억제하다"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "korean": "반영하다",
+      "pronunciation": "ba-nyeong-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "反映",
+      "distractors": [
+        {
+          "meaning": "应对",
+          "korean": "대처하다"
+        },
+        {
+          "meaning": "代表，代言",
+          "korean": "대변하다"
+        },
+        {
+          "meaning": "得到支撑",
+          "korean": "뒷받침되다"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "korean": "적용하다",
+      "pronunciation": "jeo-gyong-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "应用",
+      "distractors": [
+        {
+          "meaning": "着手",
+          "korean": "착수하다"
+        },
+        {
+          "meaning": "凸显",
+          "korean": "대두되다"
+        },
+        {
+          "meaning": "并立",
+          "korean": "양립하다"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "korean": "파악하다",
+      "pronunciation": "pa-a-ka-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "把握，了解",
+      "distractors": [
+        {
+          "meaning": "得到支撑",
+          "korean": "뒷받침되다"
+        },
+        {
+          "meaning": "避免",
+          "korean": "지양하다"
+        },
+        {
+          "meaning": "反映",
+          "korean": "반영하다"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "korean": "수행하다",
+      "pronunciation": "su-haeng-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "执行",
+      "distractors": [
+        {
+          "meaning": "缓和",
+          "korean": "완화하다"
+        },
+        {
+          "meaning": "反映",
+          "korean": "반영하다"
+        },
+        {
+          "meaning": "强调",
+          "korean": "강조하다"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "korean": "도출하다",
+      "pronunciation": "do-chul-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "得出",
+      "distractors": [
+        {
+          "meaning": "坚守",
+          "korean": "고수하다"
+        },
+        {
+          "meaning": "扩散",
+          "korean": "확산되다"
+        },
+        {
+          "meaning": "共存",
+          "korean": "공존하다"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "korean": "극복하다",
+      "pronunciation": "geuk-bbo-ka-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "克服",
+      "distractors": [
+        {
+          "meaning": "排除",
+          "korean": "배제하다"
+        },
+        {
+          "meaning": "引进",
+          "korean": "도입하다"
+        },
+        {
+          "meaning": "收敛，汇集",
+          "korean": "수렴하다"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "korean": "촉진하다",
+      "pronunciation": "chok-jjin-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "促进",
+      "distractors": [
+        {
+          "meaning": "扩散",
+          "korean": "확산되다"
+        },
+        {
+          "meaning": "执行",
+          "korean": "수행하다"
+        },
+        {
+          "meaning": "代表，代言",
+          "korean": "대변하다"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "korean": "검토하다",
+      "pronunciation": "geom-to-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "审查",
+      "distractors": [
+        {
+          "meaning": "重组",
+          "korean": "재편하다"
+        },
+        {
+          "meaning": "引起",
+          "korean": "야기하다"
+        },
+        {
+          "meaning": "联系",
+          "korean": "연계하다"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "korean": "기여하다",
+      "pronunciation": "gi-yeo-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "贡献",
+      "distractors": [
+        {
+          "meaning": "反映",
+          "korean": "반영하다"
+        },
+        {
+          "meaning": "摸索，探索",
+          "korean": "모색하다"
+        },
+        {
+          "meaning": "违背",
+          "korean": "위배하다"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "korean": "보완하다",
+      "pronunciation": "bo-wan-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "补充",
+      "distractors": [
+        {
+          "meaning": "违背",
+          "korean": "위배하다"
+        },
+        {
+          "meaning": "展开",
+          "korean": "전개하다"
+        },
+        {
+          "meaning": "明示",
+          "korean": "명시하다"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "korean": "제시하다",
+      "pronunciation": "je-si-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "提出",
+      "distractors": [
+        {
+          "meaning": "深化",
+          "korean": "심화되다"
+        },
+        {
+          "meaning": "剥削",
+          "korean": "착취하다"
+        },
+        {
+          "meaning": "派生",
+          "korean": "파생하다"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "korean": "추구하다",
+      "pronunciation": "chu-gu-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "追求",
+      "distractors": [
+        {
+          "meaning": "转换",
+          "korean": "전환하다"
+        },
+        {
+          "meaning": "牵引，带动",
+          "korean": "견인하다"
+        },
+        {
+          "meaning": "剥削",
+          "korean": "착취하다"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "korean": "강조하다",
+      "pronunciation": "gang-jo-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "强调",
+      "distractors": [
+        {
+          "meaning": "应用",
+          "korean": "적용하다"
+        },
+        {
+          "meaning": "得到支撑",
+          "korean": "뒷받침되다"
+        },
+        {
+          "meaning": "量产；大量产生",
+          "korean": "양산하다"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "korean": "간과하다",
+      "pronunciation": "gan-gwa-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "忽视",
+      "distractors": [
+        {
+          "meaning": "加速",
+          "korean": "가속화하다"
+        },
+        {
+          "meaning": "抑制",
+          "korean": "억제하다"
+        },
+        {
+          "meaning": "牵引，带动",
+          "korean": "견인하다"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "korean": "규명하다",
+      "pronunciation": "gyu-myeong-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "查明",
+      "distractors": [
+        {
+          "meaning": "讨论",
+          "korean": "논의하다"
+        },
+        {
+          "meaning": "统合",
+          "korean": "통합하다"
+        },
+        {
+          "meaning": "鼓吹",
+          "korean": "고취하다"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "korean": "모색하다",
+      "pronunciation": "mo-sae-ka-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "摸索，探索",
+      "distractors": [
+        {
+          "meaning": "得到支撑",
+          "korean": "뒷받침되다"
+        },
+        {
+          "meaning": "应用",
+          "korean": "적용하다"
+        },
+        {
+          "meaning": "蔓延",
+          "korean": "만연하다"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "korean": "수립하다",
+      "pronunciation": "su-ri-pa-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "制定",
+      "distractors": [
+        {
+          "meaning": "鼓吹",
+          "korean": "고취하다"
+        },
+        {
+          "meaning": "谋求",
+          "korean": "도모하다"
+        },
+        {
+          "meaning": "内在",
+          "korean": "내재하다"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "korean": "이행하다",
+      "pronunciation": "i-haeng-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "履行",
+      "distractors": [
+        {
+          "meaning": "引领",
+          "korean": "이끌다"
+        },
+        {
+          "meaning": "加重",
+          "korean": "가중되다"
+        },
+        {
+          "meaning": "得出",
+          "korean": "도출하다"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "korean": "저해하다",
+      "pronunciation": "jeo-hae-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "阻碍",
+      "distractors": [
+        {
+          "meaning": "坚守",
+          "korean": "고수하다"
+        },
+        {
+          "meaning": "内在",
+          "korean": "내재하다"
+        },
+        {
+          "meaning": "讨论",
+          "korean": "논의하다"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "korean": "지양하다",
+      "pronunciation": "ji-yang-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "避免",
+      "distractors": [
+        {
+          "meaning": "支撑",
+          "korean": "뒷받침하다"
+        },
+        {
+          "meaning": "分析",
+          "korean": "분석하다"
+        },
+        {
+          "meaning": "派生",
+          "korean": "파생하다"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "korean": "지향하다",
+      "pronunciation": "ji-hyang-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "指向，追求",
+      "distractors": [
+        {
+          "meaning": "反映",
+          "korean": "반영하다"
+        },
+        {
+          "meaning": "配置",
+          "korean": "배치하다"
+        },
+        {
+          "meaning": "剥削",
+          "korean": "착취하다"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "korean": "도모하다",
+      "pronunciation": "do-mo-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "谋求",
+      "distractors": [
+        {
+          "meaning": "促进",
+          "korean": "촉진하다"
+        },
+        {
+          "meaning": "得到支撑",
+          "korean": "뒷받침되다"
+        },
+        {
+          "meaning": "构筑",
+          "korean": "구축하다"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "korean": "귀결되다",
+      "pronunciation": "gwi-gyeol-doe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "归结",
+      "distractors": [
+        {
+          "meaning": "编入",
+          "korean": "편입하다"
+        },
+        {
+          "meaning": "左右，决定",
+          "korean": "좌우하다"
+        },
+        {
+          "meaning": "加速",
+          "korean": "가속화하다"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "korean": "초래하다",
+      "pronunciation": "cho-rae-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "招致",
+      "distractors": [
+        {
+          "meaning": "构筑",
+          "korean": "구축하다"
+        },
+        {
+          "meaning": "违背",
+          "korean": "위배하다"
+        },
+        {
+          "meaning": "派生",
+          "korean": "파생하다"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "korean": "야기하다",
+      "pronunciation": "ya-gi-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "引起",
+      "distractors": [
+        {
+          "meaning": "提出",
+          "korean": "제시하다"
+        },
+        {
+          "meaning": "量产；大量产生",
+          "korean": "양산하다"
+        },
+        {
+          "meaning": "证明",
+          "korean": "입증하다"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "korean": "좌우하다",
+      "pronunciation": "jwa-u-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "左右，决定",
+      "distractors": [
+        {
+          "meaning": "应用",
+          "korean": "적용하다"
+        },
+        {
+          "meaning": "分析",
+          "korean": "분석하다"
+        },
+        {
+          "meaning": "指向，追求",
+          "korean": "지향하다"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "korean": "위배하다",
+      "pronunciation": "wi-bae-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "违背",
+      "distractors": [
+        {
+          "meaning": "代表，代言",
+          "korean": "대변하다"
+        },
+        {
+          "meaning": "包括",
+          "korean": "포괄하다"
+        },
+        {
+          "meaning": "查明",
+          "korean": "규명하다"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "korean": "부합하다",
+      "pronunciation": "bu-ha-pa-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "符合",
+      "distractors": [
+        {
+          "meaning": "联系",
+          "korean": "연계하다"
+        },
+        {
+          "meaning": "补充",
+          "korean": "보완하다"
+        },
+        {
+          "meaning": "归结",
+          "korean": "귀결되다"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "korean": "논의하다",
+      "pronunciation": "no-nui-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "讨论",
+      "distractors": [
+        {
+          "meaning": "明示",
+          "korean": "명시하다"
+        },
+        {
+          "meaning": "查明",
+          "korean": "규명하다"
+        },
+        {
+          "meaning": "并立",
+          "korean": "양립하다"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "korean": "대처하다",
+      "pronunciation": "dae-cheo-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "应对",
+      "distractors": [
+        {
+          "meaning": "编入",
+          "korean": "편입하다"
+        },
+        {
+          "meaning": "支撑",
+          "korean": "뒷받침하다"
+        },
+        {
+          "meaning": "包括",
+          "korean": "포괄하다"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "korean": "뒷받침하다",
+      "pronunciation": "dwit-ppat-chim-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "支撑",
+      "distractors": [
+        {
+          "meaning": "强调",
+          "korean": "강조하다"
+        },
+        {
+          "meaning": "扩散",
+          "korean": "확산되다"
+        },
+        {
+          "meaning": "收敛，汇集",
+          "korean": "수렴하다"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "korean": "발휘하다",
+      "pronunciation": "bal-hwi-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "发挥",
+      "distractors": [
+        {
+          "meaning": "阻碍",
+          "korean": "저해하다"
+        },
+        {
+          "meaning": "内在",
+          "korean": "내재하다"
+        },
+        {
+          "meaning": "牵引，带动",
+          "korean": "견인하다"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "korean": "창출하다",
+      "pronunciation": "chang-chul-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "创造",
+      "distractors": [
+        {
+          "meaning": "展开",
+          "korean": "전개하다"
+        },
+        {
+          "meaning": "代表，代言",
+          "korean": "대변하다"
+        },
+        {
+          "meaning": "左右，决定",
+          "korean": "좌우하다"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "korean": "배제하다",
+      "pronunciation": "bae-je-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "排除",
+      "distractors": [
+        {
+          "meaning": "引领",
+          "korean": "선도하다"
+        },
+        {
+          "meaning": "证明",
+          "korean": "입증하다"
+        },
+        {
+          "meaning": "突出",
+          "korean": "부각되다"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "korean": "가속화하다",
+      "pronunciation": "ga-so-kwa-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "加速",
+      "distractors": [
+        {
+          "meaning": "包括",
+          "korean": "포괄하다"
+        },
+        {
+          "meaning": "配置",
+          "korean": "배치하다"
+        },
+        {
+          "meaning": "剥削",
+          "korean": "착취하다"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "korean": "심화되다",
+      "pronunciation": "sim-hwa-doe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "深化",
+      "distractors": [
+        {
+          "meaning": "包括",
+          "korean": "포괄하다"
+        },
+        {
+          "meaning": "施行",
+          "korean": "시행하다"
+        },
+        {
+          "meaning": "扩散",
+          "korean": "확산되다"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "korean": "대두되다",
+      "pronunciation": "dae-du-doe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "凸显",
+      "distractors": [
+        {
+          "meaning": "冲突",
+          "korean": "상충하다"
+        },
+        {
+          "meaning": "引起",
+          "korean": "야기하다"
+        },
+        {
+          "meaning": "并立",
+          "korean": "양립하다"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "korean": "부각되다",
+      "pronunciation": "bu-gak-doe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "突出",
+      "distractors": [
+        {
+          "meaning": "剥削",
+          "korean": "착취하다"
+        },
+        {
+          "meaning": "忽视",
+          "korean": "간과하다"
+        },
+        {
+          "meaning": "克服",
+          "korean": "극복하다"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "korean": "합리적",
+      "pronunciation": "ham-ni-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "合理的",
+      "distractors": [
+        {
+          "meaning": "渐进的",
+          "korean": "점진적"
+        },
+        {
+          "meaning": "根本的",
+          "korean": "근본적"
+        },
+        {
+          "meaning": "引领的",
+          "korean": "선도적"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "korean": "객관적",
+      "pronunciation": "gaek-kkwan-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "客观的",
+      "distractors": [
+        {
+          "meaning": "暂时的",
+          "korean": "일시적"
+        },
+        {
+          "meaning": "自发的",
+          "korean": "자발적"
+        },
+        {
+          "meaning": "抽象的",
+          "korean": "추상적"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "korean": "주관적",
+      "pronunciation": "ju-gwan-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "主观的",
+      "distractors": [
+        {
+          "meaning": "实质的",
+          "korean": "실질적"
+        },
+        {
+          "meaning": "自发的",
+          "korean": "자발적"
+        },
+        {
+          "meaning": "具体的",
+          "korean": "구체적"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "korean": "구체적",
+      "pronunciation": "gu-che-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "具体的",
+      "distractors": [
+        {
+          "meaning": "客观的",
+          "korean": "객관적"
+        },
+        {
+          "meaning": "有效的",
+          "korean": "효과적"
+        },
+        {
+          "meaning": "暂时的",
+          "korean": "일시적"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "korean": "추상적",
+      "pronunciation": "chu-sang-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "抽象的",
+      "distractors": [
+        {
+          "meaning": "暂时的",
+          "korean": "일시적"
+        },
+        {
+          "meaning": "根本的",
+          "korean": "근본적"
+        },
+        {
+          "meaning": "主动的",
+          "korean": "능동적"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "korean": "근본적",
+      "pronunciation": "geun-bon-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "根本的",
+      "distractors": [
+        {
+          "meaning": "激进的",
+          "korean": "급진적"
+        },
+        {
+          "meaning": "绝对的",
+          "korean": "절대적"
+        },
+        {
+          "meaning": "相对的",
+          "korean": "상대적"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "korean": "보편적",
+      "pronunciation": "bo-pyeon-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "普遍的",
+      "distractors": [
+        {
+          "meaning": "必须的",
+          "korean": "필수적"
+        },
+        {
+          "meaning": "客观的",
+          "korean": "객관적"
+        },
+        {
+          "meaning": "暂时的",
+          "korean": "일시적"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "korean": "잠재적",
+      "pronunciation": "jam-jae-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "潜在的",
+      "distractors": [
+        {
+          "meaning": "主观的",
+          "korean": "주관적"
+        },
+        {
+          "meaning": "正是",
+          "korean": "다름아닌"
+        },
+        {
+          "meaning": "自发的",
+          "korean": "자발적"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "korean": "궁극적",
+      "pronunciation": "gung-geuk-jjeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "终极的",
+      "distractors": [
+        {
+          "meaning": "普遍的",
+          "korean": "보편적"
+        },
+        {
+          "meaning": "相互的",
+          "korean": "상호적"
+        },
+        {
+          "meaning": "具体的",
+          "korean": "구체적"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "korean": "지속적",
+      "pronunciation": "ji-sok-jjeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "持续的",
+      "distractors": [
+        {
+          "meaning": "被动的",
+          "korean": "수동적"
+        },
+        {
+          "meaning": "全面的",
+          "korean": "총체적"
+        },
+        {
+          "meaning": "正是",
+          "korean": "다름아닌"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "korean": "효과적",
+      "pronunciation": "hyo-gwa-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "有效的",
+      "distractors": [
+        {
+          "meaning": "抽象的",
+          "korean": "추상적"
+        },
+        {
+          "meaning": "绝对的",
+          "korean": "절대적"
+        },
+        {
+          "meaning": "相对的",
+          "korean": "상대적"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "korean": "능동적",
+      "pronunciation": "neung-dong-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "主动的",
+      "distractors": [
+        {
+          "meaning": "绝对的",
+          "korean": "절대적"
+        },
+        {
+          "meaning": "潜在的",
+          "korean": "잠재적"
+        },
+        {
+          "meaning": "正是",
+          "korean": "다름아닌"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "korean": "수동적",
+      "pronunciation": "su-dong-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "被动的",
+      "distractors": [
+        {
+          "meaning": "必须的",
+          "korean": "필수적"
+        },
+        {
+          "meaning": "相互的",
+          "korean": "상호적"
+        },
+        {
+          "meaning": "根本的",
+          "korean": "근본적"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "korean": "총체적",
+      "pronunciation": "chong-che-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "全面的",
+      "distractors": [
+        {
+          "meaning": "暂时的",
+          "korean": "일시적"
+        },
+        {
+          "meaning": "被动的",
+          "korean": "수동적"
+        },
+        {
+          "meaning": "引领的",
+          "korean": "선도적"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "korean": "체계적",
+      "pronunciation": "che-gye-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "系统的",
+      "distractors": [
+        {
+          "meaning": "正是",
+          "korean": "다름아닌"
+        },
+        {
+          "meaning": "自发的",
+          "korean": "자발적"
+        },
+        {
+          "meaning": "具体的",
+          "korean": "구체적"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "korean": "획기적",
+      "pronunciation": "hoek-kki-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "划时代的",
+      "distractors": [
+        {
+          "meaning": "合理的",
+          "korean": "합리적"
+        },
+        {
+          "meaning": "包括性的",
+          "korean": "포괄적"
+        },
+        {
+          "meaning": "相对的",
+          "korean": "상대적"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "korean": "선도적",
+      "pronunciation": "seon-do-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "引领的",
+      "distractors": [
+        {
+          "meaning": "合理的",
+          "korean": "합리적"
+        },
+        {
+          "meaning": "客观的",
+          "korean": "객관적"
+        },
+        {
+          "meaning": "有效的",
+          "korean": "효과적"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "korean": "자발적",
+      "pronunciation": "ja-bal-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "自发的",
+      "distractors": [
+        {
+          "meaning": "全面的",
+          "korean": "총체적"
+        },
+        {
+          "meaning": "包括性的",
+          "korean": "포괄적"
+        },
+        {
+          "meaning": "客观的",
+          "korean": "객관적"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "korean": "필수적",
+      "pronunciation": "pil-su-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "必须的",
+      "distractors": [
+        {
+          "meaning": "自发的",
+          "korean": "자발적"
+        },
+        {
+          "meaning": "相互的",
+          "korean": "상호적"
+        },
+        {
+          "meaning": "具体的",
+          "korean": "구체적"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "korean": "압도적",
+      "pronunciation": "ap-tto-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "压倒性的",
+      "distractors": [
+        {
+          "meaning": "暂时的",
+          "korean": "일시적"
+        },
+        {
+          "meaning": "具体的",
+          "korean": "구체적"
+        },
+        {
+          "meaning": "潜在的",
+          "korean": "잠재적"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "korean": "실질적",
+      "pronunciation": "sil-jil-jjeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "实质的",
+      "distractors": [
+        {
+          "meaning": "相互的",
+          "korean": "상호적"
+        },
+        {
+          "meaning": "根本的",
+          "korean": "근본적"
+        },
+        {
+          "meaning": "自发的",
+          "korean": "자발적"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "korean": "상대적",
+      "pronunciation": "sang-dae-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "相对的",
+      "distractors": [
+        {
+          "meaning": "被动的",
+          "korean": "수동적"
+        },
+        {
+          "meaning": "终极的",
+          "korean": "궁극적"
+        },
+        {
+          "meaning": "实质的",
+          "korean": "실질적"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "korean": "절대적",
+      "pronunciation": "jeol-dae-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "绝对的",
+      "distractors": [
+        {
+          "meaning": "相互的",
+          "korean": "상호적"
+        },
+        {
+          "meaning": "包括性的",
+          "korean": "포괄적"
+        },
+        {
+          "meaning": "暂时的",
+          "korean": "일시적"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "korean": "고유하다",
+      "pronunciation": "go-yu-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "固有的",
+      "distractors": [
+        {
+          "meaning": "显著",
+          "korean": "현저하다"
+        },
+        {
+          "meaning": "赤裸裸",
+          "korean": "적나라하다"
+        },
+        {
+          "meaning": "柔韧，灵活",
+          "korean": "유연하다"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "korean": "방대하다",
+      "pronunciation": "bang-dae-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "庞大",
+      "distractors": [
+        {
+          "meaning": "广泛",
+          "korean": "광범위하다"
+        },
+        {
+          "meaning": "消耗性的",
+          "korean": "소모적이다"
+        },
+        {
+          "meaning": "模糊",
+          "korean": "모호하다"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "korean": "미흡하다",
+      "pronunciation": "mi-heu-pa-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "不足",
+      "distractors": [
+        {
+          "meaning": "包括性的",
+          "korean": "포괄적이다"
+        },
+        {
+          "meaning": "先进的",
+          "korean": "선진적이다"
+        },
+        {
+          "meaning": "柔韧，灵活",
+          "korean": "유연하다"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "korean": "시급하다",
+      "pronunciation": "si-geu-pa-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "紧急",
+      "distractors": [
+        {
+          "meaning": "巨大",
+          "korean": "막대하다"
+        },
+        {
+          "meaning": "不足",
+          "korean": "미흡하다"
+        },
+        {
+          "meaning": "模糊",
+          "korean": "모호하다"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "korean": "불가피하다",
+      "pronunciation": "bul-ga-pi-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "不可避免",
+      "distractors": [
+        {
+          "meaning": "迫切",
+          "korean": "절실하다"
+        },
+        {
+          "meaning": "模糊",
+          "korean": "모호하다"
+        },
+        {
+          "meaning": "巨大，重大",
+          "korean": "지대하다"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "korean": "타당하다",
+      "pronunciation": "ta-dang-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "妥当",
+      "distractors": [
+        {
+          "meaning": "有机的",
+          "korean": "유기적이다"
+        },
+        {
+          "meaning": "迫切",
+          "korean": "절실하다"
+        },
+        {
+          "meaning": "建设性的",
+          "korean": "건설적이다"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "korean": "현저하다",
+      "pronunciation": "hyeon-jeo-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "显著",
+      "distractors": [
+        {
+          "meaning": "紧急",
+          "korean": "시급하다"
+        },
+        {
+          "meaning": "精巧",
+          "korean": "정교하다"
+        },
+        {
+          "meaning": "排他的",
+          "korean": "배타적이다"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "korean": "결코",
+      "pronunciation": "gyeol-ko",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "决不",
+      "distractors": [
+        {
+          "meaning": "何况",
+          "korean": "하물며"
+        },
+        {
+          "meaning": "同时",
+          "korean": "아울러"
+        },
+        {
+          "meaning": "总之",
+          "korean": "요컨대"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "korean": "과연",
+      "pronunciation": "gwa-yeon",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "果然；究竟",
+      "distractors": [
+        {
+          "meaning": "同时",
+          "korean": "아울러"
+        },
+        {
+          "meaning": "反而",
+          "korean": "도리어"
+        },
+        {
+          "meaning": "同样地",
+          "korean": "마찬가지로"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "korean": "차라리",
+      "pronunciation": "cha-ra-ri",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "宁可",
+      "distractors": [
+        {
+          "meaning": "一律地",
+          "korean": "일괄적으로"
+        },
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        },
+        {
+          "meaning": "单纯地",
+          "korean": "단순히"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "korean": "사실상",
+      "pronunciation": "sa-sil-ssang",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "事实上",
+      "distractors": [
+        {
+          "meaning": "同时",
+          "korean": "아울러"
+        },
+        {
+          "meaning": "宁可",
+          "korean": "차라리"
+        },
+        {
+          "meaning": "反而",
+          "korean": "도리어"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "korean": "근본적으로",
+      "pronunciation": "geun-bon-jeo-geu-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "从根本上",
+      "distractors": [
+        {
+          "meaning": "果然；究竟",
+          "korean": "과연"
+        },
+        {
+          "meaning": "所谓",
+          "korean": "이른바"
+        },
+        {
+          "meaning": "不过，仅",
+          "korean": "불과"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "korean": "궁극적으로",
+      "pronunciation": "gung-geuk-jjeo-geu-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "最终",
+      "distractors": [
+        {
+          "meaning": "一律地",
+          "korean": "일괄적으로"
+        },
+        {
+          "meaning": "决不",
+          "korean": "결코"
+        },
+        {
+          "meaning": "一起，同时",
+          "korean": "더불어"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "korean": "필연적으로",
+      "pronunciation": "pi-ryeon-jeo-geu-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "必然地",
+      "distractors": [
+        {
+          "meaning": "不仅仅",
+          "korean": "비단"
+        },
+        {
+          "meaning": "进一步",
+          "korean": "나아가"
+        },
+        {
+          "meaning": "大凡，凡是",
+          "korean": "무릇"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "korean": "단순히",
+      "pronunciation": "dan-sun-hi",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "单纯地",
+      "distractors": [
+        {
+          "meaning": "何况",
+          "korean": "하물며"
+        },
+        {
+          "meaning": "一起，同时",
+          "korean": "더불어"
+        },
+        {
+          "meaning": "尽管如此",
+          "korean": "그럼에도"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "korean": "일괄적으로",
+      "pronunciation": "il-gwal-jeo-geu-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "一律地",
+      "distractors": [
+        {
+          "meaning": "不过，仅仅",
+          "korean": "고작"
+        },
+        {
+          "meaning": "反而",
+          "korean": "도리어"
+        },
+        {
+          "meaning": "事实上",
+          "korean": "사실상"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "korean": "전반적으로",
+      "pronunciation": "jeon-ban-jeo-geu-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "全面地",
+      "distractors": [
+        {
+          "meaning": "事实上",
+          "korean": "사실상"
+        },
+        {
+          "meaning": "不仅仅",
+          "korean": "비단"
+        },
+        {
+          "meaning": "借此机会",
+          "korean": "차제에"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "korean": "고작",
+      "pronunciation": "go-jak",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "不过，仅仅",
+      "distractors": [
+        {
+          "meaning": "一起，同时",
+          "korean": "더불어"
+        },
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        },
+        {
+          "meaning": "因此",
+          "korean": "이에"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "korean": "불과",
+      "pronunciation": "bul-gwa",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "不过，仅",
+      "distractors": [
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        },
+        {
+          "meaning": "大凡",
+          "korean": "무릇"
+        },
+        {
+          "meaning": "进一步",
+          "korean": "나아가"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "korean": "하물며",
+      "pronunciation": "ha-mul-myeo",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "何况",
+      "distractors": [
+        {
+          "meaning": "必然地",
+          "korean": "필연적으로"
+        },
+        {
+          "meaning": "来不及",
+          "korean": "미처"
+        },
+        {
+          "meaning": "决不",
+          "korean": "결코"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "korean": "무릇",
+      "pronunciation": "mu-reut",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "大凡，凡是",
+      "distractors": [
+        {
+          "meaning": "举例来说",
+          "korean": "일례로"
+        },
+        {
+          "meaning": "一起，同时",
+          "korean": "더불어"
+        },
+        {
+          "meaning": "不过，仅",
+          "korean": "불과"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "korean": "이른바",
+      "pronunciation": "i-reun-ba",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "所谓",
+      "distractors": [
+        {
+          "meaning": "一句话概括",
+          "korean": "한마디로"
+        },
+        {
+          "meaning": "大凡",
+          "korean": "무릇"
+        },
+        {
+          "meaning": "依然",
+          "korean": "여전히"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "korean": "더불어",
+      "pronunciation": "deo-bu-reo",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "一起，同时",
+      "distractors": [
+        {
+          "meaning": "尽管如此",
+          "korean": "그럼에도"
+        },
+        {
+          "meaning": "因此",
+          "korean": "이에"
+        },
+        {
+          "meaning": "不过，仅",
+          "korean": "불과"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "korean": "다름아닌",
+      "pronunciation": "da-reum-a-nin",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "正是",
+      "distractors": [
+        {
+          "meaning": "必须的",
+          "korean": "필수적"
+        },
+        {
+          "meaning": "激进的",
+          "korean": "급진적"
+        },
+        {
+          "meaning": "主观的",
+          "korean": "주관적"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "korean": "저마다",
+      "pronunciation": "jeo-ma-da",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "各自",
+      "distractors": [
+        {
+          "meaning": "依然",
+          "korean": "여전히"
+        },
+        {
+          "meaning": "因此",
+          "korean": "이에"
+        },
+        {
+          "meaning": "必然地",
+          "korean": "필연적으로"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "korean": "여전히",
+      "pronunciation": "yeo-jeon-hi",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "依然",
+      "distractors": [
+        {
+          "meaning": "综合来看",
+          "korean": "종합하면"
+        },
+        {
+          "meaning": "终于，到头来",
+          "korean": "급기야"
+        },
+        {
+          "meaning": "同样地",
+          "korean": "마찬가지로"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "korean": "비로소",
+      "pronunciation": "bi-ro-so",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "才，方才",
+      "distractors": [
+        {
+          "meaning": "假如，比如",
+          "korean": "가령"
+        },
+        {
+          "meaning": "决不",
+          "korean": "결코"
+        },
+        {
+          "meaning": "最终",
+          "korean": "궁극적으로"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "korean": "패러다임",
+      "pronunciation": "pae-reo-da-im",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "范式",
+      "distractors": [
+        {
+          "meaning": "规范",
+          "korean": "규범"
+        },
+        {
+          "meaning": "普遍性",
+          "korean": "보편성"
+        },
+        {
+          "meaning": "岔路口，关键时刻",
+          "korean": "기로"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "korean": "딜레마",
+      "pronunciation": "dil-le-ma",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "困境",
+      "distractors": [
+        {
+          "meaning": "认识，认知",
+          "korean": "인식"
+        },
+        {
+          "meaning": "战略",
+          "korean": "전략"
+        },
+        {
+          "meaning": "能力，力量",
+          "korean": "역량"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "korean": "함의",
+      "pronunciation": "ha-mui",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "含义",
+      "distractors": [
+        {
+          "meaning": "实践",
+          "korean": "실천"
+        },
+        {
+          "meaning": "概念",
+          "korean": "개념"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "korean": "취지",
+      "pronunciation": "chwi-ji",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "宗旨",
+      "distractors": [
+        {
+          "meaning": "实情",
+          "korean": "실정"
+        },
+        {
+          "meaning": "比率",
+          "korean": "비율"
+        },
+        {
+          "meaning": "体系",
+          "korean": "체계"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "korean": "소신",
+      "pronunciation": "so-sin",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "信念",
+      "distractors": [
+        {
+          "meaning": "意识；仪式",
+          "korean": "의식"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        },
+        {
+          "meaning": "素养",
+          "korean": "소양"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "korean": "역량",
+      "pronunciation": "yeong-nyang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "能力，力量",
+      "distractors": [
+        {
+          "meaning": "矛盾，冲突",
+          "korean": "갈등"
+        },
+        {
+          "meaning": "观点",
+          "korean": "관점"
+        },
+        {
+          "meaning": "素养",
+          "korean": "소양"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "korean": "명분",
+      "pronunciation": "myeong-bun",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "名分，正当理由",
+      "distractors": [
+        {
+          "meaning": "困境",
+          "korean": "딜레마"
+        },
+        {
+          "meaning": "程序，手续",
+          "korean": "절차"
+        },
+        {
+          "meaning": "背景",
+          "korean": "배경"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "korean": "실정",
+      "pronunciation": "sil-jjeong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "实情",
+      "distractors": [
+        {
+          "meaning": "前提",
+          "korean": "전제"
+        },
+        {
+          "meaning": "偏见",
+          "korean": "편견"
+        },
+        {
+          "meaning": "宗旨",
+          "korean": "취지"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "korean": "여파",
+      "pronunciation": "yeo-pa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "余波，影响",
+      "distractors": [
+        {
+          "meaning": "正当性",
+          "korean": "당위성"
+        },
+        {
+          "meaning": "本质",
+          "korean": "본질"
+        },
+        {
+          "meaning": "角色",
+          "korean": "역할"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "korean": "파장",
+      "pronunciation": "pa-jang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "波长；波澜",
+      "distractors": [
+        {
+          "meaning": "现实",
+          "korean": "현실"
+        },
+        {
+          "meaning": "含义",
+          "korean": "함의"
+        },
+        {
+          "meaning": "信念",
+          "korean": "소신"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "korean": "국면",
+      "pronunciation": "gung-myeon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "局面",
+      "distractors": [
+        {
+          "meaning": "信念",
+          "korean": "소신"
+        },
+        {
+          "meaning": "可持续性",
+          "korean": "지속가능성"
+        },
+        {
+          "meaning": "宗旨",
+          "korean": "취지"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "korean": "기로",
+      "pronunciation": "gi-ro",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "岔路口，关键时刻",
+      "distractors": [
+        {
+          "meaning": "责任",
+          "korean": "책임"
+        },
+        {
+          "meaning": "程序，手续",
+          "korean": "절차"
+        },
+        {
+          "meaning": "认识，认知",
+          "korean": "인식"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "korean": "기반",
+      "pronunciation": "gi-ban",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "基础，基盘",
+      "distractors": [
+        {
+          "meaning": "正当性",
+          "korean": "당위성"
+        },
+        {
+          "meaning": "价值",
+          "korean": "가치"
+        },
+        {
+          "meaning": "根据",
+          "korean": "근거"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "korean": "기틀",
+      "pronunciation": "gi-teul",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "基础，框架",
+      "distractors": [
+        {
+          "meaning": "前提",
+          "korean": "전제"
+        },
+        {
+          "meaning": "范围",
+          "korean": "범위"
+        },
+        {
+          "meaning": "公平性",
+          "korean": "형평성"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "korean": "골자",
+      "pronunciation": "gol-ja",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "要点，骨架",
+      "distractors": [
+        {
+          "meaning": "实践",
+          "korean": "실천"
+        },
+        {
+          "meaning": "方案",
+          "korean": "방안"
+        },
+        {
+          "meaning": "对象",
+          "korean": "대상"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "korean": "대안",
+      "pronunciation": "dae-an",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "替代方案",
+      "distractors": [
+        {
+          "meaning": "概念",
+          "korean": "개념"
+        },
+        {
+          "meaning": "正当性",
+          "korean": "당위성"
+        },
+        {
+          "meaning": "根据",
+          "korean": "근거"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "korean": "방안",
+      "pronunciation": "bang-an",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "方案",
+      "distractors": [
+        {
+          "meaning": "战略",
+          "korean": "전략"
+        },
+        {
+          "meaning": "核心",
+          "korean": "핵심"
+        },
+        {
+          "meaning": "伦理",
+          "korean": "윤리"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "korean": "시사점",
+      "pronunciation": "si-sa-jjeom",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "启示",
+      "distractors": [
+        {
+          "meaning": "话语，讨论",
+          "korean": "담론"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        },
+        {
+          "meaning": "困境",
+          "korean": "딜레마"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "korean": "필요성",
+      "pronunciation": "pi-ryo-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "必要性",
+      "distractors": [
+        {
+          "meaning": "方案",
+          "korean": "방안"
+        },
+        {
+          "meaning": "程序，手续",
+          "korean": "절차"
+        },
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "korean": "당위성",
+      "pronunciation": "dang-wi-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "正当性",
+      "distractors": [
+        {
+          "meaning": "理论",
+          "korean": "이론"
+        },
+        {
+          "meaning": "核心",
+          "korean": "핵심"
+        },
+        {
+          "meaning": "方案",
+          "korean": "방안"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "korean": "정당성",
+      "pronunciation": "jeong-dang-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "正当性",
+      "distractors": [
+        {
+          "meaning": "方面，侧面",
+          "korean": "측면"
+        },
+        {
+          "meaning": "革新，创新",
+          "korean": "혁신"
+        },
+        {
+          "meaning": "含义",
+          "korean": "함의"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "korean": "특수성",
+      "pronunciation": "teuk-ssu-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "特殊性",
+      "distractors": [
+        {
+          "meaning": "成果",
+          "korean": "성과"
+        },
+        {
+          "meaning": "方案",
+          "korean": "방안"
+        },
+        {
+          "meaning": "含义",
+          "korean": "함의"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "korean": "보편성",
+      "pronunciation": "bo-pyeon-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "普遍性",
+      "distractors": [
+        {
+          "meaning": "本质",
+          "korean": "본질"
+        },
+        {
+          "meaning": "范畴",
+          "korean": "범주"
+        },
+        {
+          "meaning": "争论点",
+          "korean": "쟁점"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "korean": "다양성",
+      "pronunciation": "da-yang-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "多样性",
+      "distractors": [
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        },
+        {
+          "meaning": "根据",
+          "korean": "근거"
+        },
+        {
+          "meaning": "评价",
+          "korean": "평가"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "korean": "형평성",
+      "pronunciation": "hyeong-pyeong-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "公平性",
+      "distractors": [
+        {
+          "meaning": "体系",
+          "korean": "체계"
+        },
+        {
+          "meaning": "意识；仪式",
+          "korean": "의식"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "korean": "지속가능성",
+      "pronunciation": "ji-sok-kka-neung-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "可持续性",
+      "distractors": [
+        {
+          "meaning": "观点",
+          "korean": "관점"
+        },
+        {
+          "meaning": "根本",
+          "korean": "근본"
+        },
+        {
+          "meaning": "话语，讨论",
+          "korean": "담론"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "korean": "생산성",
+      "pronunciation": "saeng-san-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "生产力",
+      "distractors": [
+        {
+          "meaning": "概念",
+          "korean": "개념"
+        },
+        {
+          "meaning": "自律性",
+          "korean": "자율성"
+        },
+        {
+          "meaning": "观点",
+          "korean": "관점"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "korean": "경쟁력",
+      "pronunciation": "gyeong-jaeng-nyeok",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "竞争力",
+      "distractors": [
+        {
+          "meaning": "特殊性",
+          "korean": "특수성"
+        },
+        {
+          "meaning": "战略",
+          "korean": "전략"
+        },
+        {
+          "meaning": "流动，潮流",
+          "korean": "흐름"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "korean": "자율성",
+      "pronunciation": "ja-yul-sseong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "自律性",
+      "distractors": [
+        {
+          "meaning": "根据",
+          "korean": "근거"
+        },
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        },
+        {
+          "meaning": "脉络，语境",
+          "korean": "맥락"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "korean": "투명성",
+      "pronunciation": "tu-myeong-seong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "透明性",
+      "distractors": [
+        {
+          "meaning": "使命",
+          "korean": "사명"
+        },
+        {
+          "meaning": "水平",
+          "korean": "수준"
+        },
+        {
+          "meaning": "能力，力量",
+          "korean": "역량"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "korean": "견인하다",
+      "pronunciation": "gyeo-nin-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "牵引，带动",
+      "distractors": [
+        {
+          "meaning": "履行",
+          "korean": "이행하다"
+        },
+        {
+          "meaning": "把握，了解",
+          "korean": "파악하다"
+        },
+        {
+          "meaning": "抑制",
+          "korean": "억제하다"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "korean": "구축하다",
+      "pronunciation": "gu-chu-ka-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "构筑",
+      "distractors": [
+        {
+          "meaning": "讨论",
+          "korean": "논의하다"
+        },
+        {
+          "meaning": "明示",
+          "korean": "명시하다"
+        },
+        {
+          "meaning": "坚守",
+          "korean": "고수하다"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "korean": "도입하다",
+      "pronunciation": "do-i-pa-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "引进",
+      "distractors": [
+        {
+          "meaning": "实证",
+          "korean": "실증하다"
+        },
+        {
+          "meaning": "统合",
+          "korean": "통합하다"
+        },
+        {
+          "meaning": "引起",
+          "korean": "야기하다"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "korean": "착수하다",
+      "pronunciation": "chak-ssu-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "着手",
+      "distractors": [
+        {
+          "meaning": "避免",
+          "korean": "지양하다"
+        },
+        {
+          "meaning": "鼓吹",
+          "korean": "고취하다"
+        },
+        {
+          "meaning": "牵引，带动",
+          "korean": "견인하다"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "korean": "이끌다",
+      "pronunciation": "i-kkeul-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "引领",
+      "distractors": [
+        {
+          "meaning": "凸显",
+          "korean": "대두되다"
+        },
+        {
+          "meaning": "执行",
+          "korean": "수행하다"
+        },
+        {
+          "meaning": "派生",
+          "korean": "파생하다"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "korean": "뒷받침되다",
+      "pronunciation": "dwit-ppat-chim-doe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "得到支撑",
+      "distractors": [
+        {
+          "meaning": "排除",
+          "korean": "배제하다"
+        },
+        {
+          "meaning": "克服",
+          "korean": "극복하다"
+        },
+        {
+          "meaning": "包括",
+          "korean": "포괄하다"
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "korean": "전개하다",
+      "pronunciation": "jeon-gae-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "展开",
+      "distractors": [
+        {
+          "meaning": "固化",
+          "korean": "고착되다"
+        },
+        {
+          "meaning": "促进",
+          "korean": "촉진하다"
+        },
+        {
+          "meaning": "证明",
+          "korean": "입증하다"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "korean": "전환하다",
+      "pronunciation": "jeon-hwan-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "转换",
+      "distractors": [
+        {
+          "meaning": "深化",
+          "korean": "심화되다"
+        },
+        {
+          "meaning": "代表，代言",
+          "korean": "대변하다"
+        },
+        {
+          "meaning": "摸索，探索",
+          "korean": "모색하다"
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "korean": "산출하다",
+      "pronunciation": "san-chul-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "产出",
+      "distractors": [
+        {
+          "meaning": "扩散",
+          "korean": "확산되다"
+        },
+        {
+          "meaning": "缓和",
+          "korean": "완화하다"
+        },
+        {
+          "meaning": "转换",
+          "korean": "전환하다"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "korean": "유발하다",
+      "pronunciation": "yu-bal-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "诱发",
+      "distractors": [
+        {
+          "meaning": "执行",
+          "korean": "수행하다"
+        },
+        {
+          "meaning": "强调",
+          "korean": "강조하다"
+        },
+        {
+          "meaning": "指向，追求",
+          "korean": "지향하다"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "korean": "탈피하다",
+      "pronunciation": "tal-pi-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "摆脱",
+      "distractors": [
+        {
+          "meaning": "摸索，探索",
+          "korean": "모색하다"
+        },
+        {
+          "meaning": "忽视",
+          "korean": "간과하다"
+        },
+        {
+          "meaning": "加重",
+          "korean": "가중되다"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "korean": "양산하다",
+      "pronunciation": "yang-san-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "量产；大量产生",
+      "distractors": [
+        {
+          "meaning": "违背",
+          "korean": "위배하다"
+        },
+        {
+          "meaning": "把握，了解",
+          "korean": "파악하다"
+        },
+        {
+          "meaning": "冲突",
+          "korean": "상충하다"
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "korean": "고취하다",
+      "pronunciation": "go-chwi-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "鼓吹",
+      "distractors": [
+        {
+          "meaning": "凸显",
+          "korean": "대두되다"
+        },
+        {
+          "meaning": "符合",
+          "korean": "부합하다"
+        },
+        {
+          "meaning": "引进",
+          "korean": "도입하다"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "korean": "선도하다",
+      "pronunciation": "seon-do-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "引领",
+      "distractors": [
+        {
+          "meaning": "产出",
+          "korean": "산출하다"
+        },
+        {
+          "meaning": "蔓延",
+          "korean": "만연하다"
+        },
+        {
+          "meaning": "审查",
+          "korean": "검토하다"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "korean": "공존하다",
+      "pronunciation": "gong-jon-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "共存",
+      "distractors": [
+        {
+          "meaning": "着手",
+          "korean": "착수하다"
+        },
+        {
+          "meaning": "摆脱",
+          "korean": "탈피하다"
+        },
+        {
+          "meaning": "违背",
+          "korean": "위배하다"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "korean": "양립하다",
+      "pronunciation": "yang-ni-pa-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "并立",
+      "distractors": [
+        {
+          "meaning": "蔓延",
+          "korean": "만연하다"
+        },
+        {
+          "meaning": "引进",
+          "korean": "도입하다"
+        },
+        {
+          "meaning": "抑制",
+          "korean": "억제하다"
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "korean": "내재하다",
+      "pronunciation": "nae-jae-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "内在",
+      "distractors": [
+        {
+          "meaning": "着手",
+          "korean": "착수하다"
+        },
+        {
+          "meaning": "强调",
+          "korean": "강조하다"
+        },
+        {
+          "meaning": "配置",
+          "korean": "배치하다"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "korean": "상충하다",
+      "pronunciation": "sang-chung-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "冲突",
+      "distractors": [
+        {
+          "meaning": "坚守",
+          "korean": "고수하다"
+        },
+        {
+          "meaning": "剥削",
+          "korean": "착취하다"
+        },
+        {
+          "meaning": "补充",
+          "korean": "보완하다"
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "korean": "연계하다",
+      "pronunciation": "yeon-gye-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "联系",
+      "distractors": [
+        {
+          "meaning": "履行",
+          "korean": "이행하다"
+        },
+        {
+          "meaning": "展开",
+          "korean": "전개하다"
+        },
+        {
+          "meaning": "引领",
+          "korean": "선도하다"
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "korean": "포괄하다",
+      "pronunciation": "po-gwal-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "包括",
+      "distractors": [
+        {
+          "meaning": "归结",
+          "korean": "귀결되다"
+        },
+        {
+          "meaning": "追求",
+          "korean": "추구하다"
+        },
+        {
+          "meaning": "得到支撑",
+          "korean": "뒷받침되다"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "korean": "수렴하다",
+      "pronunciation": "su-ryeom-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "收敛，汇集",
+      "distractors": [
+        {
+          "meaning": "派生",
+          "korean": "파생하다"
+        },
+        {
+          "meaning": "构筑",
+          "korean": "구축하다"
+        },
+        {
+          "meaning": "克服",
+          "korean": "극복하다"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "korean": "확산되다",
+      "pronunciation": "hwak-ssan-doe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "扩散",
+      "distractors": [
+        {
+          "meaning": "收敛，汇集",
+          "korean": "수렴하다"
+        },
+        {
+          "meaning": "鼓吹",
+          "korean": "고취하다"
+        },
+        {
+          "meaning": "证明",
+          "korean": "입증하다"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "korean": "고착되다",
+      "pronunciation": "go-chak-ttoe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "固化",
+      "distractors": [
+        {
+          "meaning": "讨论",
+          "korean": "논의하다"
+        },
+        {
+          "meaning": "反映",
+          "korean": "반영하다"
+        },
+        {
+          "meaning": "凸显",
+          "korean": "대두되다"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "korean": "만연하다",
+      "pronunciation": "ma-nyeon-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "蔓延",
+      "distractors": [
+        {
+          "meaning": "剥削",
+          "korean": "착취하다"
+        },
+        {
+          "meaning": "讨论",
+          "korean": "논의하다"
+        },
+        {
+          "meaning": "扩散",
+          "korean": "확산되다"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "korean": "대변하다",
+      "pronunciation": "dae-byeon-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "代表，代言",
+      "distractors": [
+        {
+          "meaning": "制定",
+          "korean": "수립하다"
+        },
+        {
+          "meaning": "着手",
+          "korean": "착수하다"
+        },
+        {
+          "meaning": "重组",
+          "korean": "재편하다"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "korean": "착취하다",
+      "pronunciation": "chak-chwi-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "剥削",
+      "distractors": [
+        {
+          "meaning": "突出",
+          "korean": "부각되다"
+        },
+        {
+          "meaning": "着手",
+          "korean": "착수하다"
+        },
+        {
+          "meaning": "证明",
+          "korean": "입증하다"
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "korean": "조장하다",
+      "pronunciation": "jo-jang-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "助长",
+      "distractors": [
+        {
+          "meaning": "分析",
+          "korean": "분석하다"
+        },
+        {
+          "meaning": "蔓延",
+          "korean": "만연하다"
+        },
+        {
+          "meaning": "归结",
+          "korean": "귀결되다"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "korean": "억제하다",
+      "pronunciation": "eok-jje-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "抑制",
+      "distractors": [
+        {
+          "meaning": "指向，追求",
+          "korean": "지향하다"
+        },
+        {
+          "meaning": "提出",
+          "korean": "제시하다"
+        },
+        {
+          "meaning": "引领",
+          "korean": "이끌다"
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "korean": "완화하다",
+      "pronunciation": "wan-hwa-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "缓和",
+      "distractors": [
+        {
+          "meaning": "招致",
+          "korean": "초래하다"
+        },
+        {
+          "meaning": "统合",
+          "korean": "통합하다"
+        },
+        {
+          "meaning": "符合",
+          "korean": "부합하다"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "korean": "가중되다",
+      "pronunciation": "ga-jung-doe-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "加重",
+      "distractors": [
+        {
+          "meaning": "强调",
+          "korean": "강조하다"
+        },
+        {
+          "meaning": "重组",
+          "korean": "재편하다"
+        },
+        {
+          "meaning": "统合",
+          "korean": "통합하다"
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "korean": "심오하다",
+      "pronunciation": "si-mo-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "深奥",
+      "distractors": [
+        {
+          "meaning": "巨大，重大",
+          "korean": "지대하다"
+        },
+        {
+          "meaning": "精巧",
+          "korean": "정교하다"
+        },
+        {
+          "meaning": "有机的",
+          "korean": "유기적이다"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "korean": "정교하다",
+      "pronunciation": "jeong-gyo-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "精巧",
+      "distractors": [
+        {
+          "meaning": "排他的",
+          "korean": "배타적이다"
+        },
+        {
+          "meaning": "不可避免",
+          "korean": "불가피하다"
+        },
+        {
+          "meaning": "柔韧，灵活",
+          "korean": "유연하다"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "korean": "광범위하다",
+      "pronunciation": "gwang-beom-wi-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "广泛",
+      "distractors": [
+        {
+          "meaning": "严格",
+          "korean": "엄격하다"
+        },
+        {
+          "meaning": "消耗性的",
+          "korean": "소모적이다"
+        },
+        {
+          "meaning": "迫切",
+          "korean": "절실하다"
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "korean": "포괄적이다",
+      "pronunciation": "po-gwal-jjeo-gi-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "包括性的",
+      "distractors": [
+        {
+          "meaning": "建设性的",
+          "korean": "건설적이다"
+        },
+        {
+          "meaning": "精巧",
+          "korean": "정교하다"
+        },
+        {
+          "meaning": "紧急",
+          "korean": "시급하다"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "korean": "막대하다",
+      "pronunciation": "mak-ttae-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "巨大",
+      "distractors": [
+        {
+          "meaning": "微小",
+          "korean": "미미하다"
+        },
+        {
+          "meaning": "先进的",
+          "korean": "선진적이다"
+        },
+        {
+          "meaning": "妥当",
+          "korean": "타당하다"
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "korean": "지대하다",
+      "pronunciation": "ji-dae-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "巨大，重大",
+      "distractors": [
+        {
+          "meaning": "不可避免",
+          "korean": "불가피하다"
+        },
+        {
+          "meaning": "有机的",
+          "korean": "유기적이다"
+        },
+        {
+          "meaning": "广泛",
+          "korean": "광범위하다"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "korean": "미미하다",
+      "pronunciation": "mi-mi-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "微小",
+      "distractors": [
+        {
+          "meaning": "消耗性的",
+          "korean": "소모적이다"
+        },
+        {
+          "meaning": "巨大，重大",
+          "korean": "지대하다"
+        },
+        {
+          "meaning": "建设性的",
+          "korean": "건설적이다"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "korean": "절실하다",
+      "pronunciation": "jeol-sil-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "迫切",
+      "distractors": [
+        {
+          "meaning": "巨大",
+          "korean": "막대하다"
+        },
+        {
+          "meaning": "不可避免",
+          "korean": "불가피하다"
+        },
+        {
+          "meaning": "排他的",
+          "korean": "배타적이다"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "korean": "유기적이다",
+      "pronunciation": "yu-gi-jeo-gi-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "有机的",
+      "distractors": [
+        {
+          "meaning": "精巧",
+          "korean": "정교하다"
+        },
+        {
+          "meaning": "巨大",
+          "korean": "막대하다"
+        },
+        {
+          "meaning": "先进的",
+          "korean": "선진적이다"
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "korean": "모호하다",
+      "pronunciation": "mo-ho-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "模糊",
+      "distractors": [
+        {
+          "meaning": "精巧",
+          "korean": "정교하다"
+        },
+        {
+          "meaning": "排他的",
+          "korean": "배타적이다"
+        },
+        {
+          "meaning": "广泛",
+          "korean": "광범위하다"
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "korean": "애매하다",
+      "pronunciation": "ae-mae-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "模棱两可",
+      "distractors": [
+        {
+          "meaning": "庞大",
+          "korean": "방대하다"
+        },
+        {
+          "meaning": "先进的",
+          "korean": "선진적이다"
+        },
+        {
+          "meaning": "深奥",
+          "korean": "심오하다"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "korean": "엄격하다",
+      "pronunciation": "eom-gyeo-ka-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "严格",
+      "distractors": [
+        {
+          "meaning": "不足",
+          "korean": "미흡하다"
+        },
+        {
+          "meaning": "妥当",
+          "korean": "타당하다"
+        },
+        {
+          "meaning": "微小",
+          "korean": "미미하다"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "korean": "유연하다",
+      "pronunciation": "yu-yeon-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "柔韧，灵活",
+      "distractors": [
+        {
+          "meaning": "巨大",
+          "korean": "막대하다"
+        },
+        {
+          "meaning": "严格",
+          "korean": "엄격하다"
+        },
+        {
+          "meaning": "妥当",
+          "korean": "타당하다"
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "korean": "적나라하다",
+      "pronunciation": "jeong-na-ra-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "赤裸裸",
+      "distractors": [
+        {
+          "meaning": "先进的",
+          "korean": "선진적이다"
+        },
+        {
+          "meaning": "巨大，重大",
+          "korean": "지대하다"
+        },
+        {
+          "meaning": "有机的",
+          "korean": "유기적이다"
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "korean": "자명하다",
+      "pronunciation": "ja-myeong-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "不言自明",
+      "distractors": [
+        {
+          "meaning": "先进的",
+          "korean": "선진적이다"
+        },
+        {
+          "meaning": "紧急",
+          "korean": "시급하다"
+        },
+        {
+          "meaning": "微小",
+          "korean": "미미하다"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "korean": "소모적이다",
+      "pronunciation": "so-mo-jeo-gi-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "消耗性的",
+      "distractors": [
+        {
+          "meaning": "不可避免",
+          "korean": "불가피하다"
+        },
+        {
+          "meaning": "包容的",
+          "korean": "포용적이다"
+        },
+        {
+          "meaning": "包括性的",
+          "korean": "포괄적이다"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "korean": "건설적이다",
+      "pronunciation": "geon-seol-jjeo-gi-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "建设性的",
+      "distractors": [
+        {
+          "meaning": "模棱两可",
+          "korean": "애매하다"
+        },
+        {
+          "meaning": "深奥",
+          "korean": "심오하다"
+        },
+        {
+          "meaning": "庞大",
+          "korean": "방대하다"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "korean": "배타적이다",
+      "pronunciation": "bae-ta-jeo-gi-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "排他的",
+      "distractors": [
+        {
+          "meaning": "紧急",
+          "korean": "시급하다"
+        },
+        {
+          "meaning": "严格",
+          "korean": "엄격하다"
+        },
+        {
+          "meaning": "有机的",
+          "korean": "유기적이다"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "korean": "포용적이다",
+      "pronunciation": "po-yong-jeo-gi-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "包容的",
+      "distractors": [
+        {
+          "meaning": "赤裸裸",
+          "korean": "적나라하다"
+        },
+        {
+          "meaning": "柔韧，灵活",
+          "korean": "유연하다"
+        },
+        {
+          "meaning": "精巧",
+          "korean": "정교하다"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "korean": "선진적이다",
+      "pronunciation": "seon-jin-jeo-gi-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "先进的",
+      "distractors": [
+        {
+          "meaning": "巨大，重大",
+          "korean": "지대하다"
+        },
+        {
+          "meaning": "模糊",
+          "korean": "모호하다"
+        },
+        {
+          "meaning": "消耗性的",
+          "korean": "소모적이다"
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "korean": "요컨대",
+      "pronunciation": "yo-keon-dae",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "总之",
+      "distractors": [
+        {
+          "meaning": "同样地",
+          "korean": "마찬가지로"
+        },
+        {
+          "meaning": "大凡，凡是",
+          "korean": "무릇"
+        },
+        {
+          "meaning": "决不",
+          "korean": "결코"
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "korean": "다시 말해",
+      "pronunciation": "da-si mal-hae",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "换言之",
+      "distractors": [
+        {
+          "meaning": "才，方才",
+          "korean": "비로소"
+        },
+        {
+          "meaning": "不过，仅仅",
+          "korean": "고작"
+        },
+        {
+          "meaning": "所谓",
+          "korean": "이른바"
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "korean": "이를테면",
+      "pronunciation": "i-reul-te-myeon",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "比如说",
+      "distractors": [
+        {
+          "meaning": "借此机会",
+          "korean": "차제에"
+        },
+        {
+          "meaning": "终于，到头来",
+          "korean": "급기야"
+        },
+        {
+          "meaning": "同时",
+          "korean": "아울러"
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "korean": "그럼에도",
+      "pronunciation": "geu-reo-me-do",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "尽管如此",
+      "distractors": [
+        {
+          "meaning": "决不",
+          "korean": "결코"
+        },
+        {
+          "meaning": "一律地",
+          "korean": "일괄적으로"
+        },
+        {
+          "meaning": "所谓",
+          "korean": "이른바"
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "korean": "나아가",
+      "pronunciation": "na-a-ga",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "进一步",
+      "distractors": [
+        {
+          "meaning": "因此",
+          "korean": "이에"
+        },
+        {
+          "meaning": "果然；究竟",
+          "korean": "과연"
+        },
+        {
+          "meaning": "举例来说",
+          "korean": "일례로"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "korean": "마찬가지로",
+      "pronunciation": "ma-chan-ga-ji-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "同样地",
+      "distractors": [
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        },
+        {
+          "meaning": "反而",
+          "korean": "도리어"
+        },
+        {
+          "meaning": "终于，到头来",
+          "korean": "급기야"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "korean": "한마디로",
+      "pronunciation": "han-ma-di-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "一句话概括",
+      "distractors": [
+        {
+          "meaning": "不过，仅仅",
+          "korean": "고작"
+        },
+        {
+          "meaning": "大凡，凡是",
+          "korean": "무릇"
+        },
+        {
+          "meaning": "举例来说",
+          "korean": "일례로"
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "korean": "종합하면",
+      "pronunciation": "jong-ha-pa-myeon",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "综合来看",
+      "distractors": [
+        {
+          "meaning": "才，方才",
+          "korean": "비로소"
+        },
+        {
+          "meaning": "进一步",
+          "korean": "나아가"
+        },
+        {
+          "meaning": "单纯地",
+          "korean": "단순히"
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "korean": "바꿔 말하면",
+      "pronunciation": "ba-kkwo mal-ha-myeon",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "换句话说",
+      "distractors": [
+        {
+          "meaning": "总之",
+          "korean": "요컨대"
+        },
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        },
+        {
+          "meaning": "同样地",
+          "korean": "마찬가지로"
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "korean": "일례로",
+      "pronunciation": "il-lye-ro",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "举例来说",
+      "distractors": [
+        {
+          "meaning": "宁可",
+          "korean": "차라리"
+        },
+        {
+          "meaning": "事实上",
+          "korean": "사실상"
+        },
+        {
+          "meaning": "尽管如此",
+          "korean": "그럼에도"
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "korean": "반면",
+      "pronunciation": "ban-myeon",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "反面，相反",
+      "distractors": [
+        {
+          "meaning": "因此",
+          "korean": "이에"
+        },
+        {
+          "meaning": "终于，到头来",
+          "korean": "급기야"
+        },
+        {
+          "meaning": "一句话概括",
+          "korean": "한마디로"
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "korean": "아울러",
+      "pronunciation": "a-ul-leo",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "同时",
+      "distractors": [
+        {
+          "meaning": "换句话说",
+          "korean": "바꿔 말하면"
+        },
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        },
+        {
+          "meaning": "全面地",
+          "korean": "전반적으로"
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "korean": "가령",
+      "pronunciation": "ga-ryeong",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "假如，比如",
+      "distractors": [
+        {
+          "meaning": "换言之",
+          "korean": "다시 말해"
+        },
+        {
+          "meaning": "必然地",
+          "korean": "필연적으로"
+        },
+        {
+          "meaning": "依然",
+          "korean": "여전히"
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "korean": "도리어",
+      "pronunciation": "do-ri-eo",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "反而",
+      "distractors": [
+        {
+          "meaning": "来不及",
+          "korean": "미처"
+        },
+        {
+          "meaning": "借此机会",
+          "korean": "차제에"
+        },
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "korean": "미처",
+      "pronunciation": "mi-cheo",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "来不及",
+      "distractors": [
+        {
+          "meaning": "何况",
+          "korean": "하물며"
+        },
+        {
+          "meaning": "一律地",
+          "korean": "일괄적으로"
+        },
+        {
+          "meaning": "才，方才",
+          "korean": "비로소"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "korean": "차제에",
+      "pronunciation": "cha-je-e",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "借此机会",
+      "distractors": [
+        {
+          "meaning": "终于，到头来",
+          "korean": "급기야"
+        },
+        {
+          "meaning": "因此",
+          "korean": "이에"
+        },
+        {
+          "meaning": "来不及",
+          "korean": "미처"
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "korean": "이에",
+      "pronunciation": "i-e",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "因此",
+      "distractors": [
+        {
+          "meaning": "决不",
+          "korean": "결코"
+        },
+        {
+          "meaning": "依然",
+          "korean": "여전히"
+        },
+        {
+          "meaning": "全面地",
+          "korean": "전반적으로"
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "korean": "급기야",
+      "pronunciation": "geup-kki-ya",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "终于，到头来",
+      "distractors": [
+        {
+          "meaning": "果然；究竟",
+          "korean": "과연"
+        },
+        {
+          "meaning": "各自",
+          "korean": "저마다"
+        },
+        {
+          "meaning": "事实上",
+          "korean": "사실상"
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "korean": "무릇",
+      "pronunciation": "mu-reut",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "大凡",
+      "distractors": [
+        {
+          "meaning": "果然；究竟",
+          "korean": "과연"
+        },
+        {
+          "meaning": "比如说",
+          "korean": "이를테면"
+        },
+        {
+          "meaning": "所谓",
+          "korean": "이른바"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "korean": "비단",
+      "pronunciation": "bi-dan",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "不仅仅",
+      "distractors": [
+        {
+          "meaning": "进一步",
+          "korean": "나아가"
+        },
+        {
+          "meaning": "尽管如此",
+          "korean": "그럼에도"
+        },
+        {
+          "meaning": "才，方才",
+          "korean": "비로소"
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "korean": "규범",
+      "pronunciation": "gyu-beom",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "规范",
+      "distractors": [
+        {
+          "meaning": "余波，影响",
+          "korean": "여파"
+        },
+        {
+          "meaning": "水平",
+          "korean": "수준"
+        },
+        {
+          "meaning": "名分，正当理由",
+          "korean": "명분"
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "korean": "범주",
+      "pronunciation": "beom-ju",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "范畴",
+      "distractors": [
+        {
+          "meaning": "现实",
+          "korean": "현실"
+        },
+        {
+          "meaning": "方案",
+          "korean": "방안"
+        },
+        {
+          "meaning": "透明性",
+          "korean": "투명성"
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "korean": "맹점",
+      "pronunciation": "maeng-jjeom",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "盲点",
+      "distractors": [
+        {
+          "meaning": "水平",
+          "korean": "수준"
+        },
+        {
+          "meaning": "权利",
+          "korean": "권리"
+        },
+        {
+          "meaning": "基础，基盘",
+          "korean": "기반"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "korean": "고질적",
+      "pronunciation": "go-jil-jjeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "痼疾般的",
+      "distractors": [
+        {
+          "meaning": "必须的",
+          "korean": "필수적"
+        },
+        {
+          "meaning": "终极的",
+          "korean": "궁극적"
+        },
+        {
+          "meaning": "渐进的",
+          "korean": "점진적"
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "korean": "항구적",
+      "pronunciation": "hang-gu-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "永久的",
+      "distractors": [
+        {
+          "meaning": "被动的",
+          "korean": "수동적"
+        },
+        {
+          "meaning": "根本的",
+          "korean": "근본적"
+        },
+        {
+          "meaning": "引领的",
+          "korean": "선도적"
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "korean": "일시적",
+      "pronunciation": "il-si-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "暂时的",
+      "distractors": [
+        {
+          "meaning": "抽象的",
+          "korean": "추상적"
+        },
+        {
+          "meaning": "渐进的",
+          "korean": "점진적"
+        },
+        {
+          "meaning": "激进的",
+          "korean": "급진적"
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "korean": "상호적",
+      "pronunciation": "sang-ho-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "相互的",
+      "distractors": [
+        {
+          "meaning": "客观的",
+          "korean": "객관적"
+        },
+        {
+          "meaning": "终极的",
+          "korean": "궁극적"
+        },
+        {
+          "meaning": "潜在的",
+          "korean": "잠재적"
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "korean": "점진적",
+      "pronunciation": "jeom-jin-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "渐进的",
+      "distractors": [
+        {
+          "meaning": "潜在的",
+          "korean": "잠재적"
+        },
+        {
+          "meaning": "合理的",
+          "korean": "합리적"
+        },
+        {
+          "meaning": "相对的",
+          "korean": "상대적"
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "korean": "급진적",
+      "pronunciation": "geup-jjin-jeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "激进的",
+      "distractors": [
+        {
+          "meaning": "客观的",
+          "korean": "객관적"
+        },
+        {
+          "meaning": "系统的",
+          "korean": "체계적"
+        },
+        {
+          "meaning": "包括性的",
+          "korean": "포괄적"
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "korean": "포괄적",
+      "pronunciation": "po-gwal-jjeok",
+      "pos": "관형사",
+      "pos_cn": "冠形词",
+      "meaning": "包括性的",
+      "distractors": [
+        {
+          "meaning": "自发的",
+          "korean": "자발적"
+        },
+        {
+          "meaning": "持续的",
+          "korean": "지속적"
+        },
+        {
+          "meaning": "实质的",
+          "korean": "실질적"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "korean": "파생하다",
+      "pronunciation": "pa-saeng-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "派生",
+      "distractors": [
+        {
+          "meaning": "排除",
+          "korean": "배제하다"
+        },
+        {
+          "meaning": "克服",
+          "korean": "극복하다"
+        },
+        {
+          "meaning": "展开",
+          "korean": "전개하다"
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "korean": "편입하다",
+      "pronunciation": "pyeo-ni-pa-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "编入",
+      "distractors": [
+        {
+          "meaning": "排除",
+          "korean": "배제하다"
+        },
+        {
+          "meaning": "坚守",
+          "korean": "고수하다"
+        },
+        {
+          "meaning": "助长",
+          "korean": "조장하다"
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "korean": "배치하다",
+      "pronunciation": "bae-chi-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "配置",
+      "distractors": [
+        {
+          "meaning": "并立",
+          "korean": "양립하다"
+        },
+        {
+          "meaning": "审查",
+          "korean": "검토하다"
+        },
+        {
+          "meaning": "坚守",
+          "korean": "고수하다"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "korean": "시행하다",
+      "pronunciation": "si-haeng-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "施行",
+      "distractors": [
+        {
+          "meaning": "配置",
+          "korean": "배치하다"
+        },
+        {
+          "meaning": "排除",
+          "korean": "배제하다"
+        },
+        {
+          "meaning": "违背",
+          "korean": "위배하다"
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "korean": "실증하다",
+      "pronunciation": "sil-jjeung-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "实证",
+      "distractors": [
+        {
+          "meaning": "凸显",
+          "korean": "대두되다"
+        },
+        {
+          "meaning": "助长",
+          "korean": "조장하다"
+        },
+        {
+          "meaning": "产出",
+          "korean": "산출하다"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "korean": "통합하다",
+      "pronunciation": "tong-ha-pa-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "统合",
+      "distractors": [
+        {
+          "meaning": "加速",
+          "korean": "가속화하다"
+        },
+        {
+          "meaning": "内在",
+          "korean": "내재하다"
+        },
+        {
+          "meaning": "谋求",
+          "korean": "도모하다"
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "korean": "재편하다",
+      "pronunciation": "jae-pyeon-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "重组",
+      "distractors": [
+        {
+          "meaning": "摸索，探索",
+          "korean": "모색하다"
+        },
+        {
+          "meaning": "实证",
+          "korean": "실증하다"
+        },
+        {
+          "meaning": "把握，了解",
+          "korean": "파악하다"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "korean": "입증하다",
+      "pronunciation": "ip-jjeung-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "证明",
+      "distractors": [
+        {
+          "meaning": "牵引，带动",
+          "korean": "견인하다"
+        },
+        {
+          "meaning": "共存",
+          "korean": "공존하다"
+        },
+        {
+          "meaning": "明示",
+          "korean": "명시하다"
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "korean": "명시하다",
+      "pronunciation": "myeong-si-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "明示",
+      "distractors": [
+        {
+          "meaning": "共存",
+          "korean": "공존하다"
+        },
+        {
+          "meaning": "引领",
+          "korean": "선도하다"
+        },
+        {
+          "meaning": "排除",
+          "korean": "배제하다"
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "korean": "고수하다",
+      "pronunciation": "go-su-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "坚守",
+      "distractors": [
+        {
+          "meaning": "补充",
+          "korean": "보완하다"
+        },
+        {
+          "meaning": "派生",
+          "korean": "파생하다"
+        },
+        {
+          "meaning": "代表，代言",
+          "korean": "대변하다"
+        }
+      ]
+    }
+  ]
+}

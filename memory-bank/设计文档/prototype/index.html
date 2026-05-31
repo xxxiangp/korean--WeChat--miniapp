@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>韩语背单词 - 首页</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.phone-frame {
+  width: 375px;
+  height: 812px;
+  background: #fff;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 顶部绿色区域 */
+.header {
+  background: linear-gradient(135deg, #A8D5BA 0%, #D4EFE0 100%);
+  padding: 56px 24px 32px;
+  border-radius: 0 0 24px 24px;
+  position: relative;
+}
+
+.header-greeting {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-icon {
+  position: absolute;
+  right: 24px;
+  top: 50px;
+  font-size: 36px;
+  opacity: 0.8;
+}
+
+/* 卡片区 */
+.card-section {
+  padding: 16px 20px 0;
+  margin-top: -16px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-row {
+  display: flex;
+  gap: 12px;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.card-book {
+  border-left: 3px solid #A8D5BA;
+}
+
+.card-progress {
+  border-left: 3px solid #B8C9F2;
+}
+
+.card-clickable {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card-clickable:active {
+  transform: scale(0.97);
+}
+
+.card-title {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.card-value {
+  font-size: 16px;
+  color: #2D2D2D;
+  font-weight: 600;
+}
+
+.card-sub {
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.card-arrow {
+  float: right;
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* 签到区 - 暖黄色调 */
+.checkin-section {
+  padding: 16px 20px 0;
+}
+
+.checkin-card {
+  background: linear-gradient(135deg, #FFF8E8 0%, #FFF2D6 100%);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.checkin-card:active {
+  transform: scale(0.98);
+}
+
+.checkin-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkin-icon {
+  width: 36px;
+  height: 36px;
+  background: #FFD666;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.checkin-text {
+  font-size: 14px;
+  color: #2D2D2D;
+  font-weight: 500;
+}
+
+.checkin-sub {
+  font-size: 12px;
+  color: #B08A00;
+  margin-top: 2px;
+}
+
+.checkin-btn {
+  font-size: 13px;
+  color: #D4920A;
+  font-weight: 600;
+  background: #fff;
+  border: 1px solid #FFD666;
+  border-radius: 16px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+.checkin-btn.done {
+  background: #FFF8E8;
+  border-color: #FFE8A0;
+  color: #999;
+  cursor: default;
+}
+
+/* 主入口按钮 */
+.action-section {
+  padding: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 56px;
+  border-radius: 14px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.btn-learn {
+  background: linear-gradient(135deg, #7BC4A0 0%, #A8D5BA 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(123,196,160,0.3);
+}
+
+.btn-learn:hover {
+  box-shadow: 0 6px 16px rgba(123,196,160,0.4);
+}
+
+.btn-review {
+  background: linear-gradient(135deg, #B8C9F2 0%, #D6E0FA 100%);
+  color: #4A6BC4;
+  box-shadow: 0 4px 12px rgba(184,201,242,0.3);
+}
+
+.btn-review:hover {
+  box-shadow: 0 6px 16px rgba(184,201,242,0.4);
+}
+
+.btn-count {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/* 底部导航 */
+.tab-bar {
+  height: 64px;
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 8px;
+}
+
+.tab-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  padding: 6px 16px;
+}
+
+.tab-icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.tab-label {
+  font-size: 11px;
+  color: #999;
+}
+
+.tab-item.active .tab-icon {
+  color: #7BC4A0;
+}
+
+.tab-item.active .tab-label {
+  color: #7BC4A0;
+  font-weight: 600;
+}
+
+/* 冷启动弹窗 */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.35);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.overlay.show {
+  display: flex;
+}
+
+.modal {
+  width: 280px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 18px;
+}
+
+.modal-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 14px;
+  color: #2D2D2D;
+}
+
+.modal-subtitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: #2D2D2D;
+  margin-bottom: 8px;
+  margin-top: 14px;
+}
+
+.book-option {
+  padding: 10px 12px;
+  border: 1.5px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-info {
+  display: flex;
+  align-items: center;
+}
+
+.book-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.book-option:hover {
+  border-color: #A8D5BA;
+}
+
+.book-option.selected {
+  border-color: #7BC4A0;
+  background: #F8FBF9;
+}
+
+.book-option.selected::after {
+  content: '\2713';
+  color: #7BC4A0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.book-name {
+  font-size: 14px;
+  color: #2D2D2D;
+  font-weight: 500;
+}
+
+.book-desc {
+  font-size: 11px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.count-options {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.count-chip {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  background: #f5f5f5;
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.count-chip.selected {
+  background: #A8D5BA;
+  color: #fff;
+  font-weight: 600;
+}
+
+.modal-btn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7BC4A0 0%, #A8D5BA 100%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: opacity 0.2s;
+}
+
+.modal-btn:hover {
+  opacity: 0.9;
+}
+
+.divider {
+  height: 1px;
+  background: #f0f0f0;
+  margin: 12px 0 0;
+}
+</style>
+</head>
+<body>
+
+<div class="phone-frame">
+  <!-- 顶部 -->
+  <div class="header">
+    <div class="header-greeting">안녕, 오늘도 화이팅～</div>
+    <div class="header-icon">🌿</div>
+  </div>
+
+  <!-- 卡片区 -->
+  <div class="card-section">
+    <div class="card-row">
+      <div class="card card-book card-clickable" onclick="location.href='wordbook.html'">
+        <div class="card-title">当前词书 <span class="card-arrow">›</span></div>
+        <div class="card-value">初级词汇</div>
+        <div class="card-sub">已学 182 / 1018 词</div>
+      </div>
+      <div class="card card-progress">
+        <div class="card-title">今日进度</div>
+        <div class="card-value" style="color:#4A6BC4;">已学 12 词</div>
+        <div class="card-sub">已复习 5 词</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 签到 -->
+  <div class="checkin-section">
+    <div class="checkin-card" id="checkinCard" onclick="doCheckin()">
+      <div class="checkin-left">
+        <div class="checkin-icon">🔥</div>
+        <div>
+          <div class="checkin-text">每日签到</div>
+          <div class="checkin-sub" id="checkinSub">点击签到领积分</div>
+        </div>
+      </div>
+      <div class="checkin-btn" id="checkinBtn">签到</div>
+    </div>
+  </div>
+
+  <!-- 主按钮 -->
+  <div class="action-section">
+    <button class="btn-primary btn-learn" onclick="startLearn()">
+      背单词 <span class="btn-count">· 10词</span>
+    </button>
+    <button class="btn-primary btn-review" onclick="location.href='review.html'">
+      复习 <span class="btn-count">· 12词</span>
+    </button>
+  </div>
+
+  <!-- 底部Tab -->
+  <div class="tab-bar">
+    <div class="tab-item active">
+      <span class="tab-icon">📖</span>
+      <span class="tab-label">单词</span>
+    </div>
+    <div class="tab-item" onclick="location.href='stats.html'">
+      <span class="tab-icon">📊</span>
+      <span class="tab-label">统计</span>
+    </div>
+    <div class="tab-item" onclick="location.href='profile.html'">
+      <span class="tab-icon">👤</span>
+      <span class="tab-label">我的</span>
+    </div>
+  </div>
+
+  <!-- 冷启动弹窗 -->
+  <div class="overlay" id="onboardingOverlay">
+    <div class="modal">
+      <div class="modal-title">选择你的词书</div>
+
+      <div class="book-option selected" onclick="selectBook(this)">
+        <div class="book-info">
+          <span class="book-dot" style="background:#7BC4A0;"></span>
+          <div>
+            <div class="book-name">初级词汇</div>
+            <div class="book-desc">日常生存韩语 · 1018词</div>
+          </div>
+        </div>
+      </div>
+      <div class="book-option" onclick="selectBook(this)">
+        <div class="book-info">
+          <span class="book-dot" style="background:#7BA3E0;"></span>
+          <div>
+            <div class="book-name">中级词汇</div>
+            <div class="book-desc">社交与日常表达 · 336词</div>
+          </div>
+        </div>
+      </div>
+      <div class="book-option" onclick="selectBook(this)">
+        <div class="book-info">
+          <span class="book-dot" style="background:#B07BDB;"></span>
+          <div>
+            <div class="book-name">高级词汇</div>
+            <div class="book-desc">学术与抽象表达 · 270词</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="modal-subtitle">每组背多少词？</div>
+      <div class="count-options">
+        <div class="count-chip" onclick="selectCount(this)">5词</div>
+        <div class="count-chip selected" onclick="selectCount(this)">10词</div>
+        <div class="count-chip" onclick="selectCount(this)">15词</div>
+      </div>
+
+      <button class="modal-btn" onclick="closeOnboarding()">开始学习</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// 点击背单词：首次弹出选词书弹窗，非首次直接进入
+function startLearn() {
+  const isFirstVisit = !localStorage.getItem('onboarded');
+  if (isFirstVisit) {
+    document.getElementById('onboardingOverlay').classList.add('show');
+  } else {
+    location.href = 'learn.html';
+  }
+}
+
+// 点击弹窗外区域关闭（默认选初级+10词）
+document.getElementById('onboardingOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOnboarding();
+  }
+});
+
+function closeOnboarding() {
+  document.getElementById('onboardingOverlay').classList.remove('show');
+  localStorage.setItem('onboarded', 'true');
+  location.href = 'learn.html';
+}
+
+function selectBook(el) {
+  document.querySelectorAll('.book-option').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+function selectCount(el) {
+  document.querySelectorAll('.count-chip').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+// 签到交互
+let checkedIn = localStorage.getItem('checkedIn_today');
+if (checkedIn) {
+  showCheckedIn();
+}
+
+function doCheckin() {
+  if (localStorage.getItem('checkedIn_today')) return;
+  const points = Math.floor(Math.random() * 19) + 10; // 10~28
+  localStorage.setItem('checkedIn_today', 'true');
+  showCheckedIn(points);
+}
+
+function showCheckedIn(points) {
+  const btn = document.getElementById('checkinBtn');
+  const sub = document.getElementById('checkinSub');
+  btn.textContent = '已签到';
+  btn.classList.add('done');
+  sub.textContent = '已签到 7 天' + (points ? '  +' + points + '积分' : '');
+}
+</script>
+
+</body>
+</html>

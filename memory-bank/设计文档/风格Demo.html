@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>韩语背单词 - 视觉风格Demo</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+h1.page-title {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.phone {
+  width: 375px;
+  height: 720px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+  position: relative;
+  background: #FAFAF8;
+}
+
+.phone::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 28px;
+  background: #1A1A1A;
+  border-radius: 0 0 20px 20px;
+  z-index: 10;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  padding: 50px 24px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== 首页样式 ===== */
+.home .greeting {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+.home .greeting-main {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-top: 4px;
+}
+.home .streak-card {
+  margin-top: 28px;
+  background: linear-gradient(135deg, #A8C4D4 0%, #8BB5C9 100%);
+  border-radius: 20px;
+  padding: 24px;
+  color: white;
+}
+.home .streak-number {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+}
+.home .streak-label {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+.home .streak-sub {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
+.home .today-card {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.home .today-title {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 16px;
+}
+.home .today-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .today-item {
+  text-align: center;
+}
+.home .today-num {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1A1A1A;
+}
+.home .today-label {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 4px;
+}
+
+.home .start-btn {
+  margin-top: auto;
+  margin-bottom: 20px;
+  background: #1A1A1A;
+  color: #FAFAF8;
+  border: none;
+  border-radius: 16px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+/* ===== 学习页样式 ===== */
+.learn {
+  background: #FAFAF8;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.learn .progress-bar {
+  position: absolute;
+  top: 50px;
+  left: 24px;
+  right: 24px;
+  height: 4px;
+  background: #eee;
+  border-radius: 2px;
+}
+.learn .progress-fill {
+  width: 35%;
+  height: 100%;
+  background: #A8C4D4;
+  border-radius: 2px;
+}
+.learn .word-korean {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-bottom: 12px;
+}
+.learn .word-pronunciation {
+  font-size: 16px;
+  color: #A8C4D4;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.learn .word-pos {
+  font-size: 13px;
+  color: #ccc;
+  background: #f5f5f3;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.learn .word-meaning {
+  font-size: 22px;
+  color: #1A1A1A;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: #f5f5f3;
+}
+.learn .word-meaning.show {
+  opacity: 1;
+}
+.learn .tap-hint {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 12px;
+}
+
+.learn .feedback-row {
+  position: absolute;
+  bottom: 60px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  gap: 12px;
+}
+.learn .fb-btn {
+  flex: 1;
+  padding: 16px 0;
+  border: none;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.learn .fb-btn.forget {
+  background: #F8E8E8;
+  color: #C87070;
+}
+.learn .fb-btn.fuzzy {
+  background: #FFF3E0;
+  color: #C8A060;
+}
+.learn .fb-btn.know {
+  background: #E8F5E8;
+  color: #70A870;
+}
+
+/* ===== 结果页样式 ===== */
+.result {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.result .done-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #B8D4A8, #90C090);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+.result .done-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-bottom: 8px;
+}
+.result .done-sub {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 40px;
+}
+.result .stats-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.result .stat-item {
+  text-align: center;
+}
+.result .stat-num {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A1A1A;
+}
+.result .stat-label {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 4px;
+}
+.result .share-btn {
+  background: #1A1A1A;
+  color: #FAFAF8;
+  border: none;
+  border-radius: 14px;
+  padding: 16px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.result .back-btn {
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ===== Tab Bar ===== */
+.tab-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: #FAFAF8;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.tab-item {
+  text-align: center;
+  font-size: 11px;
+  color: #ccc;
+}
+.tab-item.active {
+  color: #1A1A1A;
+}
+.tab-icon {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+/* ===== 标注 ===== */
+.label {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.phone-wrap {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+/* ===== 交互 ===== */
+.learn .word-meaning:hover {
+  opacity: 1 !important;
+}
+</style>
+</head>
+<body>
+
+<h1 class="page-title">韩语背单词小程序 · 视觉风格 Demo（浏览器预览）</h1>
+
+<!-- 首页 -->
+<div class="phone-wrap">
+<div class="phone">
+  <div class="screen home">
+    <p class="greeting">오늘도 화이팅 ☀️</p>
+    <p class="greeting-main">今天背 15 个词</p>
+
+    <div class="streak-card">
+      <div class="streak-number">7</div>
+      <div class="streak-label">天连续学习</div>
+      <div class="streak-sub">超过 82% 的学习者</div>
+    </div>
+
+    <div class="today-card">
+      <div class="today-title">今日任务</div>
+      <div class="today-row">
+        <div class="today-item">
+          <div class="today-num">10</div>
+          <div class="today-label">新词</div>
+        </div>
+        <div class="today-item">
+          <div class="today-num">5</div>
+          <div class="today-label">复习</div>
+        </div>
+        <div class="today-item">
+          <div class="today-num">3分钟</div>
+          <div class="today-label">预计用时</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="start-btn">开始学习</button>
+
+    <div class="tab-bar">
+      <div class="tab-item active"><div class="tab-icon">◉</div>学习</div>
+      <div class="tab-item"><div class="tab-icon">◎</div>词库</div>
+      <div class="tab-item"><div class="tab-icon">◎</div>我的</div>
+    </div>
+  </div>
+</div>
+<div class="label">首页 · Home</div>
+</div>
+
+<!-- 学习页 -->
+<div class="phone-wrap">
+<div class="phone">
+  <div class="screen learn">
+    <div class="progress-bar"><div class="progress-fill"></div></div>
+
+    <div>
+      <div class="word-korean">사람</div>
+      <div class="word-pronunciation">sa-ram</div>
+      <div class="word-pos">명사 · 名词</div>
+      <div class="word-meaning show">人</div>
+      <div class="tap-hint">点击卡片翻转释义</div>
+    </div>
+
+    <div class="feedback-row">
+      <button class="fb-btn forget">忘了</button>
+      <button class="fb-btn fuzzy">模糊</button>
+      <button class="fb-btn know">认识</button>
+    </div>
+  </div>
+</div>
+<div class="label">学习页 · Learn</div>
+</div>
+
+<!-- 完成页 -->
+<div class="phone-wrap">
+<div class="phone">
+  <div class="screen result">
+    <div class="done-icon">✓</div>
+    <div class="done-title">오늘도 수고했어요!</div>
+    <div class="done-sub">今天也辛苦了！</div>
+
+    <div class="stats-row">
+      <div class="stat-item">
+        <div class="stat-num">15</div>
+        <div class="stat-label">学习</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">12</div>
+        <div class="stat-label">记住</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">80%</div>
+        <div class="stat-label">正确率</div>
+      </div>
+    </div>
+
+    <button class="share-btn">分享打卡</button>
+    <button class="back-btn">返回首页</button>
+  </div>
+</div>
+<div class="label">完成页 · Done</div>
+</div>
+
+<script>
+document.querySelectorAll('.word-meaning').forEach(el => {
+  el.style.opacity = '0';
+  el.addEventListener('click', () => {
+    el.style.opacity = el.style.opacity === '0' ? '1' : '0';
+  });
+});
+</script>
+</body>
+</html>
