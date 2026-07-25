@@ -56,6 +56,7 @@
 │   │   ├── TOPIK初级词源审计.md  # TOPIK 初级外部来源、覆盖差异与补词审计
 │   │   ├── TOPIK12官方依据与编写记录.md # TOPIK 1/2级官方依据、公开词表来源与拆分记录
 │   │   ├── TOPIK12源词表清洗核对报告.md # TOPIK 1/2级源词表清洗、去重与待复核报告
+│   │   ├── TOPIK初级统一词书口径说明.md # TOPIK 初级统一成一本词书的产品口径
 │   │   └── 背诵机制设计.md       # SRS 算法理论详述（已合入 PRD）
 │   ├── 调研文档/
 │   │   ├── 竞品调研报告.md       # 4 款竞品实际分析 + 核心结论
@@ -80,6 +81,7 @@
 │   │   ├── topik_level2_source_pool.json # TOPIK 2级源词表（非正式词书）
 │   │   ├── topik_level1_cleaned_source_pool.json # TOPIK 1级清洗源词表（非正式词书）
 │   │   ├── topik_level2_cleaned_source_pool.json # TOPIK 2级清洗源词表（非正式词书）
+│   │   ├── topik_beginner_cleaned_source_pool.json # TOPIK 初级统一清洗源词表（1786词，非正式词书）
 │   │   ├── topik_i_unassigned_source_words.json # TOPIK I 未定级源词（待人工判断）
 │   │   ├── intermediate.json    # 中级词汇（社交/职场表达，901词）
 │   │   ├── advanced.json        # 高级词汇（学术/抽象表达，759词）
