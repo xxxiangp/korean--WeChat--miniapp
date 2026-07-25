@@ -48,6 +48,7 @@
 │   │   ├── TOPIK初级词书说明.md  # TOPIK 初级核心词书的定位、来源依据与校验要求
 │   │   ├── TOPIK初级词源审计.md  # TOPIK 初级外部来源、覆盖差异与补词审计
 │   │   ├── TOPIK12官方依据与编写记录.md # TOPIK 1/2级官方依据、公开词表来源与拆分记录
+│   │   ├── TOPIK12源词表清洗核对报告.md # TOPIK 1/2级源词表清洗、去重与待复核报告
 │   │   ├── 全局文案池.md         # 空状态/错误/鼓励/引导文案统一管理
 │   │   └── 云开发数据规范.md     # 云函数协议、集合字段、离线队列
 │   ├── 调研文档/
@@ -71,6 +72,9 @@
 │   │   ├── topik_i_source_pool.json # TOPIK I 外部公开源词池（非正式词书）
 │   │   ├── topik_level1_source_pool.json # TOPIK 1级源词表（非正式词书）
 │   │   ├── topik_level2_source_pool.json # TOPIK 2级源词表（非正式词书）
+│   │   ├── topik_level1_cleaned_source_pool.json # TOPIK 1级清洗源词表（非正式词书）
+│   │   ├── topik_level2_cleaned_source_pool.json # TOPIK 2级清洗源词表（非正式词书）
+│   │   ├── topik_i_unassigned_source_words.json # TOPIK I 未定级源词（待人工判断）
 │   │   ├── intermediate.json    # 中级词汇（社交/职场表达，901词）
 │   │   ├── advanced.json        # 高级词汇（学术/抽象表达，759词）
 │   │   ├── beginner_quiz.json   # 初级四选一干扰项数据
@@ -84,6 +88,7 @@
 │       ├── generate.py          # 初始词汇数据生成
 │       ├── generate_distractors.py # 干扰选项批量生成
 │       ├── build_topik12_source_pool.py # TOPIK 1/2级源词表构建
+│       ├── clean_topik12_source_pool.py # TOPIK 1/2级源词表清洗核对
 │       ├── generate_report.py   # 报告生成工具
 │       ├── verify_dataset.py    # 数据全量校验（结构 / 去重 / 音频 / 干扰项）
 │       ├── verify_pronunciation.py # 发音规则嫌疑扫描
