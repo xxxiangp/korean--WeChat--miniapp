@@ -138,3 +138,5 @@ status: active
 - 2026-07-25 — 新增 TOPIK 初级核心词书 v1：`memory-bank/数据文件/topik_beginner_core.json`，共 800 词，全部引用 `beginner.json` 的 1-800 核心段；新增 `TOPIK初级词书说明.md` 记录来源依据、边界与校验规则；结构校验 0 错。
 - 2026-07-25 — TOPIK 初级词书升级为 v2：覆盖 TOPIK I 1/2 级，共 1500 词（1급核心 800 + 2급进阶 482 + 2급补充 218）；补充词从现有 `intermediate.json` 中筛选日常、公共服务、学习生活、基础情绪与表达词，排除政治/法律/投资/专业学科/追星社媒等偏 TOPIK II 或专题内容。
 - 2026-07-25 — TOPIK 初级词书补齐为主词库同规格交付：新增 `topik_beginner.json`、`topik_beginner_quiz.json`、`TOPIK初级词汇.docx`，并同步 `miniprogram/data/topik_beginner*.json` 与 `*_v2.js`；quiz 1500 条全部沿用既有审核干扰项，无兜底生成。
+- 2026-07-25 — TOPIK 初级词书状态更正：当前 1500 词降级为“候选版 / 待外部来源交叉审计”，新增词库来源真实性红线；建立 `topik_i_source_audit.json` 与 `TOPIK初级词源审计.md`，抓取 Tammy Korean 1669 词、KoreanTopik 1791 去重词，外部词池共 2171 词，当前候选命中 1003 词、未命中 497 词、外部缺口 1168 词。
+- 2026-07-25 — TOPIK 初级候选词书 v2.1：补入外部来源支持且项目主词库已有的 94 词，候选词书 1500 → 1594；重新生成 JSON、quiz、Word、小程序数据与外部审计，当前外部词池 2171 词，候选命中 1097 词、未命中 497 词、剩余外部缺口 1074 词（均需新增词条与人工复核）。

@@ -48,6 +48,7 @@ def main():
             {'file': 'memory-bank/产品文档/prd阅读版.md', 'purpose': '阅读友好版 PRD（背景、核心功能、需求详述表格）'},
             {'file': 'memory-bank/产品文档/背诵机制设计.md', 'purpose': 'SRS 算法理论详述（已合入 PRD）'},
             {'file': 'memory-bank/产品文档/TOPIK初级词书说明.md', 'purpose': 'TOPIK 初级核心词书的定位、来源依据与校验要求'},
+            {'file': 'memory-bank/产品文档/TOPIK初级词源审计.md', 'purpose': 'TOPIK 初级外部来源、覆盖差异与补词审计'},
         ],
         '调研文档': [
             {'file': 'memory-bank/调研文档/', 'purpose': '竞品调研统一目录（报告 + 截图素材）', 'is_dir': True},

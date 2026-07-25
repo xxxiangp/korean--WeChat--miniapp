@@ -1,8 +1,8 @@
 module.exports = {
   "level": "topik_beginner",
-  "level_cn": "TOPIK初级（1-2级）",
-  "description": "面向 TOPIK I（1-2级）备考的初级核心词汇，覆盖自我介绍、家庭、学校、饮食、交通、购物、时间、天气、日常生活等初级考试高频场景。",
-  "total": 1500,
+  "level_cn": "TOPIK初级（1-2级）候选版",
+  "description": "面向 TOPIK I（1-2级）备考的候选词书。当前 1594 词由项目现有词库派生，其中 94 词为外部公开 TOPIK I 来源审计后从项目主词库补入；已完成内部释义/干扰项一致性校验，但尚未完成全部外部缺词的新词录入，不得作为最终考点词表发布。",
+  "total": 1594,
   "words": [
     {
       "id": 1,
@@ -12003,6 +12003,758 @@ module.exports = {
       "pos": "부사",
       "pos_cn": "副词",
       "meaning": "很长时间"
+    },
+    {
+      "id": 1501,
+      "korean": "가구",
+      "pronunciation": "ga-gu",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "家具"
+    },
+    {
+      "id": 1502,
+      "korean": "결혼식",
+      "pronunciation": "gyeol-hon-sik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "婚礼"
+    },
+    {
+      "id": 1503,
+      "korean": "경기",
+      "pronunciation": "gyeong-gi",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "经济景气；经济状况"
+    },
+    {
+      "id": 1504,
+      "korean": "고장",
+      "pronunciation": "go-jang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "故障"
+    },
+    {
+      "id": 1505,
+      "korean": "공무원",
+      "pronunciation": "gong-mu-won",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "公务员"
+    },
+    {
+      "id": 1506,
+      "korean": "광고",
+      "pronunciation": "gwang-go",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "广告"
+    },
+    {
+      "id": 1507,
+      "korean": "교수",
+      "pronunciation": "gyo-su",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "教授"
+    },
+    {
+      "id": 1508,
+      "korean": "국제",
+      "pronunciation": "guk-jje",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "国际"
+    },
+    {
+      "id": 1509,
+      "korean": "그동안",
+      "pronunciation": "geu-dong-an",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "这期间；那段时间"
+    },
+    {
+      "id": 1510,
+      "korean": "깜짝",
+      "pronunciation": "kkam-jjak",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "吓一跳；忽然"
+    },
+    {
+      "id": 1511,
+      "korean": "내과",
+      "pronunciation": "nae-kkwa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "内科"
+    },
+    {
+      "id": 1512,
+      "korean": "다이어트",
+      "pronunciation": "da-i-eo-teu",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "减肥；节食"
+    },
+    {
+      "id": 1513,
+      "korean": "대사관",
+      "pronunciation": "dae-sa-gwan",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "大使馆"
+    },
+    {
+      "id": 1514,
+      "korean": "무척",
+      "pronunciation": "mu-cheok",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "非常；十分"
+    },
+    {
+      "id": 1515,
+      "korean": "문화",
+      "pronunciation": "mun-hwa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "文化"
+    },
+    {
+      "id": 1516,
+      "korean": "바르다",
+      "pronunciation": "ba-reu-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "涂抹；剔（鱼骨）"
+    },
+    {
+      "id": 1517,
+      "korean": "박물관",
+      "pronunciation": "bang-mul-gwan",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "博物馆"
+    },
+    {
+      "id": 1518,
+      "korean": "배우",
+      "pronunciation": "bae-u",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "演员"
+    },
+    {
+      "id": 1519,
+      "korean": "부지런하다",
+      "pronunciation": "bu-ji-reon-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "勤劳"
+    },
+    {
+      "id": 1520,
+      "korean": "사고",
+      "pronunciation": "sa-go",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "事故；思考"
+    },
+    {
+      "id": 1521,
+      "korean": "상처",
+      "pronunciation": "sang-cheo",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "伤口；伤痕"
+    },
+    {
+      "id": 1522,
+      "korean": "서류",
+      "pronunciation": "seo-ryu",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "文件"
+    },
+    {
+      "id": 1523,
+      "korean": "설렁탕",
+      "pronunciation": "seol-reong-tang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "雪浓汤"
+    },
+    {
+      "id": 1524,
+      "korean": "센터",
+      "pronunciation": "sen-teo",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "C 位"
+    },
+    {
+      "id": 1525,
+      "korean": "소설",
+      "pronunciation": "so-seol",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "小说"
+    },
+    {
+      "id": 1526,
+      "korean": "시",
+      "pronunciation": "si",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "诗"
+    },
+    {
+      "id": 1527,
+      "korean": "시민",
+      "pronunciation": "si-min",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "市民"
+    },
+    {
+      "id": 1528,
+      "korean": "아파트",
+      "pronunciation": "a-pa-teu",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "公寓楼"
+    },
+    {
+      "id": 1529,
+      "korean": "양식",
+      "pronunciation": "yang-sik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "西餐"
+    },
+    {
+      "id": 1530,
+      "korean": "역사",
+      "pronunciation": "yeok-ssa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "历史"
+    },
+    {
+      "id": 1531,
+      "korean": "우선",
+      "pronunciation": "u-seon",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "首先"
+    },
+    {
+      "id": 1532,
+      "korean": "월급",
+      "pronunciation": "wol-geup",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "月薪"
+    },
+    {
+      "id": 1533,
+      "korean": "유학",
+      "pronunciation": "yu-hak",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "留学"
+    },
+    {
+      "id": 1534,
+      "korean": "유학생",
+      "pronunciation": "yu-hak-ssaeng",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "留学生"
+    },
+    {
+      "id": 1535,
+      "korean": "이사",
+      "pronunciation": "i-sa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "搬家"
+    },
+    {
+      "id": 1536,
+      "korean": "일식",
+      "pronunciation": "il-sik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "日餐"
+    },
+    {
+      "id": 1537,
+      "korean": "전공",
+      "pronunciation": "jeon-gong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "专业"
+    },
+    {
+      "id": 1538,
+      "korean": "전혀",
+      "pronunciation": "jeon-hyeo",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "完全（不）"
+    },
+    {
+      "id": 1539,
+      "korean": "지각",
+      "pronunciation": "ji-gak",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "迟到"
+    },
+    {
+      "id": 1540,
+      "korean": "지방",
+      "pronunciation": "ji-bang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "脂肪"
+    },
+    {
+      "id": 1541,
+      "korean": "출장",
+      "pronunciation": "chul-jang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "出差"
+    },
+    {
+      "id": 1542,
+      "korean": "치과",
+      "pronunciation": "chi-kkwa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "牙科"
+    },
+    {
+      "id": 1543,
+      "korean": "친하다",
+      "pronunciation": "chin-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "亲近；要好"
+    },
+    {
+      "id": 1544,
+      "korean": "푹",
+      "pronunciation": "puk",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "充分地（睡）；陷入"
+    },
+    {
+      "id": 1545,
+      "korean": "학원",
+      "pronunciation": "ha-gwon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "补习班"
+    },
+    {
+      "id": 1546,
+      "korean": "한식",
+      "pronunciation": "han-sik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "韩餐"
+    },
+    {
+      "id": 1547,
+      "korean": "화내다",
+      "pronunciation": "hwa-nae-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "生气；发火"
+    },
+    {
+      "id": 1548,
+      "korean": "회의",
+      "pronunciation": "hoe-ui",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "会议"
+    },
+    {
+      "id": 1549,
+      "korean": "감동하다",
+      "pronunciation": "gam-dong-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "感动"
+    },
+    {
+      "id": 1550,
+      "korean": "감자탕",
+      "pronunciation": "gam-ja-tang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "土豆排骨汤"
+    },
+    {
+      "id": 1551,
+      "korean": "게으르다",
+      "pronunciation": "ge-eu-reu-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "懒"
+    },
+    {
+      "id": 1552,
+      "korean": "공연",
+      "pronunciation": "gong-yeon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "演出"
+    },
+    {
+      "id": 1553,
+      "korean": "과학",
+      "pronunciation": "gwa-hak",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "科学"
+    },
+    {
+      "id": 1554,
+      "korean": "관광객",
+      "pronunciation": "gwan-gwang-gaek",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "游客"
+    },
+    {
+      "id": 1555,
+      "korean": "교육",
+      "pronunciation": "gyo-yuk",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "教育"
+    },
+    {
+      "id": 1556,
+      "korean": "교체",
+      "pronunciation": "gyo-che",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "更换"
+    },
+    {
+      "id": 1557,
+      "korean": "교통비",
+      "pronunciation": "gyo-tong-bi",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "交通费"
+    },
+    {
+      "id": 1558,
+      "korean": "긴장",
+      "pronunciation": "gin-jang",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "紧张"
+    },
+    {
+      "id": 1559,
+      "korean": "깊이",
+      "pronunciation": "gi-phi",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "深深地"
+    },
+    {
+      "id": 1560,
+      "korean": "끓다",
+      "pronunciation": "kkeul-ta",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "沸腾；煮开"
+    },
+    {
+      "id": 1561,
+      "korean": "노인",
+      "pronunciation": "no-in",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "老人"
+    },
+    {
+      "id": 1562,
+      "korean": "동아리",
+      "pronunciation": "dong-a-ri",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "社团"
+    },
+    {
+      "id": 1563,
+      "korean": "무역",
+      "pronunciation": "mu-yeok",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "贸易"
+    },
+    {
+      "id": 1564,
+      "korean": "무용",
+      "pronunciation": "mu-yong",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "舞蹈"
+    },
+    {
+      "id": 1565,
+      "korean": "미술",
+      "pronunciation": "mi-sul",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "美术"
+    },
+    {
+      "id": 1566,
+      "korean": "미역국",
+      "pronunciation": "mi-yeok-kkuk",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "海带汤"
+    },
+    {
+      "id": 1567,
+      "korean": "발표",
+      "pronunciation": "bal-pyo",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "发表；公布"
+    },
+    {
+      "id": 1568,
+      "korean": "복습",
+      "pronunciation": "bok-sseup",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "复习"
+    },
+    {
+      "id": 1569,
+      "korean": "부동산",
+      "pronunciation": "bu-dong-san",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "房地产"
+    },
+    {
+      "id": 1570,
+      "korean": "붓다",
+      "pronunciation": "but-tta",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "肿胀"
+    },
+    {
+      "id": 1571,
+      "korean": "수학",
+      "pronunciation": "su-hak",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "数学"
+    },
+    {
+      "id": 1572,
+      "korean": "순두부찌개",
+      "pronunciation": "sun-du-bu-jji-gae",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "嫩豆腐汤"
+    },
+    {
+      "id": 1573,
+      "korean": "술집",
+      "pronunciation": "sul-jjip",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "酒馆"
+    },
+    {
+      "id": 1574,
+      "korean": "신혼여행",
+      "pronunciation": "sin-hon-yeo-haeng",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "蜜月旅行"
+    },
+    {
+      "id": 1575,
+      "korean": "연극",
+      "pronunciation": "yeon-geuk",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "话剧"
+    },
+    {
+      "id": 1576,
+      "korean": "예매",
+      "pronunciation": "ye-mae",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "预购（票）"
+    },
+    {
+      "id": 1577,
+      "korean": "예습",
+      "pronunciation": "ye-seup",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "预习"
+    },
+    {
+      "id": 1578,
+      "korean": "오리",
+      "pronunciation": "o-ri",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "鸭子"
+    },
+    {
+      "id": 1579,
+      "korean": "월세",
+      "pronunciation": "wol-sse",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "月租"
+    },
+    {
+      "id": 1580,
+      "korean": "익다",
+      "pronunciation": "ik-tta",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "熟；成熟"
+    },
+    {
+      "id": 1581,
+      "korean": "인구",
+      "pronunciation": "in-gu",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "人口"
+    },
+    {
+      "id": 1582,
+      "korean": "자꾸",
+      "pronunciation": "ja-kku",
+      "pos": "부사",
+      "pos_cn": "副词",
+      "meaning": "反复；老是"
+    },
+    {
+      "id": 1583,
+      "korean": "전기",
+      "pronunciation": "jeon-gi",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "传记"
+    },
+    {
+      "id": 1584,
+      "korean": "절",
+      "pronunciation": "jeol",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "寺庙"
+    },
+    {
+      "id": 1585,
+      "korean": "정형외과",
+      "pronunciation": "jeong-hyeong-oe-kkwa",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "骨科"
+    },
+    {
+      "id": 1586,
+      "korean": "조사하다",
+      "pronunciation": "jo-sa-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "调查"
+    },
+    {
+      "id": 1587,
+      "korean": "주문",
+      "pronunciation": "ju-mun",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "订单；点单"
+    },
+    {
+      "id": 1588,
+      "korean": "중식",
+      "pronunciation": "jung-sik",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "中餐"
+    },
+    {
+      "id": 1589,
+      "korean": "증세",
+      "pronunciation": "jeung-se",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "加税；增税"
+    },
+    {
+      "id": 1590,
+      "korean": "진하다",
+      "pronunciation": "jin-ha-da",
+      "pos": "형용사",
+      "pos_cn": "形容词",
+      "meaning": "（味道、颜色）浓厚"
+    },
+    {
+      "id": 1591,
+      "korean": "책임",
+      "pronunciation": "chae-gim",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "责任"
+    },
+    {
+      "id": 1592,
+      "korean": "청년",
+      "pronunciation": "cheong-nyeon",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "青年"
+    },
+    {
+      "id": 1593,
+      "korean": "촬영하다",
+      "pronunciation": "chwal-yeong-ha-da",
+      "pos": "동사",
+      "pos_cn": "动词",
+      "meaning": "拍摄"
+    },
+    {
+      "id": 1594,
+      "korean": "한옥",
+      "pronunciation": "ha-nok",
+      "pos": "명사",
+      "pos_cn": "名词",
+      "meaning": "韩屋"
     }
   ]
 }
