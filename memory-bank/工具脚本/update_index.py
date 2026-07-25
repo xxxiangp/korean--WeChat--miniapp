@@ -52,6 +52,7 @@ def main():
             {'file': 'memory-bank/产品文档/TOPIK12官方依据与编写记录.md', 'purpose': 'TOPIK 1/2级官方依据、公开词表来源与拆分记录'},
             {'file': 'memory-bank/产品文档/TOPIK12源词表清洗核对报告.md', 'purpose': 'TOPIK 1/2级源词表清洗、去重与待复核报告'},
             {'file': 'memory-bank/产品文档/TOPIK初级统一词书口径说明.md', 'purpose': 'TOPIK 初级统一成一本词书的产品口径'},
+            {'file': 'memory-bank/产品文档/TOPIK初级释义与测验选项核对报告.md', 'purpose': 'TOPIK 初级已有覆盖词释义与 quiz 冲突核对'},
         ],
         '调研文档': [
             {'file': 'memory-bank/调研文档/', 'purpose': '竞品调研统一目录（报告 + 截图素材）', 'is_dir': True},

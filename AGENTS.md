@@ -57,6 +57,7 @@
 │   │   ├── TOPIK12官方依据与编写记录.md # TOPIK 1/2级官方依据、公开词表来源与拆分记录
 │   │   ├── TOPIK12源词表清洗核对报告.md # TOPIK 1/2级源词表清洗、去重与待复核报告
 │   │   ├── TOPIK初级统一词书口径说明.md # TOPIK 初级统一成一本词书的产品口径
+│   │   ├── TOPIK初级释义与测验选项核对报告.md # TOPIK 初级已有覆盖词释义与 quiz 冲突核对
 │   │   └── 背诵机制设计.md       # SRS 算法理论详述（已合入 PRD）
 │   ├── 调研文档/
 │   │   ├── 竞品调研报告.md       # 4 款竞品实际分析 + 核心结论
@@ -82,6 +83,7 @@
 │   │   ├── topik_level1_cleaned_source_pool.json # TOPIK 1级清洗源词表（非正式词书）
 │   │   ├── topik_level2_cleaned_source_pool.json # TOPIK 2级清洗源词表（非正式词书）
 │   │   ├── topik_beginner_cleaned_source_pool.json # TOPIK 初级统一清洗源词表（1786词，非正式词书）
+│   │   ├── topik_beginner_meaning_quiz_audit.json # TOPIK 初级释义与 quiz 核对结果
 │   │   ├── topik_i_unassigned_source_words.json # TOPIK I 未定级源词（待人工判断）
 │   │   ├── intermediate.json    # 中级词汇（社交/职场表达，901词）
 │   │   ├── advanced.json        # 高级词汇（学术/抽象表达，759词）
@@ -97,6 +99,7 @@
 │       ├── generate_distractors.py # 干扰选项批量生成
 │       ├── build_topik12_source_pool.py # TOPIK 1/2级源词表构建
 │       ├── clean_topik12_source_pool.py # TOPIK 1/2级源词表清洗核对
+│       ├── verify_topik_beginner_meaning_quiz.py # TOPIK 初级释义与测验选项核对
 │       ├── generate_report.py   # 报告生成工具
 │       ├── sync_miniprogram_data.py # 同步源词库到小程序 JSON 与 *_v2.js
 │       └── update_index.py      # 文档索引自动更新

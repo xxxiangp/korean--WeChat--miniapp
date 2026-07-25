@@ -144,3 +144,4 @@ status: active
 - 2026-07-26 — TOPIK 1级/2级源词表完成第一轮清洗核对：新增 `clean_topik12_source_pool.py`、`topik_level1_cleaned_source_pool.json`（719词）、`topik_level2_cleaned_source_pool.json`（1067词）、`topik_i_unassigned_source_words.json`（397词）和 `TOPIK12源词表清洗核对报告.md`；程序校验 1/2级交叉重复 0、级内重复 0、结构错误 0；2级有 12 个单来源词待人工复核，未定级池 397 词待判断是否补入。
 - 2026-07-26 — TOPIK 初级产品口径确认：用户明确不需要拆成 1级/2级，统一称为 TOPIK 初级；新增 `topik_beginner_cleaned_source_pool.json`（1786词）与 `TOPIK初级统一词书口径说明.md`，后续正式交付只生成一本 `topik_beginner.json`，内部保留来源分级字段仅用于审计。
 - 2026-07-26 — TOPIK 初级统一源词表复核通过：`topik_beginner_cleaned_source_pool.json` 1786 词，ID 连续、韩语去重 0 重复、level1 来源 719 + level2 来源 1067、现有覆盖 972、待新编 814、来源置信度 high 1237 / medium 537 / needs_manual_review 12，未定级池 397 与统一源词表无重叠，中文编码检查通过。
+- 2026-07-26 — TOPIK 初级释义与测验选项核对：新增 `verify_topik_beginner_meaning_quiz.py`、`topik_beginner_meaning_quiz_audit.json` 和 `TOPIK初级释义与测验选项核对报告.md`；对现有项目词库覆盖的 972 词逐条核对韩语拼写、项目正确释义、quiz 正确项与 3 个干扰项，错误 0、警告 0；814 个待新编词尚无正式释义/发音/quiz，明确标记为不可假装已核对。
