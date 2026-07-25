@@ -45,15 +45,19 @@ def main():
         ],
         '产品文档': [
             {'file': 'memory-bank/产品文档/prd初稿.md', 'purpose': '产品需求文档（功能架构、交互设计、数据结构）'},
+            {'file': 'memory-bank/产品文档/prd阅读版.md', 'purpose': '阅读友好版 PRD（背景、核心功能、需求详述表格）'},
             {'file': 'memory-bank/产品文档/背诵机制设计.md', 'purpose': 'SRS 算法理论详述（已合入 PRD）'},
+            {'file': 'memory-bank/产品文档/TOPIK初级词书说明.md', 'purpose': 'TOPIK 初级核心词书的定位、来源依据与校验要求'},
         ],
         '调研文档': [
             {'file': 'memory-bank/调研文档/', 'purpose': '竞品调研统一目录（报告 + 截图素材）', 'is_dir': True},
         ],
         '设计文档': [
             {'file': 'memory-bank/设计文档/figma原型prompt.md', 'purpose': '逐页 Figma AI 生成 prompt + 设计规范'},
+            {'file': 'memory-bank/设计文档/前端页面设计方案.md', 'purpose': '小程序前端视觉、交互、字号、颜色与页面逻辑规范'},
             {'file': 'memory-bank/设计文档/风格Demo.html', 'purpose': '早期视觉风格 Demo（已归档）'},
             {'file': 'memory-bank/设计文档/prototype/', 'purpose': '原型 HTML Demo', 'is_dir': True},
+            {'file': 'memory-bank/设计文档/宣传素材/', 'purpose': '小红书等平台宣传图与发布文案素材', 'is_dir': True},
         ],
         '数据文件': [
             {'file': 'memory-bank/数据文件/', 'purpose': '词汇 JSON + quiz + docx + 音频素材', 'is_dir': True},
@@ -72,6 +76,7 @@ def main():
 
     # 统计词汇数
     word_counts = {}
+    special_word_counts = {}
     total = 0
     for level in ['beginner', 'intermediate', 'advanced']:
         path = os.path.join(PROJECT_ROOT, 'memory-bank', '数据文件', f'{level}.json')
@@ -79,6 +84,10 @@ def main():
             count = get_word_count(path)
             word_counts[level] = count
             total += count
+    for level in ['topik_beginner']:
+        path = os.path.join(PROJECT_ROOT, 'memory-bank', '数据文件', f'{level}.json')
+        if os.path.exists(path):
+            special_word_counts[level] = get_word_count(path)
 
     # 生成索引内容
     today = datetime.now().strftime('%Y-%m-%d')
@@ -97,6 +106,12 @@ def main():
         f'| 中级 (intermediate) | {word_counts.get("intermediate", "?")} |',
         f'| 高级 (advanced) | {word_counts.get("advanced", "?")} |',
         f'| **总计** | **{total}** |',
+        '',
+        '### 专项词书',
+        '',
+        '| 词书 | 词数 |',
+        '|------|------|',
+        f'| TOPIK初级（1-2级）(topik_beginner) | {special_word_counts.get("topik_beginner", "?")} |',
         '',
     ]
 
