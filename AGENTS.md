@@ -52,12 +52,6 @@
 │   ├── 产品文档/
 │   │   ├── prd初稿.md           # 产品需求文档（功能架构、交互设计、数据结构）
 │   │   ├── prd阅读版.md         # 阅读友好版 PRD（背景、核心功能、需求详述表格）
-│   │   ├── TOPIK初级词书说明.md  # TOPIK 初级核心词书的定位、来源依据与校验要求
-│   │   ├── TOPIK初级词源审计.md  # TOPIK 初级外部来源、覆盖差异与补词审计
-│   │   ├── TOPIK12官方依据与编写记录.md # TOPIK 1/2级官方依据、公开词表来源与拆分记录
-│   │   ├── TOPIK12源词表清洗核对报告.md # TOPIK 1/2级源词表清洗、去重与待复核报告
-│   │   ├── TOPIK初级统一词书口径说明.md # TOPIK 初级统一成一本词书的产品口径
-│   │   ├── TOPIK初级释义与测验选项核对报告.md # TOPIK 初级已有覆盖词释义与 quiz 冲突核对
 │   │   └── 背诵机制设计.md       # SRS 算法理论详述（已合入 PRD）
 │   ├── 调研文档/
 │   │   ├── 竞品调研报告.md       # 4 款竞品实际分析 + 核心结论
@@ -74,32 +68,17 @@
 │   │   └── 宣传素材/            # 小红书等平台宣传图素材（含 2026-07-19 宣传图与文案）
 │   ├── 数据文件/
 │   │   ├── beginner.json        # 初级词汇（日常生存韩语，1282词）
-│   │   ├── topik_beginner.json  # TOPIK 初级（1-2级）候选词书（1594词，同主词库格式，待审计）
-│   │   ├── topik_beginner_core.json # TOPIK 初级（1-2级）候选追溯词书（1594词，含来源与分组）
-│   │   ├── topik_i_source_audit.json # TOPIK I 外部来源审计结果与缺词清单
-│   │   ├── topik_i_source_pool.json # TOPIK I 外部公开源词池（非正式词书）
-│   │   ├── topik_level1_source_pool.json # TOPIK 1级源词表（非正式词书）
-│   │   ├── topik_level2_source_pool.json # TOPIK 2级源词表（非正式词书）
-│   │   ├── topik_level1_cleaned_source_pool.json # TOPIK 1级清洗源词表（非正式词书）
-│   │   ├── topik_level2_cleaned_source_pool.json # TOPIK 2级清洗源词表（非正式词书）
-│   │   ├── topik_beginner_cleaned_source_pool.json # TOPIK 初级统一清洗源词表（1786词，非正式词书）
-│   │   ├── topik_beginner_meaning_quiz_audit.json # TOPIK 初级释义与 quiz 核对结果
-│   │   ├── topik_i_unassigned_source_words.json # TOPIK I 未定级源词（待人工判断）
 │   │   ├── intermediate.json    # 中级词汇（社交/职场表达，901词）
 │   │   ├── advanced.json        # 高级词汇（学术/抽象表达，759词）
 │   │   ├── beginner_quiz.json   # 初级四选一干扰项数据
-│   │   ├── topik_beginner_quiz.json # TOPIK 初级四选一干扰项数据
 │   │   ├── intermediate_quiz.json # 中级四选一干扰项数据
 │   │   ├── advanced_quiz.json   # 高级四选一干扰项数据
 │   │   ├── 韩语单词知识库.docx   # 全部词汇 Word 版（阅读/打印用）
-│   │   ├── TOPIK初级词汇.docx   # TOPIK 初级词汇 Word 版（阅读/打印用）
+│   │   ├── TOPIK初级词汇.docx   # TOPIK 初级词汇最终 Word 文档（1786词，阅读/打印用）
 │   │   └── 音频_edge女声正式版/ # Edge TTS 女声正式版
 │   └── 工具脚本/
 │       ├── generate.py          # 初始词汇数据生成
 │       ├── generate_distractors.py # 干扰选项批量生成
-│       ├── build_topik12_source_pool.py # TOPIK 1/2级源词表构建
-│       ├── clean_topik12_source_pool.py # TOPIK 1/2级源词表清洗核对
-│       ├── verify_topik_beginner_meaning_quiz.py # TOPIK 初级释义与测验选项核对
 │       ├── generate_report.py   # 报告生成工具
 │       ├── sync_miniprogram_data.py # 同步源词库到小程序 JSON 与 *_v2.js
 │       └── update_index.py      # 文档索引自动更新
