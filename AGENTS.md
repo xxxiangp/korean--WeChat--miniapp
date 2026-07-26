@@ -74,7 +74,8 @@
 │   │   ├── intermediate_quiz.json # 中级四选一干扰项数据
 │   │   ├── advanced_quiz.json   # 高级四选一干扰项数据
 │   │   ├── 韩语单词知识库.docx   # 全部词汇 Word 版（阅读/打印用）
-│   │   ├── TOPIK初级词汇.docx   # TOPIK 初级词汇最终 Word 文档（1786词，阅读/打印用）
+│   │   ├── TOPIK初级词汇.docx   # TOPIK 初级词汇 Word 文档（1786词，阅读/打印用）
+│   │   ├── TOPIK初级词汇_最终交付版.docx # TOPIK 初级词汇最终交付 Word（形容词释义/干扰项已加“的”）
 │   │   └── 音频_edge女声正式版/ # Edge TTS 女声正式版
 │   └── 工具脚本/
 │       ├── generate.py          # 初始词汇数据生成
