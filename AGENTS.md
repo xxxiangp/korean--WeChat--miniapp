@@ -73,6 +73,8 @@
 │   │   ├── beginner_quiz.json   # 初级四选一干扰项数据
 │   │   ├── intermediate_quiz.json # 中级四选一干扰项数据
 │   │   ├── advanced_quiz.json   # 高级四选一干扰项数据
+│   │   ├── topik_beginner.json  # TOPIK 初级独立词书（1786词）
+│   │   ├── topik_beginner_quiz.json # TOPIK 初级四选一干扰项数据
 │   │   ├── 韩语单词知识库.docx   # 全部词汇 Word 版（阅读/打印用）
 │   │   ├── TOPIK初级词汇.docx   # TOPIK 初级词汇 Word 文档（1786词，阅读/打印用）
 │   │   ├── TOPIK初级词汇_最终交付版.docx # TOPIK 初级词汇最终交付 Word（形容词释义/干扰项已加“的”）
@@ -80,6 +82,7 @@
 │   └── 工具脚本/
 │       ├── generate.py          # 初始词汇数据生成
 │       ├── generate_distractors.py # 干扰选项批量生成
+│       ├── generate_topik_beginner_json.py # TOPIK 初级 Word 转小程序 JSON
 │       ├── generate_report.py   # 报告生成工具
 │       ├── sync_miniprogram_data.py # 同步源词库到小程序 JSON 与 *_v2.js
 │       └── update_index.py      # 文档索引自动更新

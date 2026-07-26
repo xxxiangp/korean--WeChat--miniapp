@@ -23,7 +23,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE_DIR = ROOT / "memory-bank" / "数据文件"
 TARGET_DIR = ROOT / "miniprogram" / "data"
-LEVELS = ("beginner", "intermediate", "advanced")
+LEVELS = ("beginner", "intermediate", "advanced", "topik_beginner")
 
 
 def read_json(path: Path) -> dict[str, Any]:
