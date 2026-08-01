@@ -3,8 +3,10 @@
 同步词库源数据到微信小程序运行数据。
 
 数据源：
-  memory-bank/数据文件/{beginner,intermediate,advanced}.json
-  memory-bank/数据文件/{beginner,intermediate,advanced}_quiz.json
+  memory-bank/数据文件/{beginner,intermediate,advanced,topik_beginner,
+  topik_intermediate,topik_advanced}.json
+  memory-bank/数据文件/{beginner,intermediate,advanced,topik_beginner,
+  topik_intermediate,topik_advanced}_quiz.json
 
 输出：
   miniprogram/data/*.json
@@ -23,7 +25,14 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE_DIR = ROOT / "memory-bank" / "数据文件"
 TARGET_DIR = ROOT / "miniprogram" / "data"
-LEVELS = ("beginner", "intermediate", "advanced", "topik_beginner")
+LEVELS = (
+    "beginner",
+    "intermediate",
+    "advanced",
+    "topik_beginner",
+    "topik_intermediate",
+    "topik_advanced",
+)
 
 
 def read_json(path: Path) -> dict[str, Any]:

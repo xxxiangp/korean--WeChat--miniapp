@@ -36,6 +36,7 @@ def get_word_count(json_path):
 def main():
     categories = {
         '项目基建': [
+            {'file': 'AGENTS.md', 'purpose': 'Codex 自动读取的项目上下文'},
             {'file': 'CLAUDE.md', 'purpose': 'AI 自动读取的项目上下文'},
             {'file': 'README.md', 'purpose': '项目整体说明'},
             {'file': '文档管理规范.md', 'purpose': '文档分类、命名、更新责任规范'},
@@ -47,6 +48,8 @@ def main():
             {'file': 'memory-bank/产品文档/prd初稿.md', 'purpose': '产品需求文档（功能架构、交互设计、数据结构）'},
             {'file': 'memory-bank/产品文档/prd阅读版.md', 'purpose': '阅读友好版 PRD（背景、核心功能、需求详述表格）'},
             {'file': 'memory-bank/产品文档/背诵机制设计.md', 'purpose': 'SRS 算法理论详述（已合入 PRD）'},
+            {'file': 'memory-bank/产品文档/TOPIK中高级词汇来源审计.md', 'purpose': 'TOPIK 3-6级来源、分级、排除项与局限审计'},
+            {'file': 'memory-bank/产品文档/TOPIK中高级词汇元数据审计.md', 'purpose': 'TOPIK 中高级释义、词性、发音与干扰项审计'},
         ],
         '调研文档': [
             {'file': 'memory-bank/调研文档/', 'purpose': '竞品调研统一目录（报告 + 截图素材）', 'is_dir': True},
@@ -64,6 +67,12 @@ def main():
         '工具脚本': [
             {'file': 'memory-bank/工具脚本/generate.py', 'purpose': '初始词汇数据生成'},
             {'file': 'memory-bank/工具脚本/generate_distractors.py', 'purpose': '干扰选项批量生成'},
+            {'file': 'memory-bank/工具脚本/generate_topik_beginner_json.py', 'purpose': 'TOPIK 初级 Word 转 JSON 与 Quiz'},
+            {'file': 'memory-bank/工具脚本/extract_nikl_learning_vocab.ps1', 'purpose': '提取并校验国立国语院官方分级词表'},
+            {'file': 'memory-bank/工具脚本/build_topik_ii_source_pools.py', 'purpose': '构建 TOPIK 中高级来源池与分级审计'},
+            {'file': 'memory-bank/工具脚本/fetch_topik_ii_krdict_metadata.py', 'purpose': '抓取韩国语基础词典官方元数据'},
+            {'file': 'memory-bank/工具脚本/generate_topik_ii_wordbooks.py', 'purpose': '生成 TOPIK 中高级 JSON、Quiz、Word 与审计'},
+            {'file': 'memory-bank/工具脚本/sync_miniprogram_data.py', 'purpose': '同步六本词书到小程序运行数据'},
             {'file': 'memory-bank/工具脚本/generate_report.py', 'purpose': '报告生成工具'},
             {'file': 'memory-bank/工具脚本/update_index.py', 'purpose': '文档索引自动更新（本脚本）'},
         ],
@@ -74,14 +83,30 @@ def main():
     }
 
     # 统计词汇数
+    level_specs = [
+        ('通用', '初级', 'beginner'),
+        ('通用', '中级', 'intermediate'),
+        ('通用', '高级', 'advanced'),
+        ('TOPIK', '初级', 'topik_beginner'),
+        ('TOPIK', '中级（3-4级）', 'topik_intermediate'),
+        ('TOPIK', '高级（5-6级）', 'topik_advanced'),
+    ]
     word_counts = {}
-    total = 0
-    for level in ['beginner', 'intermediate', 'advanced']:
+    word_sets = {}
+    for _, _, level in level_specs:
         path = os.path.join(PROJECT_ROOT, 'memory-bank', '数据文件', f'{level}.json')
         if os.path.exists(path):
             count = get_word_count(path)
             word_counts[level] = count
-            total += count
+            with open(path, 'r', encoding='utf-8') as f:
+                word_sets[level] = {word['korean'] for word in json.load(f).get('words', [])}
+    general_total = sum(word_counts.get(level, 0) for level in ('beginner', 'intermediate', 'advanced'))
+    topik_total = sum(word_counts.get(level, 0) for level in ('topik_beginner', 'topik_intermediate', 'topik_advanced'))
+    entry_total = general_total + topik_total
+    general_words = set().union(*(word_sets.get(level, set()) for level in ('beginner', 'intermediate', 'advanced')))
+    topik_words = set().union(*(word_sets.get(level, set()) for level in ('topik_beginner', 'topik_intermediate', 'topik_advanced')))
+    unique_total = len(general_words | topik_words)
+    cross_system_overlap = len(general_words & topik_words)
     # 生成索引内容
     today = datetime.now().strftime('%Y-%m-%d')
 
@@ -93,12 +118,17 @@ def main():
         '',
         '## 词汇统计',
         '',
-        '| 级别 | 词数 |',
-        '|------|------|',
-        f'| 初级 (beginner) | {word_counts.get("beginner", "?")} |',
-        f'| 中级 (intermediate) | {word_counts.get("intermediate", "?")} |',
-        f'| 高级 (advanced) | {word_counts.get("advanced", "?")} |',
-        f'| **总计** | **{total}** |',
+        '| 体系 | 级别 | level | 词数 |',
+        '|------|------|-------|-----:|',
+        *[
+            f'| {system} | {level_cn} | `{level}` | {word_counts.get(level, "?")} |'
+            for system, level_cn, level in level_specs
+        ],
+        f'| **通用小计** |  |  | **{general_total}** |',
+        f'| **TOPIK小计** |  |  | **{topik_total}** |',
+        f'| **文件条目合计** |  |  | **{entry_total}** |',
+        '',
+        f'> 六本词书按韩语词形去重后共 {unique_total} 词；通用与 TOPIK 体系重合 {cross_system_overlap} 词。',
         '',
     ]
 
@@ -127,7 +157,9 @@ def main():
         f.write('\n'.join(lines))
 
     print(f'文档索引已更新: {index_path}')
-    print(f'总词汇量: {total}')
+    print(f'通用词汇量: {general_total}')
+    print(f'TOPIK词汇量: {topik_total}')
+    print(f'六词书去重词形: {unique_total}')
 
 if __name__ == '__main__':
     main()

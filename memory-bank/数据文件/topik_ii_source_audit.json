@@ -1,0 +1,4550 @@
+{
+  "status": "source_audit_not_final_wordbook",
+  "generated_at": "2026-08-02",
+  "official_boundary_sources": [
+    {
+      "key": "niied_topik_overview",
+      "name": "NIIED TOPIK overview",
+      "url": "https://www.niied.go.kr/web/NIIED/contents/niiedEng/eng_topikOverview",
+      "source_type": "official: TOPIK owner/operator; confirms TOPIK II and Level 3-6 score bands"
+    },
+    {
+      "key": "neea_topik_intro",
+      "name": "中国教育考试网TOPIK考试介绍",
+      "url": "https://topik-main.neea.cn/xhtml1/folder/1507/1511-1.htm",
+      "source_type": "official China test-administration information"
+    }
+  ],
+  "official_learning_vocab_source": {
+    "key": "nikl_learning_vocab_5965",
+    "name": "韩国国立国语院《韩国语学习用词汇目录》",
+    "url": "https://www.korean.go.kr/front/etcData/etcDataView.do?mn_id=46&etc_seq=71",
+    "source_type": "official Korean learner vocabulary list: A 982 / B 2111 / C 2872; not a TOPIK fixed list",
+    "retrieved_at": "2026-08-01",
+    "file_sha256": "DF05D31942DB919668A91234539ED63A200C77F4058A9A135B64C3ED08219475",
+    "raw_total": 5965,
+    "grade_counts": {
+      "A": 982,
+      "B": 2111,
+      "C": 2872
+    }
+  },
+  "official_standard_curriculum_source": {
+    "key": "nikl_standard_curriculum_2017",
+    "name": "韩国国立国语院《2017国际通用韩国语标准教育课程》词汇等级目录",
+    "url": "https://www.korean.go.kr/front_eng/down/down_01V.do?report_seq=932",
+    "source_type": "official Korean standard curriculum vocabulary list with explicit Level 1-6 labels; not a TOPIK fixed list",
+    "retrieved_at": "2026-08-01",
+    "file_sha256": "2CDE28AB90E04728513E65EF5DF4BAAA400A4055FE2ABD1856889CB983C4C3AC",
+    "raw_total": 10635,
+    "grade_counts": {
+      "1급": 735,
+      "2급": 1100,
+      "3급": 1655,
+      "4급": 2200,
+      "5급": 2365,
+      "6급": 2580
+    }
+  },
+  "public_level_sources": [
+    {
+      "key": "topikindepth_level3",
+      "name": "TOPIK in Depth Level 3 vocabulary",
+      "url": "https://topikindepth.com/zh/topik/3/",
+      "source_type": "public level-specific TOPIK vocabulary list with romanization and Chinese glosses"
+    },
+    {
+      "key": "topikindepth_level4",
+      "name": "TOPIK in Depth Level 4 vocabulary",
+      "url": "https://topikindepth.com/zh/topik/4/",
+      "source_type": "public level-specific TOPIK vocabulary list with romanization and Chinese glosses"
+    },
+    {
+      "key": "topikindepth_level5",
+      "name": "TOPIK in Depth Level 5 vocabulary",
+      "url": "https://topikindepth.com/zh/topik/5/",
+      "source_type": "public level-specific TOPIK vocabulary list with romanization and Chinese glosses"
+    },
+    {
+      "key": "topikindepth_level6",
+      "name": "TOPIK in Depth Level 6 vocabulary",
+      "url": "https://topikindepth.com/zh/topik/6/",
+      "source_type": "public level-specific TOPIK vocabulary list with romanization and Chinese glosses"
+    }
+  ],
+  "public_topik_ii_source": {
+    "key": "koreantopik_topik2_3900",
+    "name": "KoreanTopik TOPIK 2 Vocabulary List 3900",
+    "url": "https://www.koreantopik.com/2024/09/complete-topik-2-vocabulary-list-3900.html",
+    "source_type": "public TOPIK II vocabulary list with English glosses; advertised as 3900, page integrity audited separately"
+  },
+  "koreantopik_integrity_audit": {
+    "advertised_total": 3900,
+    "page_count": 39,
+    "feed_entry_count": 40,
+    "feed_request_count": 7,
+    "raw_rows": 3873,
+    "unique_source_numbers": 3872,
+    "missing_source_numbers": [
+      2700,
+      3874,
+      3875,
+      3876,
+      3877,
+      3878,
+      3879,
+      3880,
+      3881,
+      3882,
+      3883,
+      3884,
+      3885,
+      3886,
+      3887,
+      3888,
+      3889,
+      3890,
+      3891,
+      3892,
+      3893,
+      3894,
+      3895,
+      3896,
+      3897,
+      3898,
+      3899,
+      3900
+    ],
+    "duplicate_source_numbers": {
+      "2600": 2
+    },
+    "accepted_unique_pure_hangul": 3706,
+    "excluded_rows": [
+      {
+        "korean": "- 가",
+        "source_no": 1,
+        "meaning_en_source": "professional",
+        "page_number": 1,
+        "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 가량",
+        "source_no": 10,
+        "meaning_en_source": "about",
+        "page_number": 1,
+        "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 간",
+        "source_no": 49,
+        "meaning_en_source": "for, in",
+        "page_number": 1,
+        "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 감",
+        "source_no": 66,
+        "meaning_en_source": "sense of",
+        "page_number": 1,
+        "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 객",
+        "source_no": 109,
+        "meaning_en_source": "a certain person",
+        "page_number": 2,
+        "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with_29.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 관",
+        "source_no": 287,
+        "meaning_en_source": "organization",
+        "page_number": 3,
+        "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 관",
+        "source_no": 288,
+        "meaning_en_source": "opinion",
+        "page_number": 3,
+        "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 권",
+        "source_no": 370,
+        "meaning_en_source": "right",
+        "page_number": 4,
+        "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with_4.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 기",
+        "source_no": 440,
+        "meaning_en_source": "machine",
+        "page_number": 5,
+        "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with_7.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 님",
+        "source_no": 703,
+        "meaning_en_source": "honorific suffix",
+        "page_number": 8,
+        "page_url": "https://www.koreantopik.com/2023/07/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 당",
+        "source_no": 771,
+        "meaning_en_source": "per",
+        "page_number": 8,
+        "page_url": "https://www.koreantopik.com/2023/07/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "대 -",
+        "source_no": 787,
+        "meaning_en_source": "big-",
+        "page_number": 8,
+        "page_url": "https://www.koreantopik.com/2023/07/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 력",
+        "source_no": 1046,
+        "meaning_en_source": "power, force",
+        "page_number": 11,
+        "page_url": "https://www.koreantopik.com/2023/08/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 료",
+        "source_no": 1049,
+        "meaning_en_source": "fee, charge",
+        "page_number": 11,
+        "page_url": "https://www.koreantopik.com/2023/08/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 률",
+        "source_no": 1050,
+        "meaning_en_source": "ratio, rate",
+        "page_number": 11,
+        "page_url": "https://www.koreantopik.com/2023/08/3900-vocabulary-words-for-topik-2-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "무 -",
+        "source_no": 1222,
+        "meaning_en_source": "no-",
+        "page_number": 13,
+        "page_url": "https://www.koreantopik.com/2023/09/the-12011300th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 문",
+        "source_no": 1248,
+        "meaning_en_source": "writing",
+        "page_number": 13,
+        "page_url": "https://www.koreantopik.com/2023/09/the-12011300th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 물",
+        "source_no": 1267,
+        "meaning_en_source": "product",
+        "page_number": 13,
+        "page_url": "https://www.koreantopik.com/2023/09/the-12011300th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 법",
+        "source_no": 1448,
+        "meaning_en_source": "method",
+        "page_number": 15,
+        "page_url": "https://www.koreantopik.com/2023/11/the-14011500th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 별",
+        "source_no": 1471,
+        "meaning_en_source": "classified by",
+        "page_number": 15,
+        "page_url": "https://www.koreantopik.com/2023/11/the-14011500th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "부 -",
+        "source_no": 1529,
+        "meaning_en_source": "not-",
+        "page_number": 16,
+        "page_url": "https://www.koreantopik.com/2023/12/the-15011600th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "불 -",
+        "source_no": 1584,
+        "meaning_en_source": "not be able to-",
+        "page_number": 16,
+        "page_url": "https://www.koreantopik.com/2023/12/the-15011600th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "비 -",
+        "source_no": 1620,
+        "meaning_en_source": "in-",
+        "page_number": 17,
+        "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 비",
+        "source_no": 1621,
+        "meaning_en_source": "-fee",
+        "page_number": 17,
+        "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 사",
+        "source_no": 1691,
+        "meaning_en_source": "-(professional",
+        "page_number": 17,
+        "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 사",
+        "source_no": 1692,
+        "meaning_en_source": "-(professional",
+        "page_number": 17,
+        "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 사",
+        "source_no": 1693,
+        "meaning_en_source": "-(professional",
+        "page_number": 17,
+        "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 생",
+        "source_no": 1814,
+        "meaning_en_source": "birth",
+        "page_number": 19,
+        "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 생",
+        "source_no": 1815,
+        "meaning_en_source": "student",
+        "page_number": 19,
+        "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 성",
+        "source_no": 1865,
+        "meaning_en_source": "characteristics",
+        "page_number": 19,
+        "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "소 -",
+        "source_no": 1898,
+        "meaning_en_source": "small",
+        "page_number": 19,
+        "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 소",
+        "source_no": 1899,
+        "meaning_en_source": "institution",
+        "page_number": 19,
+        "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 스럽다",
+        "source_no": 2042,
+        "meaning_en_source": "adjective)-ful",
+        "page_number": 21,
+        "page_url": "https://www.koreantopik.com/2024/02/the-20012100th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "신 -",
+        "source_no": 2118,
+        "meaning_en_source": "new",
+        "page_number": 22,
+        "page_url": "https://www.koreantopik.com/2024/05/the-21012200th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 심",
+        "source_no": 2169,
+        "meaning_en_source": "one's heart",
+        "page_number": 22,
+        "page_url": "https://www.koreantopik.com/2024/05/the-21012200th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 씩",
+        "source_no": 2212,
+        "meaning_en_source": "one by one",
+        "page_number": 23,
+        "page_url": "https://www.koreantopik.com/2024/05/the-22012300th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 어",
+        "source_no": 2332,
+        "meaning_en_source": "language",
+        "page_number": 24,
+        "page_url": "https://www.koreantopik.com/2024/05/the-23012400th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 여",
+        "source_no": 2389,
+        "meaning_en_source": "over",
+        "page_number": 24,
+        "page_url": "https://www.koreantopik.com/2024/05/the-23012400th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 용",
+        "source_no": 2576,
+        "meaning_en_source": "used for",
+        "page_number": 26,
+        "page_url": "https://www.koreantopik.com/2024/06/the-25012600th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 원",
+        "source_no": 2622,
+        "meaning_en_source": "staff",
+        "page_number": 27,
+        "page_url": "https://www.koreantopik.com/2024/06/the-26012700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 원",
+        "source_no": 2623,
+        "meaning_en_source": "institute",
+        "page_number": 27,
+        "page_url": "https://www.koreantopik.com/2024/06/the-26012700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 율",
+        "source_no": 2678,
+        "meaning_en_source": "rate",
+        "page_number": 27,
+        "page_url": "https://www.koreantopik.com/2024/06/the-26012700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 이",
+        "source_no": 2710,
+        "meaning_en_source": "adverb",
+        "page_number": 28,
+        "page_url": "https://www.koreantopik.com/2024/06/the-27012800th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 자",
+        "source_no": 2863,
+        "meaning_en_source": "person",
+        "page_number": 29,
+        "page_url": "https://www.koreantopik.com/2024/06/the-28012900th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 장",
+        "source_no": 2924,
+        "meaning_en_source": "place",
+        "page_number": 30,
+        "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "재 -",
+        "source_no": 2949,
+        "meaning_en_source": "re-",
+        "page_number": 30,
+        "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "저 -",
+        "source_no": 2968,
+        "meaning_en_source": "low-",
+        "page_number": 30,
+        "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 적",
+        "source_no": 2984,
+        "meaning_en_source": "adjective",
+        "page_number": 30,
+        "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 점",
+        "source_no": 3037,
+        "meaning_en_source": "store",
+        "page_number": 31,
+        "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 제",
+        "source_no": 3084,
+        "meaning_en_source": "ceremony",
+        "page_number": 31,
+        "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "제 -",
+        "source_no": 3085,
+        "meaning_en_source": "the number-th",
+        "page_number": 31,
+        "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 제",
+        "source_no": 3086,
+        "meaning_en_source": "medicine",
+        "page_number": 31,
+        "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 질",
+        "source_no": 3270,
+        "meaning_en_source": "a task done with something",
+        "page_number": 33,
+        "page_url": "https://www.koreantopik.com/2024/07/the-32013300th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 짜리",
+        "source_no": 3289,
+        "meaning_en_source": "of a value",
+        "page_number": 33,
+        "page_url": "https://www.koreantopik.com/2024/07/the-32013300th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 째",
+        "source_no": 3293,
+        "meaning_en_source": "order",
+        "page_number": 33,
+        "page_url": "https://www.koreantopik.com/2024/07/the-32013300th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 쯤",
+        "source_no": 3304,
+        "meaning_en_source": "around",
+        "page_number": 34,
+        "page_url": "https://www.koreantopik.com/2024/07/the-33013400th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "초 -",
+        "source_no": 3394,
+        "meaning_en_source": "early",
+        "page_number": 34,
+        "page_url": "https://www.koreantopik.com/2024/07/the-33013400th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "친 -",
+        "source_no": 3464,
+        "meaning_en_source": "related by blood",
+        "page_number": 35,
+        "page_url": "https://www.koreantopik.com/2024/08/the-34013500th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 품",
+        "source_no": 3627,
+        "meaning_en_source": "article",
+        "page_number": 37,
+        "page_url": "https://www.koreantopik.com/2024/09/the-36013700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 학",
+        "source_no": 3662,
+        "meaning_en_source": "branch of study",
+        "page_number": 37,
+        "page_url": "https://www.koreantopik.com/2024/09/the-36013700th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 행",
+        "source_no": 3733,
+        "meaning_en_source": "destination",
+        "page_number": 38,
+        "page_url": "https://www.koreantopik.com/2024/09/the-37013800th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 형",
+        "source_no": 3766,
+        "meaning_en_source": "type",
+        "page_number": 38,
+        "page_url": "https://www.koreantopik.com/2024/09/the-37013800th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      },
+      {
+        "korean": "- 화",
+        "source_no": 3789,
+        "meaning_en_source": "becoming",
+        "page_number": 38,
+        "page_url": "https://www.koreantopik.com/2024/09/the-37013800th-topik-2-vocabulary-with.html",
+        "reason": "non_pure_hangul_or_grammar_form"
+      }
+    ]
+  },
+  "source_counts": {
+    "3": {
+      "advertised": 887,
+      "accepted_pure_hangul": 887
+    },
+    "4": {
+      "advertised": 1898,
+      "accepted_pure_hangul": 1896
+    },
+    "5": {
+      "advertised": 1171,
+      "accepted_pure_hangul": 1114
+    },
+    "6": {
+      "advertised": 957,
+      "accepted_pure_hangul": 957
+    }
+  },
+  "book_stats": {
+    "topik_intermediate": {
+      "total": 3715,
+      "topikindepth_sublevels": {
+        "3": 872,
+        "4": 1808,
+        "5": 998,
+        "6": 37
+      },
+      "public_source_support_count": {
+        "2": 3464,
+        "1": 251
+      },
+      "level_assignment_basis": {
+        "nikl_2017_minimum_level_3": 1456,
+        "nikl_2017_minimum_level_4": 1971,
+        "nikl_2003_grade_B_without_2017_match": 288
+      },
+      "source_confidence": {
+        "high_official_level_plus_two_public_sources": 3427,
+        "medium_legacy_official_stage_plus_public_source": 251,
+        "medium_legacy_official_stage_plus_two_public_sources": 37
+      },
+      "metadata_status": {
+        "needs_new_entry_metadata_with_chinese_source": 2996,
+        "covered_by_project_vocab": 719
+      },
+      "nikl_grades": {
+        "B": 1203,
+        "C": 1622,
+        "A": 2
+      },
+      "nikl_2017_levels": {
+        "3급": 1456,
+        "5급": 88,
+        "4급": 1996,
+        "6급": 35
+      },
+      "review_flags": {
+        "needs_new_project_metadata": 2996,
+        "public_sublevel_differs_from_official_assignment": 1035,
+        "multiple_nikl_2017_levels_keep_minimum_for_merged_homograph": 142,
+        "assignment_uses_legacy_nikl_2003_stage": 288,
+        "single_public_topik_source": 251
+      }
+    },
+    "topik_advanced": {
+      "total": 1008,
+      "topikindepth_sublevels": {
+        "6": 900,
+        "4": 52,
+        "5": 55,
+        "3": 1
+      },
+      "public_source_support_count": {
+        "1": 933,
+        "2": 75
+      },
+      "level_assignment_basis": {
+        "nikl_2017_minimum_level_5": 238,
+        "nikl_2017_minimum_level_6": 106,
+        "nikl_2003_grade_C_without_2017_match": 664
+      },
+      "source_confidence": {
+        "high_official_level_plus_public_source": 341,
+        "high_official_level_plus_two_public_sources": 3,
+        "medium_legacy_official_stage_plus_public_source": 592,
+        "medium_legacy_official_stage_plus_two_public_sources": 72
+      },
+      "metadata_status": {
+        "needs_new_entry_metadata_with_chinese_source": 868,
+        "covered_by_project_vocab": 140
+      },
+      "nikl_grades": {
+        "C": 974,
+        "B": 36,
+        "A": 1
+      },
+      "nikl_2017_levels": {
+        "5급": 238,
+        "6급": 109
+      },
+      "review_flags": {
+        "single_public_topik_source": 933,
+        "needs_new_project_metadata": 868,
+        "public_sublevel_differs_from_official_assignment": 53,
+        "multiple_nikl_2017_levels_keep_minimum_for_merged_homograph": 3,
+        "assignment_uses_legacy_nikl_2003_stage": 664
+      }
+    }
+  },
+  "source_exclusions": [
+    {
+      "korean": "도쿄(동경)",
+      "topik_sublevel": 4,
+      "source_position": 433,
+      "source_key": "topikindepth_level4",
+      "source_url": "https://topikindepth.com/zh/topik/4/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "베이징(북경)",
+      "topik_sublevel": 4,
+      "source_position": 690,
+      "source_key": "topikindepth_level4",
+      "source_url": "https://topikindepth.com/zh/topik/4/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-가",
+      "topik_sublevel": 5,
+      "source_position": 1,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-가량",
+      "topik_sublevel": 5,
+      "source_position": 2,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-간",
+      "topik_sublevel": 5,
+      "source_position": 8,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-감",
+      "topik_sublevel": 5,
+      "source_position": 14,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-객",
+      "topik_sublevel": 5,
+      "source_position": 26,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-관",
+      "topik_sublevel": 5,
+      "source_position": 87,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-권",
+      "topik_sublevel": 5,
+      "source_position": 106,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-기",
+      "topik_sublevel": 5,
+      "source_position": 125,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-님",
+      "topik_sublevel": 5,
+      "source_position": 191,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-당",
+      "topik_sublevel": 5,
+      "source_position": 210,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "대-",
+      "topik_sublevel": 5,
+      "source_position": 215,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-력",
+      "topik_sublevel": 5,
+      "source_position": 279,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-료",
+      "topik_sublevel": 5,
+      "source_position": 281,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-률",
+      "topik_sublevel": 5,
+      "source_position": 282,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "무-",
+      "topik_sublevel": 5,
+      "source_position": 332,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-문",
+      "topik_sublevel": 5,
+      "source_position": 341,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-물",
+      "topik_sublevel": 5,
+      "source_position": 348,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-법",
+      "topik_sublevel": 5,
+      "source_position": 399,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-별",
+      "topik_sublevel": 5,
+      "source_position": 409,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "부-",
+      "topik_sublevel": 5,
+      "source_position": 428,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "불-",
+      "topik_sublevel": 5,
+      "source_position": 448,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-비",
+      "topik_sublevel": 5,
+      "source_position": 465,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "비-",
+      "topik_sublevel": 5,
+      "source_position": 466,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-사",
+      "topik_sublevel": 5,
+      "source_position": 487,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-생",
+      "topik_sublevel": 5,
+      "source_position": 524,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-성",
+      "topik_sublevel": 5,
+      "source_position": 549,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-소",
+      "topik_sublevel": 5,
+      "source_position": 566,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "소-",
+      "topik_sublevel": 5,
+      "source_position": 567,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-스럽다",
+      "topik_sublevel": 5,
+      "source_position": 612,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "신-",
+      "topik_sublevel": 5,
+      "source_position": 633,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-심",
+      "topik_sublevel": 5,
+      "source_position": 648,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-씩",
+      "topik_sublevel": 5,
+      "source_position": 657,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-어",
+      "topik_sublevel": 5,
+      "source_position": 691,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-여",
+      "topik_sublevel": 5,
+      "source_position": 707,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-용",
+      "topik_sublevel": 5,
+      "source_position": 763,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-원",
+      "topik_sublevel": 5,
+      "source_position": 780,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-율",
+      "topik_sublevel": 5,
+      "source_position": 802,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-이",
+      "topik_sublevel": 5,
+      "source_position": 816,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-자",
+      "topik_sublevel": 5,
+      "source_position": 863,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-장",
+      "topik_sublevel": 5,
+      "source_position": 879,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "재-",
+      "topik_sublevel": 5,
+      "source_position": 887,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "저-",
+      "topik_sublevel": 5,
+      "source_position": 892,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-적",
+      "topik_sublevel": 5,
+      "source_position": 898,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-점",
+      "topik_sublevel": 5,
+      "source_position": 911,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-제",
+      "topik_sublevel": 5,
+      "source_position": 930,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "제-",
+      "topik_sublevel": 5,
+      "source_position": 931,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-질",
+      "topik_sublevel": 5,
+      "source_position": 982,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-짜리",
+      "topik_sublevel": 5,
+      "source_position": 988,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-째",
+      "topik_sublevel": 5,
+      "source_position": 991,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-쯤",
+      "topik_sublevel": 5,
+      "source_position": 996,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "초-",
+      "topik_sublevel": 5,
+      "source_position": 1025,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "친-",
+      "topik_sublevel": 5,
+      "source_position": 1042,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-품",
+      "topik_sublevel": 5,
+      "source_position": 1093,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-학",
+      "topik_sublevel": 5,
+      "source_position": 1104,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-행",
+      "topik_sublevel": 5,
+      "source_position": 1124,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-형",
+      "topik_sublevel": 5,
+      "source_position": 1135,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "-화",
+      "topik_sublevel": 5,
+      "source_position": 1141,
+      "source_key": "topikindepth_level5",
+      "source_url": "https://topikindepth.com/zh/topik/5/",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 가",
+      "source_no": 1,
+      "meaning_en_source": "professional",
+      "page_number": 1,
+      "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 가량",
+      "source_no": 10,
+      "meaning_en_source": "about",
+      "page_number": 1,
+      "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 간",
+      "source_no": 49,
+      "meaning_en_source": "for, in",
+      "page_number": 1,
+      "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 감",
+      "source_no": 66,
+      "meaning_en_source": "sense of",
+      "page_number": 1,
+      "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 객",
+      "source_no": 109,
+      "meaning_en_source": "a certain person",
+      "page_number": 2,
+      "page_url": "https://www.koreantopik.com/2023/05/3900-vocabulary-words-for-topik-2-with_29.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 관",
+      "source_no": 287,
+      "meaning_en_source": "organization",
+      "page_number": 3,
+      "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 관",
+      "source_no": 288,
+      "meaning_en_source": "opinion",
+      "page_number": 3,
+      "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 권",
+      "source_no": 370,
+      "meaning_en_source": "right",
+      "page_number": 4,
+      "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with_4.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 기",
+      "source_no": 440,
+      "meaning_en_source": "machine",
+      "page_number": 5,
+      "page_url": "https://www.koreantopik.com/2023/06/3900-vocabulary-words-for-topik-2-with_7.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 님",
+      "source_no": 703,
+      "meaning_en_source": "honorific suffix",
+      "page_number": 8,
+      "page_url": "https://www.koreantopik.com/2023/07/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 당",
+      "source_no": 771,
+      "meaning_en_source": "per",
+      "page_number": 8,
+      "page_url": "https://www.koreantopik.com/2023/07/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "대 -",
+      "source_no": 787,
+      "meaning_en_source": "big-",
+      "page_number": 8,
+      "page_url": "https://www.koreantopik.com/2023/07/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 력",
+      "source_no": 1046,
+      "meaning_en_source": "power, force",
+      "page_number": 11,
+      "page_url": "https://www.koreantopik.com/2023/08/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 료",
+      "source_no": 1049,
+      "meaning_en_source": "fee, charge",
+      "page_number": 11,
+      "page_url": "https://www.koreantopik.com/2023/08/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 률",
+      "source_no": 1050,
+      "meaning_en_source": "ratio, rate",
+      "page_number": 11,
+      "page_url": "https://www.koreantopik.com/2023/08/3900-vocabulary-words-for-topik-2-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "무 -",
+      "source_no": 1222,
+      "meaning_en_source": "no-",
+      "page_number": 13,
+      "page_url": "https://www.koreantopik.com/2023/09/the-12011300th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 문",
+      "source_no": 1248,
+      "meaning_en_source": "writing",
+      "page_number": 13,
+      "page_url": "https://www.koreantopik.com/2023/09/the-12011300th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 물",
+      "source_no": 1267,
+      "meaning_en_source": "product",
+      "page_number": 13,
+      "page_url": "https://www.koreantopik.com/2023/09/the-12011300th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 법",
+      "source_no": 1448,
+      "meaning_en_source": "method",
+      "page_number": 15,
+      "page_url": "https://www.koreantopik.com/2023/11/the-14011500th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 별",
+      "source_no": 1471,
+      "meaning_en_source": "classified by",
+      "page_number": 15,
+      "page_url": "https://www.koreantopik.com/2023/11/the-14011500th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "부 -",
+      "source_no": 1529,
+      "meaning_en_source": "not-",
+      "page_number": 16,
+      "page_url": "https://www.koreantopik.com/2023/12/the-15011600th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "불 -",
+      "source_no": 1584,
+      "meaning_en_source": "not be able to-",
+      "page_number": 16,
+      "page_url": "https://www.koreantopik.com/2023/12/the-15011600th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "비 -",
+      "source_no": 1620,
+      "meaning_en_source": "in-",
+      "page_number": 17,
+      "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 비",
+      "source_no": 1621,
+      "meaning_en_source": "-fee",
+      "page_number": 17,
+      "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 사",
+      "source_no": 1691,
+      "meaning_en_source": "-(professional",
+      "page_number": 17,
+      "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 사",
+      "source_no": 1692,
+      "meaning_en_source": "-(professional",
+      "page_number": 17,
+      "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 사",
+      "source_no": 1693,
+      "meaning_en_source": "-(professional",
+      "page_number": 17,
+      "page_url": "https://www.koreantopik.com/2023/12/the-16011700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 생",
+      "source_no": 1814,
+      "meaning_en_source": "birth",
+      "page_number": 19,
+      "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 생",
+      "source_no": 1815,
+      "meaning_en_source": "student",
+      "page_number": 19,
+      "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 성",
+      "source_no": 1865,
+      "meaning_en_source": "characteristics",
+      "page_number": 19,
+      "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "소 -",
+      "source_no": 1898,
+      "meaning_en_source": "small",
+      "page_number": 19,
+      "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 소",
+      "source_no": 1899,
+      "meaning_en_source": "institution",
+      "page_number": 19,
+      "page_url": "https://www.koreantopik.com/2024/01/the-18011900th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 스럽다",
+      "source_no": 2042,
+      "meaning_en_source": "adjective)-ful",
+      "page_number": 21,
+      "page_url": "https://www.koreantopik.com/2024/02/the-20012100th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "신 -",
+      "source_no": 2118,
+      "meaning_en_source": "new",
+      "page_number": 22,
+      "page_url": "https://www.koreantopik.com/2024/05/the-21012200th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 심",
+      "source_no": 2169,
+      "meaning_en_source": "one's heart",
+      "page_number": 22,
+      "page_url": "https://www.koreantopik.com/2024/05/the-21012200th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 씩",
+      "source_no": 2212,
+      "meaning_en_source": "one by one",
+      "page_number": 23,
+      "page_url": "https://www.koreantopik.com/2024/05/the-22012300th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 어",
+      "source_no": 2332,
+      "meaning_en_source": "language",
+      "page_number": 24,
+      "page_url": "https://www.koreantopik.com/2024/05/the-23012400th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 여",
+      "source_no": 2389,
+      "meaning_en_source": "over",
+      "page_number": 24,
+      "page_url": "https://www.koreantopik.com/2024/05/the-23012400th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 용",
+      "source_no": 2576,
+      "meaning_en_source": "used for",
+      "page_number": 26,
+      "page_url": "https://www.koreantopik.com/2024/06/the-25012600th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 원",
+      "source_no": 2622,
+      "meaning_en_source": "staff",
+      "page_number": 27,
+      "page_url": "https://www.koreantopik.com/2024/06/the-26012700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 원",
+      "source_no": 2623,
+      "meaning_en_source": "institute",
+      "page_number": 27,
+      "page_url": "https://www.koreantopik.com/2024/06/the-26012700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 율",
+      "source_no": 2678,
+      "meaning_en_source": "rate",
+      "page_number": 27,
+      "page_url": "https://www.koreantopik.com/2024/06/the-26012700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 이",
+      "source_no": 2710,
+      "meaning_en_source": "adverb",
+      "page_number": 28,
+      "page_url": "https://www.koreantopik.com/2024/06/the-27012800th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 자",
+      "source_no": 2863,
+      "meaning_en_source": "person",
+      "page_number": 29,
+      "page_url": "https://www.koreantopik.com/2024/06/the-28012900th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 장",
+      "source_no": 2924,
+      "meaning_en_source": "place",
+      "page_number": 30,
+      "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "재 -",
+      "source_no": 2949,
+      "meaning_en_source": "re-",
+      "page_number": 30,
+      "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "저 -",
+      "source_no": 2968,
+      "meaning_en_source": "low-",
+      "page_number": 30,
+      "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 적",
+      "source_no": 2984,
+      "meaning_en_source": "adjective",
+      "page_number": 30,
+      "page_url": "https://www.koreantopik.com/2024/06/the-29013000th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 점",
+      "source_no": 3037,
+      "meaning_en_source": "store",
+      "page_number": 31,
+      "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 제",
+      "source_no": 3084,
+      "meaning_en_source": "ceremony",
+      "page_number": 31,
+      "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "제 -",
+      "source_no": 3085,
+      "meaning_en_source": "the number-th",
+      "page_number": 31,
+      "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 제",
+      "source_no": 3086,
+      "meaning_en_source": "medicine",
+      "page_number": 31,
+      "page_url": "https://www.koreantopik.com/2024/07/the-30013100th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 질",
+      "source_no": 3270,
+      "meaning_en_source": "a task done with something",
+      "page_number": 33,
+      "page_url": "https://www.koreantopik.com/2024/07/the-32013300th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 짜리",
+      "source_no": 3289,
+      "meaning_en_source": "of a value",
+      "page_number": 33,
+      "page_url": "https://www.koreantopik.com/2024/07/the-32013300th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 째",
+      "source_no": 3293,
+      "meaning_en_source": "order",
+      "page_number": 33,
+      "page_url": "https://www.koreantopik.com/2024/07/the-32013300th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 쯤",
+      "source_no": 3304,
+      "meaning_en_source": "around",
+      "page_number": 34,
+      "page_url": "https://www.koreantopik.com/2024/07/the-33013400th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "초 -",
+      "source_no": 3394,
+      "meaning_en_source": "early",
+      "page_number": 34,
+      "page_url": "https://www.koreantopik.com/2024/07/the-33013400th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "친 -",
+      "source_no": 3464,
+      "meaning_en_source": "related by blood",
+      "page_number": 35,
+      "page_url": "https://www.koreantopik.com/2024/08/the-34013500th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 품",
+      "source_no": 3627,
+      "meaning_en_source": "article",
+      "page_number": 37,
+      "page_url": "https://www.koreantopik.com/2024/09/the-36013700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 학",
+      "source_no": 3662,
+      "meaning_en_source": "branch of study",
+      "page_number": 37,
+      "page_url": "https://www.koreantopik.com/2024/09/the-36013700th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 행",
+      "source_no": 3733,
+      "meaning_en_source": "destination",
+      "page_number": 38,
+      "page_url": "https://www.koreantopik.com/2024/09/the-37013800th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 형",
+      "source_no": 3766,
+      "meaning_en_source": "type",
+      "page_number": 38,
+      "page_url": "https://www.koreantopik.com/2024/09/the-37013800th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    },
+    {
+      "korean": "- 화",
+      "source_no": 3789,
+      "meaning_en_source": "becoming",
+      "page_number": 38,
+      "page_url": "https://www.koreantopik.com/2024/09/the-37013800th-topik-2-vocabulary-with.html",
+      "reason": "non_pure_hangul_or_grammar_form"
+    }
+  ],
+  "book_exclusions": [
+    {
+      "korean": "가구",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "가장",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        29
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "가지",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        36
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "감다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        68
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "걷다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        137,
+        138
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "검사",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        142
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "경기",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        172
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "경복궁",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        175
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "경찰관",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        185
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "계약서",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        194
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "고장",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        217
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "공",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        244
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "공공요금",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        250
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "공중전화",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        266
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "과거",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "광주",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "구",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        324
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "구조대",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        341
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "귀하",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        380
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "그제",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        409
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "기",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "reason": "public_gloss_not_supported_by_official_exact_headword_senses",
+      "review_note": "TOPIK in Depth glosses 기 as a Chinese-character radical/basic component, but the NIKL curriculum supports 氣/期/旗 senses and the Standard Korean Dictionary exact-headword audit found no such radical sense."
+    },
+    {
+      "korean": "기타",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        476
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "길다",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        484
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "김",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        485
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "깊이",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        486
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "깨다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        498
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "꼭",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        510
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "꾸다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        524
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "끼다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        548,
+        549
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "남",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        582,
+        583
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "남산",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "내",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        592
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "내성적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        604
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "낼모레",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        610
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "다양하다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "달다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        743,
+        744
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "달러",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        747
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "달리다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        752
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "대",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        786
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "대구",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "대전",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "도",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        857
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "도로",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        862
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "독신자",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        881
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "돌",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        886
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "동대문",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "들리다",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        968,
+        969
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "등",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        975,
+        976
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "때",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1002
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "뛰다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1023
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "뜨다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        1031,
+        1032
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급",
+        "4급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "만",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [
+        1090
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "nikl_2003_grades": [
+        "A",
+        "B",
+        "C"
+      ],
+      "reason": "nikl_2003_minimum_stage_is_A"
+    },
+    {
+      "korean": "만족감",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1096
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "만화책",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1098
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "말다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        1102,
+        1103
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "맞다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1117,
+        1118
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "먹다",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "면접관",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1171
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "명",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1176
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "모자",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1190
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "목",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1194
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "못",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        1216
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "묻다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        1263,
+        1264
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "바람",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1324
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "바르다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1328
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "발음",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1375
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "밤",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1387
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "배고프다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1407
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "배부르다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1414
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "백",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1421
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "벌",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1435,
+        1436
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "별",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1470
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "부모",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1542
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "부인",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1550
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "부자",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1551
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "부족",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1558
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "빗길",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1660
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "빠지다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        1672
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "빠트리다",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1674
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "빨다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        1677
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "사과",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1696
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "사교적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1697
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "사용료",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1722
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "사적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1732
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "사전",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        1733,
+        1734
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "상",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        1769,
+        1770
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급",
+        "6급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "새",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        1801
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "서로",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "성적",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "세다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        1882
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "쇠고기",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        1972
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "수",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [
+        1976
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "수업",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "쉬다",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2038
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "시",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2065
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "시장",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        2090
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "시청",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2097
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "신뢰",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2124
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "신부",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        2128
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "실례",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2151
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "실용적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2157
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "십상",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2179
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "싸다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2182
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "씨",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        2209
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "아이",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2236
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "아홉째",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2244
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "안되다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2256
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "않다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2269
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "애",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        2294
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "약",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "양식",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2325
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "어리다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "6급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "에",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "reason": "public_and_official_evidence_refer_to_different_level_senses",
+      "review_note": "The public source lists the elementary locative/time particle, while the only selected NIKL 2003 C-stage evidence is the homographic interjection. The particle must not be promoted into the advanced wordbook."
+    },
+    {
+      "korean": "여덟째",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2396
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "여섯째",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2403
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "역",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "열리다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        2448
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "열째",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2453
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "영",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        2456
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "예",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        2471,
+        2472,
+        2473
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "오래되다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "외가",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2538
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "요즈음",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2569
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "우선",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2588
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "울산",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "원",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2621
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "월",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2632
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "위",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2639
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "유리",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2659
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "의무적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2697
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "의사",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "이국적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2712
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "이기적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2713
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "이르다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        2731,
+        2732
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "이만큼",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2738
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "이왕",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2751
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "이전",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2758
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "이해",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "6급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "이해력",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2763
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "익다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2765
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "인쇄물",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2786
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "일",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2800
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "일곱째",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2801
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "일기",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "일본어",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2809
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "자리",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2875
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "자신",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2883
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "잔액",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2911
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "장학",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2947
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "저기",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        2970
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "저만큼",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        2976
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "전기",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "5급",
+        "6급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "정말",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "nikl_2003_grades": [
+        "A",
+        "B"
+      ],
+      "reason": "nikl_2003_minimum_stage_is_A"
+    },
+    {
+      "korean": "정원",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3070
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "제",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3087
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "주",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "nikl_2003_grades": [
+        "A",
+        "C"
+      ],
+      "reason": "nikl_2003_minimum_stage_is_A"
+    },
+    {
+      "korean": "주간",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3149
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "주문",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "중",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3180
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "중고품",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3183
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "중국어",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3184
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "지",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "reason": "public_and_official_evidence_refer_to_different_grammar_senses",
+      "review_note": "The only public evidence glosses a connective ending meaning because/since, while the selected NIKL 2003 B-stage evidence and Korean Basic Dictionary support the dependent noun meaning time elapsed since an event. The omitted hyphen must not turn the ending into a standalone vocabulary item."
+    },
+    {
+      "korean": "지각",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        3210
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "지다",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        3220,
+        3221
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "3급",
+        "4급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "지도",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3222
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "지방",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3225
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "짜다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        3287,
+        3288
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "쪽",
+      "topikindepth_sublevels": [
+        3
+      ],
+      "koreantopik_source_numbers": [
+        3294,
+        3295
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "찍다",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3307
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "4급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "차",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "참",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "청구서",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3382
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "초대",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "취업난",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3449
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "치다",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        3455,
+        3456,
+        3457
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급",
+        "4급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "치료제",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3459
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "쿠폰",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3492
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "키",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3506
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "타다",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3509,
+        3510
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "토",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3533
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_gloss_not_supported_by_official_exact_headword_senses",
+      "review_note": "Both public lists gloss 토 as soil, but the Standard Korean Dictionary exact-headword audit found no standalone soil sense; the NIKL 2017 Level 3 evidence is the abbreviation for Saturday."
+    },
+    {
+      "korean": "통화",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "튀기다",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "2급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "퍼센트",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3578
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "표",
+      "topikindepth_sublevels": [
+        4
+      ],
+      "koreantopik_source_numbers": [
+        3612
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "3급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "피부병",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3640
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "한",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3671,
+        3672
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "한국말",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3677
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "한국어",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3678
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "한자",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3693
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "항공편",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3710
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "해",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3712
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "행사",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3734
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "호르몬",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3776
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "화",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3788
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "환상적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3812
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "활동적",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3819
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "회",
+      "topikindepth_sublevels": [],
+      "koreantopik_source_numbers": [
+        3823
+      ],
+      "public_sources": [
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "already_owned_by_topik_beginner_wordbook"
+    },
+    {
+      "korean": "흐리다",
+      "topikindepth_sublevels": [
+        6
+      ],
+      "koreantopik_source_numbers": [],
+      "public_sources": [
+        "topikindepth_level_3_to_6"
+      ],
+      "curriculum_grades": [
+        "1급",
+        "5급"
+      ],
+      "reason": "nikl_2017_minimum_level_is_1_or_2"
+    },
+    {
+      "korean": "희망자",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3867
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    },
+    {
+      "korean": "희생자",
+      "topikindepth_sublevels": [
+        5
+      ],
+      "koreantopik_source_numbers": [
+        3869
+      ],
+      "public_sources": [
+        "topikindepth_level_3_to_6",
+        "koreantopik_topik2_3900"
+      ],
+      "reason": "public_topik_source_only_without_nikl_level_support"
+    }
+  ]
+}
