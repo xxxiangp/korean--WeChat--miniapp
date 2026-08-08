@@ -29,12 +29,12 @@
     );
 
     const screenMessages = {
-      home: "点击手机里的“学习”开始",
-      quiz: "选择“分析”，体验四选一识别",
+      home: "点击真实页面里的“学习”开始",
+      quiz: "这是当前小程序的真实四选一答题状态",
       recall: "先在心里回忆，再查看答案",
-      result: "这就是一次完整的短时学习闭环",
+      result: "本组学习完成后进入真实单词小结",
       books: "六本词书覆盖通用学习与 TOPIK 备考",
-      stats: "累计学习统计跨词书保存",
+      stats: "真实统计页展示跨词书累计学习数据",
     };
 
     const announce = (message) => {
@@ -96,7 +96,7 @@
         screen.setAttribute("aria-hidden", String(!active));
       });
 
-      const previewName = name === "recall" || name === "result" ? "quiz" : name;
+      const previewName = name === "recall" ? "quiz" : name;
       previewButtons.forEach((button) => {
         const active = button.dataset.preview === previewName;
         button.classList.toggle("is-active", active);
@@ -202,43 +202,6 @@
       });
     });
 
-    const copyText = async (value) => {
-      if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(value);
-        return;
-      }
-
-      const field = document.createElement("textarea");
-      field.value = value;
-      field.setAttribute("readonly", "");
-      field.style.position = "fixed";
-      field.style.opacity = "0";
-      document.body.appendChild(field);
-      field.select();
-      const copied = document.execCommand("copy");
-      field.remove();
-      if (!copied) {
-        throw new Error("copy failed");
-      }
-    };
-
-    document.querySelectorAll("[data-copy-name]").forEach((button) => {
-      button.addEventListener("click", async () => {
-        try {
-          await copyText("芽芽韩语");
-          document.querySelectorAll("[data-copy-status]").forEach((item) => {
-            item.textContent = "已复制“芽芽韩语”，打开微信搜索即可";
-          });
-          announce("小程序名称已复制");
-        } catch (error) {
-          document.querySelectorAll("[data-copy-status]").forEach((item) => {
-            item.textContent = "小程序名称：芽芽韩语";
-          });
-          announce("小程序名称：芽芽韩语");
-        }
-      });
-    });
-
     const menuButton = document.querySelector("[data-menu-button]");
     const mobileNav = document.querySelector("[data-mobile-nav]");
     const closeMenu = () => {
@@ -325,11 +288,6 @@
     } else {
       window.addEventListener("load", finishLoading, { once: true });
       window.setTimeout(finishLoading, 900);
-    }
-
-    const year = document.querySelector("[data-year]");
-    if (year) {
-      year.textContent = String(new Date().getFullYear());
     }
 
     setScreen("home", { preserve: true });
