@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f3f6f3">
+  <meta name="theme-color" content="#f4f7f5">
   <meta name="description" content="芽芽韩语是一款面向韩语学习者的微信背词小程序，通过四选一识别、主动回忆与间隔复习，帮助用户把眼熟变成真正想得起来。">
   <meta property="og:title" content="芽芽韩语 | 韩语记忆产品作品集">
   <meta property="og:description" content="体验六本韩语词书、主动回忆与 SRS 间隔复习，查看产品设计、数据工程和 AI 协作方法。">
@@ -11,7 +11,7 @@
   <meta property="og:image" content="assets/brand-avatar.png">
   <title>芽芽韩语 | 韩语记忆产品作品集</title>
   <link rel="icon" href="assets/brand-avatar.png">
-  <link rel="stylesheet" href="styles.css?v=20260802-4">
+  <link rel="stylesheet" href="styles.css?v=20260808-2">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -63,12 +63,27 @@
         </div>
       </div>
 
-      <div class="hero-product reveal" aria-label="芽芽韩语交互演示">
-        <div class="preview-switcher" role="group" aria-label="切换演示页面">
+      <div class="hero-product reveal" aria-label="芽芽韩语完整产品演示">
+        <div class="demo-mode-switcher" role="tablist" aria-label="切换交互演示与实际页面">
+          <button type="button" class="is-active" role="tab" aria-selected="true" data-demo-mode="interactive">交互演示</button>
+          <button type="button" role="tab" aria-selected="false" data-demo-mode="actual">实际页面</button>
+        </div>
+
+        <div class="preview-switcher route-switcher" role="group" aria-label="切换交互演示页面" data-interactive-tabs>
           <button type="button" class="is-active" data-preview="home">首页</button>
           <button type="button" data-preview="quiz">学习</button>
+          <button type="button" data-preview="recall">回忆</button>
+          <button type="button" data-preview="books">词书</button>
           <button type="button" data-preview="result">小结</button>
           <button type="button" data-preview="stats">统计</button>
+          <button type="button" data-preview="mine">我的</button>
+        </div>
+
+        <div class="preview-switcher actual-switcher" role="group" aria-label="切换真实小程序页面" hidden data-actual-tabs>
+          <button type="button" class="is-active" data-actual-preview="home">首页</button>
+          <button type="button" data-actual-preview="quiz">学习</button>
+          <button type="button" data-actual-preview="result">小结</button>
+          <button type="button" data-actual-preview="stats">统计</button>
         </div>
 
         <div class="device-shell" data-device>
@@ -77,34 +92,222 @@
               <span></span><span></span><span></span>
             </div>
 
-            <section class="app-screen real-app-screen is-active" data-screen="home" aria-label="真实小程序单词首页">
-              <img src="assets/app-home-demo.jpg?v=20260802-2" alt="芽芽韩语真实单词首页，使用演示进度数据" draggable="false">
-              <button class="screen-hotspot hotspot-home-learn" type="button" data-action="quiz" aria-label="进入真实学习页"></button>
-              <button class="screen-hotspot hotspot-home-stats" type="button" data-action="stats" aria-label="进入真实统计页"></button>
-            </section>
+            <div class="interactive-demo" data-interactive-demo>
+              <div class="mini-statusbar" aria-hidden="true">
+                <span>9:41</span>
+                <div><i data-lucide="signal"></i><i data-lucide="wifi"></i><i data-lucide="battery-full"></i></div>
+              </div>
 
-            <section class="app-screen real-app-screen" data-screen="quiz" aria-label="真实小程序学习页">
-              <img src="assets/app-learn.jpg" alt="芽芽韩语真实四选一学习页" draggable="false">
-              <button class="screen-hotspot hotspot-learn-back" type="button" data-action="home" aria-label="返回真实首页"></button>
-              <button class="screen-hotspot hotspot-learn-audio" type="button" data-audio="harabeoji" aria-label="播放 할아버지 发音"></button>
-              <button class="screen-hotspot hotspot-learn-next" type="button" data-action="result" aria-label="进入真实学习小结"></button>
-            </section>
+              <section class="app-screen screen-home is-active" data-screen="home" aria-label="单词首页交互演示">
+                <div class="app-scroll home-scroll">
+                  <div class="streak-line">已背 <strong>28</strong> 天</div>
+                  <button class="current-book" type="button" data-action="books">
+                    <span class="current-book-heading">
+                      <strong data-current-book>初级词汇</strong>
+                      <span class="mini-book book-green" data-current-book-icon><span>초급</span></span>
+                    </span>
+                    <i data-lucide="chevron-right" aria-hidden="true"></i>
+                    <span class="current-book-meta"><span>正在学习</span><span>已学 <b data-current-learned>368</b>/<b data-current-total>1282</b> 词</span></span>
+                    <span class="mini-progress"><span data-current-progress style="width: 28.7%"></span></span>
+                  </button>
 
-            <section class="app-screen real-app-screen" data-screen="result" aria-label="真实小程序学习小结页">
-              <img src="assets/app-result-demo.jpg?v=20260802-2" alt="芽芽韩语真实学习小结页，使用演示进度数据" draggable="false">
-              <button class="screen-hotspot hotspot-result-back" type="button" data-action="home" aria-label="返回真实首页"></button>
-              <button class="screen-hotspot hotspot-result-again" type="button" data-action="quiz" aria-label="再学一组"></button>
-              <button class="screen-hotspot hotspot-result-rest" type="button" data-action="home" aria-label="休息一下并返回首页"></button>
-            </section>
+                  <div class="today-plan">
+                    <h2>今日计划</h2>
+                    <div class="plan-numbers">
+                      <div><strong>15<small>/ 15</small></strong><span>新学</span></div>
+                      <div><strong>8<small>/ 8</small></strong><span>复习</span></div>
+                    </div>
+                    <div class="plan-actions">
+                      <button type="button" data-action="quiz">学习</button>
+                      <button type="button" data-action="recall">复习</button>
+                    </div>
+                  </div>
+                </div>
+                <nav class="mini-tabbar" aria-label="演示底部导航">
+                  <button class="is-active" type="button" data-action="home"><i data-lucide="book-open"></i><span>单词</span></button>
+                  <button type="button" data-action="stats"><i data-lucide="chart-no-axes-column-increasing"></i><span>统计</span></button>
+                  <button type="button" data-action="mine"><i data-lucide="user-round"></i><span>我的</span></button>
+                </nav>
+              </section>
 
-            <section class="app-screen real-app-screen" data-screen="stats" aria-label="真实小程序学习统计页">
-              <img src="assets/app-stats-demo.jpg?v=20260802-2" alt="芽芽韩语真实学习统计页，使用演示进度数据" draggable="false">
-              <button class="screen-hotspot hotspot-stats-home" type="button" data-action="home" aria-label="返回真实单词首页"></button>
-            </section>
+              <section class="app-screen screen-quiz" data-screen="quiz" aria-label="四选一学习交互演示">
+                <div class="quiz-header">
+                  <button class="mini-icon-button" type="button" data-action="home" aria-label="返回首页" title="返回首页"><i data-lucide="chevron-left"></i></button>
+                  <span>9 / 15</span>
+                  <div class="quiz-tools">
+                    <button class="mini-icon-button" type="button" data-favorite aria-pressed="false" aria-label="收藏单词" title="收藏单词"><i data-lucide="heart"></i></button>
+                    <button class="mini-icon-button" type="button" data-known aria-pressed="false" aria-label="标记已掌握" title="标记已掌握"><i data-lucide="badge-check"></i></button>
+                  </div>
+                </div>
+                <div class="quiz-progress"><span style="width: 60%"></span></div>
+                <div class="quiz-content">
+                  <p class="quiz-kicker">从下列四个选项中，选择正确答案</p>
+                  <h2>할아버지</h2>
+                  <button class="audio-button" type="button" data-audio="harabeoji" aria-label="播放 할아버지 发音">
+                    <i data-lucide="volume-2"></i><span>/ha-ra-beo-ji/</span>
+                  </button>
+                  <div class="answer-list" data-answer-list>
+                    <button type="button" data-answer="wrong">注册</button>
+                    <button type="button" data-answer="wrong">线；队列</button>
+                    <button type="button" data-answer="correct">爷爷，外公</button>
+                    <button type="button" data-answer="wrong">胡萝卜</button>
+                  </div>
+                  <button class="unsure-link" type="button" data-action="recall">不太记得</button>
+                  <div class="answer-feedback" hidden data-answer-feedback>
+                    <div><strong>할아버지</strong><span>爷爷，外公 · 명사 · 名词</span></div>
+                    <button class="mini-primary" type="button" data-action="recall">下一步</button>
+                  </div>
+                </div>
+              </section>
+
+              <section class="app-screen screen-recall" data-screen="recall" aria-label="主动回忆交互演示">
+                <div class="quiz-header">
+                  <button class="mini-icon-button" type="button" data-action="home" aria-label="返回首页" title="返回首页"><i data-lucide="chevron-left"></i></button>
+                  <span>10 / 15</span>
+                  <button class="mini-icon-button" type="button" data-favorite aria-pressed="false" aria-label="收藏单词" title="收藏单词"><i data-lucide="heart"></i></button>
+                </div>
+                <div class="quiz-progress recall-progress"><span style="width: 67%"></span></div>
+                <div class="recall-content">
+                  <p class="quiz-kicker">先在心里回忆它的意思</p>
+                  <h2>환경</h2>
+                  <button class="audio-button" type="button" data-audio="hwangyeong" aria-label="播放 환경 发音">
+                    <i data-lucide="volume-2"></i><span>/hwan-gyeong/</span>
+                  </button>
+                  <div class="recall-grades" data-recall-grades>
+                    <button type="button" data-grade="remembered">记得</button>
+                    <button type="button" data-grade="fuzzy">模糊</button>
+                    <button type="button" data-grade="forgot">忘记</button>
+                  </div>
+                  <div class="recall-answer" hidden data-recall-answer>
+                    <div><strong>환경</strong><span>环境</span></div>
+                    <small>/hwan-gyeong/ · 명사 · 名词</small>
+                    <div class="recall-answer-actions">
+                      <button type="button" data-recall-reset>记错了</button>
+                      <button type="button" class="mini-primary" data-action="result">下一词</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="app-screen screen-books" data-screen="books" aria-label="六本词书交互演示">
+                <div class="books-header">
+                  <button class="mini-icon-button" type="button" data-action="home" aria-label="返回首页" title="返回首页"><i data-lucide="chevron-left"></i></button>
+                  <h2>选择词书</h2>
+                  <span></span>
+                </div>
+                <div class="books-scroll">
+                  <h3>通用词书</h3>
+                  <button class="book-row is-current" type="button" data-book data-name="初级词汇" data-label="초급" data-total="1282" data-learned="368" data-icon="book-green"><span class="mini-book book-green"><span>초급</span></span><span><strong>初级词汇</strong><small>日常高频 · 1282词</small></span><span class="current-tag">正在学习</span></button>
+                  <button class="book-row" type="button" data-book data-name="中级词汇" data-label="중급" data-total="901" data-learned="126" data-icon="book-blue"><span class="mini-book book-blue"><span>중급</span></span><span><strong>中级词汇</strong><small>进阶表达 · 901词</small></span><i data-lucide="chevron-right"></i></button>
+                  <button class="book-row" type="button" data-book data-name="高级词汇" data-label="고급" data-total="759" data-learned="84" data-icon="book-violet"><span class="mini-book book-violet"><span>고급</span></span><span><strong>高级词汇</strong><small>深度表达 · 759词</small></span><i data-lucide="chevron-right"></i></button>
+                  <h3>TOPIK备考</h3>
+                  <button class="book-row" type="button" data-book data-name="TOPIK初级" data-label="시험" data-total="1786" data-learned="412" data-icon="book-coral"><span class="mini-book book-coral"><span>시험</span></span><span><strong>TOPIK初级</strong><small>基础备考 · 1786词</small></span><i data-lucide="chevron-right"></i></button>
+                  <button class="book-row" type="button" data-book data-name="TOPIK中级" data-label="시험" data-total="3715" data-learned="278" data-icon="book-slate"><span class="mini-book book-slate"><span>시험</span></span><span><strong>TOPIK中级</strong><small>中级备考 · 3715词</small></span><i data-lucide="chevron-right"></i></button>
+                  <button class="book-row" type="button" data-book data-name="TOPIK高级" data-label="시험" data-total="1008" data-learned="96" data-icon="book-teal"><span class="mini-book book-teal"><span>시험</span></span><span><strong>TOPIK高级</strong><small>高级备考 · 1008词</small></span><i data-lucide="chevron-right"></i></button>
+                  <div class="session-count">
+                    <span>每组背词数量</span>
+                    <div><button type="button" data-session-count="5">5词</button><button type="button" data-session-count="10">10词</button><button type="button" class="is-active" data-session-count="15">15词</button></div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="app-screen screen-result" data-screen="result" aria-label="学习小结交互演示">
+                <div class="screen-page-header">
+                  <button class="mini-icon-button" type="button" data-action="home" aria-label="返回首页" title="返回首页"><i data-lucide="chevron-left"></i></button>
+                  <h2>单词小结</h2><span></span>
+                </div>
+                <div class="result-summary">
+                  <div class="result-summary-head"><strong>今日学习</strong><span>15词&nbsp;&nbsp;6分钟</span></div>
+                  <div class="result-word-list">
+                    <div><b>다리</b><span>腿；桥</span></div>
+                    <div><b>팔</b><span>胳膊</span></div>
+                    <div><b>얼굴</b><span>脸</span></div>
+                    <div><b>목</b><span>脖子，嗓子</span></div>
+                    <div><b>배</b><span>肚子；船；梨</span></div>
+                  </div>
+                </div>
+                <div class="result-actions-demo">
+                  <button type="button" class="mini-primary" data-action="quiz">再学一组</button>
+                  <button type="button" data-action="home">休息一下</button>
+                </div>
+              </section>
+
+              <section class="app-screen screen-stats" data-screen="stats" aria-label="学习统计交互演示">
+                <div class="app-scroll stats-scroll">
+                  <div class="screen-page-header compact"><button class="mini-icon-button" type="button" data-action="home" aria-label="返回首页" title="返回首页"><i data-lucide="chevron-left"></i></button><h2>学习统计</h2><span></span></div>
+                  <h3 class="stats-section-title">正在学习</h3>
+                  <button class="stats-book" type="button" data-action="books"><span><strong data-current-book>初级词汇</strong><small>当前词书</small></span><span>已学 <b data-current-learned>368</b>/<b data-current-total>1282</b> 词</span></button>
+                  <h3 class="stats-section-title">数据概览</h3>
+                  <div class="stats-overview">
+                    <div><i data-lucide="list-checks"></i><span>今日学习&复习</span><strong>23<small>词</small></strong></div>
+                    <div><i data-lucide="book-check"></i><span>累计学习</span><strong>1,268<small>词</small></strong></div>
+                    <div><i data-lucide="calendar-days"></i><span>学习天数</span><strong>28<small>天</small></strong></div>
+                    <div><i data-lucide="clock-3"></i><span>累计时长</span><strong>936<small>分钟</small></strong></div>
+                  </div>
+                  <button class="calendar-demo" type="button" data-calendar-toggle aria-expanded="false">
+                    <div><strong>学习日历</strong><span>已学28天 <i data-lucide="chevron-down"></i></span></div>
+                    <div class="calendar-row"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+                    <div class="calendar-row calendar-days"><span>15</span><span class="studied">16</span><span>17</span><span class="today">18</span><span>19</span><span>20</span><span>21</span></div>
+                    <div class="calendar-more" hidden data-calendar-more><span>22</span><span class="studied">23</span><span class="studied">24</span><span>25</span><span class="studied">26</span><span>27</span><span class="studied">28</span></div>
+                  </button>
+                </div>
+                <nav class="mini-tabbar" aria-label="演示底部导航">
+                  <button type="button" data-action="home"><i data-lucide="book-open"></i><span>单词</span></button>
+                  <button class="is-active" type="button" data-action="stats"><i data-lucide="chart-no-axes-column-increasing"></i><span>统计</span></button>
+                  <button type="button" data-action="mine"><i data-lucide="user-round"></i><span>我的</span></button>
+                </nav>
+              </section>
+
+              <section class="app-screen screen-mine" data-screen="mine" aria-label="个人详情交互演示">
+                <div class="app-scroll mine-scroll">
+                  <div class="screen-page-header compact"><button class="mini-icon-button" type="button" data-action="home" aria-label="返回首页" title="返回首页"><i data-lucide="chevron-left"></i></button><h2>个人详情</h2><span></span></div>
+                  <div class="profile-demo">
+                    <div class="profile-demo-head"><img src="assets/brand-avatar.png" alt="芽芽韩语用户演示头像"><strong>芽芽学习者</strong></div>
+                    <div class="profile-demo-stats"><div><b>28</b><span>学习天数</span></div><div><b>936</b><span>累计分钟</span></div></div>
+                  </div>
+                  <div class="mine-menu">
+                    <button type="button" data-action="books"><i data-lucide="library"></i><span>当前词书</span><small data-current-book>初级词汇</small><i data-lucide="chevron-right"></i></button>
+                    <button type="button" data-list-title="我的收藏"><i data-lucide="heart"></i><span>我的收藏</span><small>36词</small><i data-lucide="chevron-right"></i></button>
+                    <button type="button" data-list-title="已掌握"><i data-lucide="badge-check"></i><span>已掌握</span><small>214词</small><i data-lucide="chevron-right"></i></button>
+                    <button type="button" data-list-title="学习中"><i data-lucide="list-checks"></i><span>学习中</span><small>154词</small><i data-lucide="chevron-right"></i></button>
+                    <button type="button" data-list-title="未学习"><i data-lucide="circle-dashed"></i><span>未学习</span><small>914词</small><i data-lucide="chevron-right"></i></button>
+                    <button type="button" data-info-title="数据管理"><i data-lucide="database"></i><span>数据管理</span><small></small><i data-lucide="chevron-right"></i></button>
+                    <button type="button" data-info-title="小程序介绍"><i data-lucide="info"></i><span>小程序介绍</span><small></small><i data-lucide="chevron-right"></i></button>
+                  </div>
+                </div>
+                <nav class="mini-tabbar" aria-label="演示底部导航">
+                  <button type="button" data-action="home"><i data-lucide="book-open"></i><span>单词</span></button>
+                  <button type="button" data-action="stats"><i data-lucide="chart-no-axes-column-increasing"></i><span>统计</span></button>
+                  <button class="is-active" type="button" data-action="mine"><i data-lucide="user-round"></i><span>我的</span></button>
+                </nav>
+              </section>
+
+              <section class="app-screen screen-word-list" data-screen="wordlist" aria-label="词表交互演示">
+                <div class="screen-page-header"><button class="mini-icon-button" type="button" data-action="mine" aria-label="返回个人详情" title="返回个人详情"><i data-lucide="chevron-left"></i></button><h2 data-word-list-title>我的收藏</h2><span></span></div>
+                <div class="word-list-demo">
+                  <div><span><b>사랑</b><small>/sa-rang/</small></span><strong>爱，爱情</strong><i data-lucide="volume-2"></i></div>
+                  <div><span><b>환경</b><small>/hwan-gyeong/</small></span><strong>环境</strong><i data-lucide="volume-2"></i></div>
+                  <div><span><b>분석하다</b><small>/bun-seo-ka-da/</small></span><strong>分析</strong><i data-lucide="volume-2"></i></div>
+                  <div><span><b>기억하다</b><small>/gi-eo-ka-da/</small></span><strong>记得</strong><i data-lucide="volume-2"></i></div>
+                </div>
+              </section>
+
+              <section class="app-screen screen-info" data-screen="info" aria-label="信息页交互演示">
+                <div class="screen-page-header"><button class="mini-icon-button" type="button" data-action="mine" aria-label="返回个人详情" title="返回个人详情"><i data-lucide="chevron-left"></i></button><h2 data-info-heading>小程序介绍</h2><span></span></div>
+                <div class="info-demo"><img src="assets/brand-avatar.png" alt="芽芽韩语图标"><h3 data-info-heading>小程序介绍</h3><p data-info-copy>芽芽韩语通过四选一、主动回忆和间隔复习，帮助学习者把眼熟变成真正想得起来。</p><button type="button" class="mini-primary" data-action="mine">返回个人详情</button></div>
+              </section>
+            </div>
+
+            <div class="actual-demo" hidden data-actual-demo>
+              <section class="app-screen real-app-screen is-active" data-real-screen="home" aria-label="真实小程序单词首页"><img src="assets/app-home-demo.jpg?v=20260808-2" alt="芽芽韩语真实单词首页，使用演示进度数据" draggable="false"></section>
+              <section class="app-screen real-app-screen" data-real-screen="quiz" aria-label="真实小程序学习页"><img src="assets/app-learn.jpg" alt="芽芽韩语真实四选一学习页" draggable="false"></section>
+              <section class="app-screen real-app-screen" data-real-screen="result" aria-label="真实小程序学习小结页"><img src="assets/app-result-demo.jpg?v=20260808-2" alt="芽芽韩语真实学习小结页，使用演示进度数据" draggable="false"></section>
+              <section class="app-screen real-app-screen" data-real-screen="stats" aria-label="真实小程序学习统计页"><img src="assets/app-stats-demo.jpg?v=20260808-2" alt="芽芽韩语真实学习统计页，使用演示进度数据" draggable="false"></section>
+            </div>
           </div>
         </div>
-        <p class="demo-data-note">真实页面 · 演示数据</p>
-        <p class="demo-status" aria-live="polite" data-demo-status>点击真实页面里的“学习”开始</p>
+        <p class="demo-data-note" data-demo-note>网页交互 Demo · 演示数据</p>
+        <p class="demo-status" aria-live="polite" data-demo-status>点击手机里的“学习”开始完整流程</p>
       </div>
 
       <div class="hero-proof" aria-label="项目规模">
@@ -274,6 +477,6 @@
 
   <noscript>请开启 JavaScript 以体验交互学习流程。页面中的产品介绍和真实截图仍可正常浏览。</noscript>
   <script src="vendor/lucide.min.js"></script>
-  <script src="app.js?v=20260802-4"></script>
+  <script src="app.js?v=20260808-2"></script>
 </body>
 </html>
